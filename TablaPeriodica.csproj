@@ -348,8 +348,137 @@
     <Compile Include="Zn.Designer.cs">
       <DependentUpon>Zn.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ag.resx">
+      <DependentUpon>Ag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Al.resx">
       <DependentUpon>Al.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ar.resx">
+      <DependentUpon>Ar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="As.resx">
+      <DependentUpon>As.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="At.resx">
+      <DependentUpon>At.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Au.resx">
+      <DependentUpon>Au.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B.resx">
+      <DependentUpon>B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bi.resx">
+      <DependentUpon>Bi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Br.resx">
+      <DependentUpon>Br.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C.resx">
+      <DependentUpon>C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cd.resx">
+      <DependentUpon>Cd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cl.resx">
+      <DependentUpon>Cl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cn.resx">
+      <DependentUpon>Cn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu.resx">
+      <DependentUpon>Cu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ds.resx">
+      <DependentUpon>Ds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F.resx">
+      <DependentUpon>F.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fl.resx">
+      <DependentUpon>Fl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ga.resx">
+      <DependentUpon>Ga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ge.resx">
+      <DependentUpon>Ge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="He.resx">
+      <DependentUpon>He.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hg.resx">
+      <DependentUpon>Hg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I.resx">
+      <DependentUpon>I.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="In.resx">
+      <DependentUpon>In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kr.resx">
+      <DependentUpon>Kr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lv.resx">
+      <DependentUpon>Lv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mc.resx">
+      <DependentUpon>Mc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N.resx">
+      <DependentUpon>N.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ne.resx">
+      <DependentUpon>Ne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nh.resx">
+      <DependentUpon>Nh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ni.resx">
+      <DependentUpon>Ni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="O.resx">
+      <DependentUpon>O.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Og.resx">
+      <DependentUpon>Og.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P.resx">
+      <DependentUpon>P.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pb.resx">
+      <DependentUpon>Pb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pd.resx">
+      <DependentUpon>Pd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Po.resx">
+      <DependentUpon>Po.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pt.resx">
+      <DependentUpon>Pt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rg.resx">
+      <DependentUpon>Rg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rn.resx">
+      <DependentUpon>Rn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="S.resx">
+      <DependentUpon>S.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sb.resx">
+      <DependentUpon>Sb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Se.resx">
+      <DependentUpon>Se.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Si.resx">
+      <DependentUpon>Si.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sn.resx">
+      <DependentUpon>Sn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla.resx">
       <DependentUpon>Tabla.cs</DependentUpon>
@@ -363,6 +492,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Te.resx">
+      <DependentUpon>Te.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tl.resx">
+      <DependentUpon>Tl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ts.resx">
+      <DependentUpon>Ts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe.resx">
+      <DependentUpon>Xe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zn.resx">
+      <DependentUpon>Zn.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

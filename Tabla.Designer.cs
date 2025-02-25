@@ -227,7 +227,7 @@
             this.btn_h.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_h.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_h.Location = new System.Drawing.Point(67, 187);
-            this.btn_h.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_h.Margin = new System.Windows.Forms.Padding(2);
             this.btn_h.Name = "btn_h";
             this.btn_h.Size = new System.Drawing.Size(57, 22);
             this.btn_h.TabIndex = 1;
@@ -242,7 +242,7 @@
             this.btn_li.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_li.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_li.Location = new System.Drawing.Point(67, 213);
-            this.btn_li.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_li.Margin = new System.Windows.Forms.Padding(2);
             this.btn_li.Name = "btn_li";
             this.btn_li.Size = new System.Drawing.Size(55, 20);
             this.btn_li.TabIndex = 2;
@@ -257,7 +257,7 @@
             this.btn_na.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_na.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_na.Location = new System.Drawing.Point(67, 238);
-            this.btn_na.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_na.Margin = new System.Windows.Forms.Padding(2);
             this.btn_na.Name = "btn_na";
             this.btn_na.Size = new System.Drawing.Size(55, 24);
             this.btn_na.TabIndex = 3;
@@ -272,7 +272,7 @@
             this.btn_k.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_k.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_k.Location = new System.Drawing.Point(67, 267);
-            this.btn_k.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_k.Margin = new System.Windows.Forms.Padding(2);
             this.btn_k.Name = "btn_k";
             this.btn_k.Size = new System.Drawing.Size(57, 25);
             this.btn_k.TabIndex = 4;
@@ -287,7 +287,7 @@
             this.btn_rb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_rb.Location = new System.Drawing.Point(67, 297);
-            this.btn_rb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rb.Name = "btn_rb";
             this.btn_rb.Size = new System.Drawing.Size(57, 24);
             this.btn_rb.TabIndex = 5;
@@ -302,7 +302,7 @@
             this.btn_cs.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cs.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cs.Location = new System.Drawing.Point(67, 326);
-            this.btn_cs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cs.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cs.Name = "btn_cs";
             this.btn_cs.Size = new System.Drawing.Size(57, 28);
             this.btn_cs.TabIndex = 6;
@@ -317,7 +317,7 @@
             this.btn_fr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_fr.Location = new System.Drawing.Point(67, 359);
-            this.btn_fr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_fr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fr.Name = "btn_fr";
             this.btn_fr.Size = new System.Drawing.Size(57, 25);
             this.btn_fr.TabIndex = 7;
@@ -331,7 +331,7 @@
             this.btn_be.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_be.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_be.Location = new System.Drawing.Point(128, 213);
-            this.btn_be.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_be.Margin = new System.Windows.Forms.Padding(2);
             this.btn_be.Name = "btn_be";
             this.btn_be.Size = new System.Drawing.Size(51, 20);
             this.btn_be.TabIndex = 8;
@@ -345,7 +345,7 @@
             this.btn_mg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mg.Location = new System.Drawing.Point(129, 239);
-            this.btn_mg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_mg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mg.Name = "btn_mg";
             this.btn_mg.Size = new System.Drawing.Size(52, 24);
             this.btn_mg.TabIndex = 9;
@@ -359,7 +359,7 @@
             this.btn_ca.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ca.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ca.Location = new System.Drawing.Point(129, 267);
-            this.btn_ca.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ca.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ca.Name = "btn_ca";
             this.btn_ca.Size = new System.Drawing.Size(54, 25);
             this.btn_ca.TabIndex = 10;
@@ -373,7 +373,7 @@
             this.btn_sr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sr.Location = new System.Drawing.Point(129, 297);
-            this.btn_sr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sr.Name = "btn_sr";
             this.btn_sr.Size = new System.Drawing.Size(52, 24);
             this.btn_sr.TabIndex = 11;
@@ -387,7 +387,7 @@
             this.btn_ba.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ba.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ba.Location = new System.Drawing.Point(131, 326);
-            this.btn_ba.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ba.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ba.Name = "btn_ba";
             this.btn_ba.Size = new System.Drawing.Size(52, 24);
             this.btn_ba.TabIndex = 12;
@@ -401,7 +401,7 @@
             this.btn_ra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ra.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ra.Location = new System.Drawing.Point(131, 359);
-            this.btn_ra.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ra.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ra.Name = "btn_ra";
             this.btn_ra.Size = new System.Drawing.Size(52, 25);
             this.btn_ra.TabIndex = 13;
@@ -416,7 +416,7 @@
             this.btn_sc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sc.Location = new System.Drawing.Point(188, 267);
-            this.btn_sc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sc.Name = "btn_sc";
             this.btn_sc.Size = new System.Drawing.Size(52, 25);
             this.btn_sc.TabIndex = 14;
@@ -431,7 +431,7 @@
             this.btn_y.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_y.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_y.Location = new System.Drawing.Point(188, 297);
-            this.btn_y.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_y.Margin = new System.Windows.Forms.Padding(2);
             this.btn_y.Name = "btn_y";
             this.btn_y.Size = new System.Drawing.Size(52, 24);
             this.btn_y.TabIndex = 15;
@@ -446,7 +446,7 @@
             this.btn_lu.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_lu.Location = new System.Drawing.Point(188, 326);
-            this.btn_lu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lu.Name = "btn_lu";
             this.btn_lu.Size = new System.Drawing.Size(52, 28);
             this.btn_lu.TabIndex = 16;
@@ -460,7 +460,7 @@
             this.btn_lr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lr.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_lr.Location = new System.Drawing.Point(188, 359);
-            this.btn_lr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lr.Name = "btn_lr";
             this.btn_lr.Size = new System.Drawing.Size(52, 25);
             this.btn_lr.TabIndex = 17;
@@ -474,7 +474,7 @@
             this.btn_ti.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ti.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ti.Location = new System.Drawing.Point(246, 267);
-            this.btn_ti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ti.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ti.Name = "btn_ti";
             this.btn_ti.Size = new System.Drawing.Size(51, 25);
             this.btn_ti.TabIndex = 18;
@@ -489,7 +489,7 @@
             this.btn_zr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_zr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_zr.Location = new System.Drawing.Point(245, 297);
-            this.btn_zr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_zr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_zr.Name = "btn_zr";
             this.btn_zr.Size = new System.Drawing.Size(51, 24);
             this.btn_zr.TabIndex = 19;
@@ -504,7 +504,7 @@
             this.btn_hf.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hf.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_hf.Location = new System.Drawing.Point(245, 328);
-            this.btn_hf.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_hf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hf.Name = "btn_hf";
             this.btn_hf.Size = new System.Drawing.Size(51, 24);
             this.btn_hf.TabIndex = 20;
@@ -519,7 +519,7 @@
             this.btn_rf.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rf.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_rf.Location = new System.Drawing.Point(245, 359);
-            this.btn_rf.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rf.Name = "btn_rf";
             this.btn_rf.Size = new System.Drawing.Size(51, 25);
             this.btn_rf.TabIndex = 21;
@@ -534,7 +534,7 @@
             this.btn_v.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_v.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_v.Location = new System.Drawing.Point(302, 267);
-            this.btn_v.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_v.Margin = new System.Windows.Forms.Padding(2);
             this.btn_v.Name = "btn_v";
             this.btn_v.Size = new System.Drawing.Size(47, 25);
             this.btn_v.TabIndex = 22;
@@ -549,7 +549,7 @@
             this.btn_nb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_nb.Location = new System.Drawing.Point(302, 297);
-            this.btn_nb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_nb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nb.Name = "btn_nb";
             this.btn_nb.Size = new System.Drawing.Size(47, 24);
             this.btn_nb.TabIndex = 23;
@@ -564,7 +564,7 @@
             this.btn_ta.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ta.Location = new System.Drawing.Point(302, 328);
-            this.btn_ta.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ta.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ta.Name = "btn_ta";
             this.btn_ta.Size = new System.Drawing.Size(47, 24);
             this.btn_ta.TabIndex = 24;
@@ -579,7 +579,7 @@
             this.btn_db.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_db.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_db.Location = new System.Drawing.Point(302, 359);
-            this.btn_db.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_db.Margin = new System.Windows.Forms.Padding(2);
             this.btn_db.Name = "btn_db";
             this.btn_db.Size = new System.Drawing.Size(47, 25);
             this.btn_db.TabIndex = 25;
@@ -594,7 +594,7 @@
             this.btn_cr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cr.Location = new System.Drawing.Point(353, 267);
-            this.btn_cr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cr.Name = "btn_cr";
             this.btn_cr.Size = new System.Drawing.Size(41, 25);
             this.btn_cr.TabIndex = 26;
@@ -609,7 +609,7 @@
             this.btn_mo.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_mo.Location = new System.Drawing.Point(353, 297);
-            this.btn_mo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_mo.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mo.Name = "btn_mo";
             this.btn_mo.Size = new System.Drawing.Size(41, 24);
             this.btn_mo.TabIndex = 27;
@@ -624,7 +624,7 @@
             this.btn_w.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_w.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_w.Location = new System.Drawing.Point(353, 328);
-            this.btn_w.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_w.Margin = new System.Windows.Forms.Padding(2);
             this.btn_w.Name = "btn_w";
             this.btn_w.Size = new System.Drawing.Size(41, 24);
             this.btn_w.TabIndex = 28;
@@ -638,7 +638,7 @@
             this.btn_sg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sg.Location = new System.Drawing.Point(353, 359);
-            this.btn_sg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sg.Name = "btn_sg";
             this.btn_sg.Size = new System.Drawing.Size(41, 25);
             this.btn_sg.TabIndex = 29;
@@ -653,7 +653,7 @@
             this.btn_mn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_mn.Location = new System.Drawing.Point(400, 267);
-            this.btn_mn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_mn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mn.Name = "btn_mn";
             this.btn_mn.Size = new System.Drawing.Size(49, 25);
             this.btn_mn.TabIndex = 30;
@@ -668,7 +668,7 @@
             this.btn_tc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_tc.Location = new System.Drawing.Point(400, 297);
-            this.btn_tc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_tc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tc.Name = "btn_tc";
             this.btn_tc.Size = new System.Drawing.Size(49, 24);
             this.btn_tc.TabIndex = 31;
@@ -683,7 +683,7 @@
             this.btn_re.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_re.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_re.Location = new System.Drawing.Point(400, 328);
-            this.btn_re.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_re.Margin = new System.Windows.Forms.Padding(2);
             this.btn_re.Name = "btn_re";
             this.btn_re.Size = new System.Drawing.Size(49, 23);
             this.btn_re.TabIndex = 32;
@@ -698,7 +698,7 @@
             this.btn_bh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_bh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_bh.Location = new System.Drawing.Point(400, 359);
-            this.btn_bh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_bh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bh.Name = "btn_bh";
             this.btn_bh.Size = new System.Drawing.Size(49, 25);
             this.btn_bh.TabIndex = 33;
@@ -713,7 +713,7 @@
             this.btn_fe.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_fe.Location = new System.Drawing.Point(454, 267);
-            this.btn_fe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_fe.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fe.Name = "btn_fe";
             this.btn_fe.Size = new System.Drawing.Size(46, 25);
             this.btn_fe.TabIndex = 34;
@@ -728,7 +728,7 @@
             this.btn_ru.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ru.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ru.Location = new System.Drawing.Point(454, 297);
-            this.btn_ru.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ru.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ru.Name = "btn_ru";
             this.btn_ru.Size = new System.Drawing.Size(46, 24);
             this.btn_ru.TabIndex = 35;
@@ -743,7 +743,7 @@
             this.btn_os.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_os.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_os.Location = new System.Drawing.Point(454, 328);
-            this.btn_os.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_os.Margin = new System.Windows.Forms.Padding(2);
             this.btn_os.Name = "btn_os";
             this.btn_os.Size = new System.Drawing.Size(46, 23);
             this.btn_os.TabIndex = 36;
@@ -758,7 +758,7 @@
             this.btn_hs.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hs.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_hs.Location = new System.Drawing.Point(454, 359);
-            this.btn_hs.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_hs.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hs.Name = "btn_hs";
             this.btn_hs.Size = new System.Drawing.Size(46, 25);
             this.btn_hs.TabIndex = 37;
@@ -773,7 +773,7 @@
             this.btn_co.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_co.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_co.Location = new System.Drawing.Point(505, 267);
-            this.btn_co.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_co.Margin = new System.Windows.Forms.Padding(2);
             this.btn_co.Name = "btn_co";
             this.btn_co.Size = new System.Drawing.Size(44, 25);
             this.btn_co.TabIndex = 38;
@@ -788,7 +788,7 @@
             this.btn_rh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_rh.Location = new System.Drawing.Point(505, 297);
-            this.btn_rh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rh.Name = "btn_rh";
             this.btn_rh.Size = new System.Drawing.Size(44, 24);
             this.btn_rh.TabIndex = 39;
@@ -803,7 +803,7 @@
             this.btn_ir.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ir.Location = new System.Drawing.Point(505, 328);
-            this.btn_ir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ir.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ir.Name = "btn_ir";
             this.btn_ir.Size = new System.Drawing.Size(44, 23);
             this.btn_ir.TabIndex = 40;
@@ -818,7 +818,7 @@
             this.btn_mt.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_mt.Location = new System.Drawing.Point(505, 359);
-            this.btn_mt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_mt.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mt.Name = "btn_mt";
             this.btn_mt.Size = new System.Drawing.Size(44, 25);
             this.btn_mt.TabIndex = 41;
@@ -833,7 +833,7 @@
             this.btn_ni.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ni.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ni.Location = new System.Drawing.Point(555, 267);
-            this.btn_ni.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ni.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ni.Name = "btn_ni";
             this.btn_ni.Size = new System.Drawing.Size(47, 25);
             this.btn_ni.TabIndex = 42;
@@ -848,7 +848,7 @@
             this.btn_pd.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_pd.Location = new System.Drawing.Point(555, 297);
-            this.btn_pd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pd.Name = "btn_pd";
             this.btn_pd.Size = new System.Drawing.Size(47, 24);
             this.btn_pd.TabIndex = 43;
@@ -863,7 +863,7 @@
             this.btn_pt.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_pt.Location = new System.Drawing.Point(555, 327);
-            this.btn_pt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pt.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pt.Name = "btn_pt";
             this.btn_pt.Size = new System.Drawing.Size(47, 27);
             this.btn_pt.TabIndex = 44;
@@ -878,7 +878,7 @@
             this.btn_ds.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ds.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ds.Location = new System.Drawing.Point(555, 360);
-            this.btn_ds.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ds.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ds.Name = "btn_ds";
             this.btn_ds.Size = new System.Drawing.Size(47, 25);
             this.btn_ds.TabIndex = 45;
@@ -893,7 +893,7 @@
             this.btn_cu.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cu.Location = new System.Drawing.Point(607, 267);
-            this.btn_cu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cu.Name = "btn_cu";
             this.btn_cu.Size = new System.Drawing.Size(44, 25);
             this.btn_cu.TabIndex = 46;
@@ -908,7 +908,7 @@
             this.btn_ag.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ag.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ag.Location = new System.Drawing.Point(607, 297);
-            this.btn_ag.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ag.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ag.Name = "btn_ag";
             this.btn_ag.Size = new System.Drawing.Size(44, 24);
             this.btn_ag.TabIndex = 47;
@@ -923,7 +923,7 @@
             this.btn_au.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_au.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_au.Location = new System.Drawing.Point(607, 327);
-            this.btn_au.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_au.Margin = new System.Windows.Forms.Padding(2);
             this.btn_au.Name = "btn_au";
             this.btn_au.Size = new System.Drawing.Size(44, 27);
             this.btn_au.TabIndex = 48;
@@ -938,7 +938,7 @@
             this.btn_rg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_rg.Location = new System.Drawing.Point(607, 360);
-            this.btn_rg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rg.Name = "btn_rg";
             this.btn_rg.Size = new System.Drawing.Size(44, 25);
             this.btn_rg.TabIndex = 49;
@@ -953,7 +953,7 @@
             this.btn_zn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_zn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_zn.Location = new System.Drawing.Point(658, 267);
-            this.btn_zn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_zn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_zn.Name = "btn_zn";
             this.btn_zn.Size = new System.Drawing.Size(46, 24);
             this.btn_zn.TabIndex = 50;
@@ -968,7 +968,7 @@
             this.btn_cd.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cd.Location = new System.Drawing.Point(658, 297);
-            this.btn_cd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cd.Name = "btn_cd";
             this.btn_cd.Size = new System.Drawing.Size(46, 24);
             this.btn_cd.TabIndex = 51;
@@ -983,7 +983,7 @@
             this.btn_hg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_hg.Location = new System.Drawing.Point(658, 327);
-            this.btn_hg.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_hg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hg.Name = "btn_hg";
             this.btn_hg.Size = new System.Drawing.Size(46, 27);
             this.btn_hg.TabIndex = 52;
@@ -998,7 +998,7 @@
             this.btn_cn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_cn.Location = new System.Drawing.Point(659, 360);
-            this.btn_cn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cn.Name = "btn_cn";
             this.btn_cn.Size = new System.Drawing.Size(44, 25);
             this.btn_cn.TabIndex = 53;
@@ -1013,7 +1013,7 @@
             this.btn_ga.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ga.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ga.Location = new System.Drawing.Point(709, 267);
-            this.btn_ga.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ga.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ga.Name = "btn_ga";
             this.btn_ga.Size = new System.Drawing.Size(47, 25);
             this.btn_ga.TabIndex = 54;
@@ -1028,7 +1028,7 @@
             this.btn_in.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_in.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_in.Location = new System.Drawing.Point(709, 298);
-            this.btn_in.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_in.Margin = new System.Windows.Forms.Padding(2);
             this.btn_in.Name = "btn_in";
             this.btn_in.Size = new System.Drawing.Size(47, 24);
             this.btn_in.TabIndex = 55;
@@ -1043,7 +1043,7 @@
             this.btn_tl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_tl.Location = new System.Drawing.Point(709, 327);
-            this.btn_tl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_tl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tl.Name = "btn_tl";
             this.btn_tl.Size = new System.Drawing.Size(47, 27);
             this.btn_tl.TabIndex = 56;
@@ -1058,7 +1058,7 @@
             this.btn_nh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_nh.Location = new System.Drawing.Point(709, 360);
-            this.btn_nh.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_nh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nh.Name = "btn_nh";
             this.btn_nh.Size = new System.Drawing.Size(47, 25);
             this.btn_nh.TabIndex = 57;
@@ -1073,7 +1073,7 @@
             this.btn_al.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_al.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_al.Location = new System.Drawing.Point(709, 238);
-            this.btn_al.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_al.Margin = new System.Windows.Forms.Padding(2);
             this.btn_al.Name = "btn_al";
             this.btn_al.Size = new System.Drawing.Size(47, 24);
             this.btn_al.TabIndex = 58;
@@ -1088,7 +1088,7 @@
             this.btn_b.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_b.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_b.Location = new System.Drawing.Point(709, 209);
-            this.btn_b.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_b.Margin = new System.Windows.Forms.Padding(2);
             this.btn_b.Name = "btn_b";
             this.btn_b.Size = new System.Drawing.Size(47, 24);
             this.btn_b.TabIndex = 59;
@@ -1102,7 +1102,7 @@
             this.btn_c.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_c.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_c.Location = new System.Drawing.Point(761, 209);
-            this.btn_c.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_c.Margin = new System.Windows.Forms.Padding(2);
             this.btn_c.Name = "btn_c";
             this.btn_c.Size = new System.Drawing.Size(41, 24);
             this.btn_c.TabIndex = 60;
@@ -1117,7 +1117,7 @@
             this.btn_si.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_si.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_si.Location = new System.Drawing.Point(761, 238);
-            this.btn_si.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_si.Margin = new System.Windows.Forms.Padding(2);
             this.btn_si.Name = "btn_si";
             this.btn_si.Size = new System.Drawing.Size(41, 24);
             this.btn_si.TabIndex = 61;
@@ -1132,7 +1132,7 @@
             this.btn_ge.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ge.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ge.Location = new System.Drawing.Point(761, 267);
-            this.btn_ge.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ge.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ge.Name = "btn_ge";
             this.btn_ge.Size = new System.Drawing.Size(41, 25);
             this.btn_ge.TabIndex = 62;
@@ -1147,7 +1147,7 @@
             this.btn_sn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sn.Location = new System.Drawing.Point(761, 297);
-            this.btn_sn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sn.Name = "btn_sn";
             this.btn_sn.Size = new System.Drawing.Size(41, 24);
             this.btn_sn.TabIndex = 63;
@@ -1162,7 +1162,7 @@
             this.btn_pb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_pb.Location = new System.Drawing.Point(761, 328);
-            this.btn_pb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pb.Name = "btn_pb";
             this.btn_pb.Size = new System.Drawing.Size(41, 27);
             this.btn_pb.TabIndex = 64;
@@ -1177,7 +1177,7 @@
             this.btn_fl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_fl.Location = new System.Drawing.Point(761, 360);
-            this.btn_fl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_fl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fl.Name = "btn_fl";
             this.btn_fl.Size = new System.Drawing.Size(41, 25);
             this.btn_fl.TabIndex = 65;
@@ -1191,7 +1191,7 @@
             this.btn_n.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_n.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_n.Location = new System.Drawing.Point(807, 209);
-            this.btn_n.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_n.Margin = new System.Windows.Forms.Padding(2);
             this.btn_n.Name = "btn_n";
             this.btn_n.Size = new System.Drawing.Size(37, 24);
             this.btn_n.TabIndex = 66;
@@ -1205,7 +1205,7 @@
             this.btn_o.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_o.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_o.Location = new System.Drawing.Point(850, 209);
-            this.btn_o.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_o.Margin = new System.Windows.Forms.Padding(2);
             this.btn_o.Name = "btn_o";
             this.btn_o.Size = new System.Drawing.Size(37, 24);
             this.btn_o.TabIndex = 67;
@@ -1219,7 +1219,7 @@
             this.btn_f.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_f.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_f.Location = new System.Drawing.Point(892, 209);
-            this.btn_f.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_f.Margin = new System.Windows.Forms.Padding(2);
             this.btn_f.Name = "btn_f";
             this.btn_f.Size = new System.Drawing.Size(37, 24);
             this.btn_f.TabIndex = 68;
@@ -1234,7 +1234,7 @@
             this.btn_ne.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ne.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ne.Location = new System.Drawing.Point(935, 209);
-            this.btn_ne.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ne.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ne.Name = "btn_ne";
             this.btn_ne.Size = new System.Drawing.Size(46, 24);
             this.btn_ne.TabIndex = 69;
@@ -1248,7 +1248,7 @@
             this.btn_p.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_p.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_p.Location = new System.Drawing.Point(807, 239);
-            this.btn_p.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_p.Margin = new System.Windows.Forms.Padding(2);
             this.btn_p.Name = "btn_p";
             this.btn_p.Size = new System.Drawing.Size(37, 24);
             this.btn_p.TabIndex = 70;
@@ -1262,7 +1262,7 @@
             this.btn_s.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_s.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_s.Location = new System.Drawing.Point(850, 239);
-            this.btn_s.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_s.Margin = new System.Windows.Forms.Padding(2);
             this.btn_s.Name = "btn_s";
             this.btn_s.Size = new System.Drawing.Size(37, 24);
             this.btn_s.TabIndex = 71;
@@ -1276,7 +1276,7 @@
             this.btn_cl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cl.Location = new System.Drawing.Point(892, 238);
-            this.btn_cl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cl.Name = "btn_cl";
             this.btn_cl.Size = new System.Drawing.Size(37, 24);
             this.btn_cl.TabIndex = 72;
@@ -1291,7 +1291,7 @@
             this.btn_ar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_ar.Location = new System.Drawing.Point(934, 239);
-            this.btn_ar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ar.Name = "btn_ar";
             this.btn_ar.Size = new System.Drawing.Size(47, 24);
             this.btn_ar.TabIndex = 73;
@@ -1306,7 +1306,7 @@
             this.btn_as.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_as.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_as.Location = new System.Drawing.Point(807, 267);
-            this.btn_as.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_as.Margin = new System.Windows.Forms.Padding(2);
             this.btn_as.Name = "btn_as";
             this.btn_as.Size = new System.Drawing.Size(37, 24);
             this.btn_as.TabIndex = 74;
@@ -1320,7 +1320,7 @@
             this.btn_se.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_se.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_se.Location = new System.Drawing.Point(850, 269);
-            this.btn_se.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_se.Margin = new System.Windows.Forms.Padding(2);
             this.btn_se.Name = "btn_se";
             this.btn_se.Size = new System.Drawing.Size(37, 23);
             this.btn_se.TabIndex = 75;
@@ -1334,7 +1334,7 @@
             this.btn_br.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_br.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_br.Location = new System.Drawing.Point(892, 267);
-            this.btn_br.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_br.Margin = new System.Windows.Forms.Padding(2);
             this.btn_br.Name = "btn_br";
             this.btn_br.Size = new System.Drawing.Size(37, 25);
             this.btn_br.TabIndex = 76;
@@ -1349,7 +1349,7 @@
             this.btn_kr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_kr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_kr.Location = new System.Drawing.Point(934, 269);
-            this.btn_kr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_kr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kr.Name = "btn_kr";
             this.btn_kr.Size = new System.Drawing.Size(47, 25);
             this.btn_kr.TabIndex = 77;
@@ -1364,7 +1364,7 @@
             this.btn_sb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_sb.Location = new System.Drawing.Point(807, 296);
-            this.btn_sb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sb.Name = "btn_sb";
             this.btn_sb.Size = new System.Drawing.Size(37, 23);
             this.btn_sb.TabIndex = 78;
@@ -1379,7 +1379,7 @@
             this.btn_te.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_te.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_te.Location = new System.Drawing.Point(850, 298);
-            this.btn_te.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_te.Margin = new System.Windows.Forms.Padding(2);
             this.btn_te.Name = "btn_te";
             this.btn_te.Size = new System.Drawing.Size(37, 21);
             this.btn_te.TabIndex = 79;
@@ -1393,7 +1393,7 @@
             this.btn_i.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_i.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_i.Location = new System.Drawing.Point(892, 298);
-            this.btn_i.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_i.Margin = new System.Windows.Forms.Padding(2);
             this.btn_i.Name = "btn_i";
             this.btn_i.Size = new System.Drawing.Size(37, 23);
             this.btn_i.TabIndex = 80;
@@ -1408,7 +1408,7 @@
             this.btn_xe.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_xe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_xe.Location = new System.Drawing.Point(934, 300);
-            this.btn_xe.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_xe.Margin = new System.Windows.Forms.Padding(2);
             this.btn_xe.Name = "btn_xe";
             this.btn_xe.Size = new System.Drawing.Size(47, 24);
             this.btn_xe.TabIndex = 81;
@@ -1423,7 +1423,7 @@
             this.btn_bi.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_bi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_bi.Location = new System.Drawing.Point(807, 327);
-            this.btn_bi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_bi.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bi.Name = "btn_bi";
             this.btn_bi.Size = new System.Drawing.Size(37, 26);
             this.btn_bi.TabIndex = 82;
@@ -1438,7 +1438,7 @@
             this.btn_po.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_po.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_po.Location = new System.Drawing.Point(850, 328);
-            this.btn_po.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_po.Margin = new System.Windows.Forms.Padding(2);
             this.btn_po.Name = "btn_po";
             this.btn_po.Size = new System.Drawing.Size(37, 24);
             this.btn_po.TabIndex = 83;
@@ -1452,7 +1452,7 @@
             this.btn_at.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_at.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_at.Location = new System.Drawing.Point(892, 329);
-            this.btn_at.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_at.Margin = new System.Windows.Forms.Padding(2);
             this.btn_at.Name = "btn_at";
             this.btn_at.Size = new System.Drawing.Size(37, 27);
             this.btn_at.TabIndex = 84;
@@ -1467,7 +1467,7 @@
             this.btn_rn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_rn.Location = new System.Drawing.Point(935, 330);
-            this.btn_rn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_rn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rn.Name = "btn_rn";
             this.btn_rn.Size = new System.Drawing.Size(47, 27);
             this.btn_rn.TabIndex = 85;
@@ -1482,7 +1482,7 @@
             this.btn_mc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_mc.Location = new System.Drawing.Point(807, 360);
-            this.btn_mc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_mc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mc.Name = "btn_mc";
             this.btn_mc.Size = new System.Drawing.Size(37, 25);
             this.btn_mc.TabIndex = 86;
@@ -1497,7 +1497,7 @@
             this.btn_lv.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lv.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_lv.Location = new System.Drawing.Point(850, 360);
-            this.btn_lv.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_lv.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lv.Name = "btn_lv";
             this.btn_lv.Size = new System.Drawing.Size(37, 26);
             this.btn_lv.TabIndex = 87;
@@ -1511,7 +1511,7 @@
             this.btn_ts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ts.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ts.Location = new System.Drawing.Point(892, 361);
-            this.btn_ts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ts.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ts.Name = "btn_ts";
             this.btn_ts.Size = new System.Drawing.Size(37, 25);
             this.btn_ts.TabIndex = 88;
@@ -1526,7 +1526,7 @@
             this.btn_og.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_og.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_og.Location = new System.Drawing.Point(934, 361);
-            this.btn_og.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_og.Margin = new System.Windows.Forms.Padding(2);
             this.btn_og.Name = "btn_og";
             this.btn_og.Size = new System.Drawing.Size(47, 27);
             this.btn_og.TabIndex = 89;
@@ -1541,7 +1541,7 @@
             this.btn_he.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_he.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btn_he.Location = new System.Drawing.Point(934, 179);
-            this.btn_he.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_he.Margin = new System.Windows.Forms.Padding(2);
             this.btn_he.Name = "btn_he";
             this.btn_he.Size = new System.Drawing.Size(47, 25);
             this.btn_he.TabIndex = 90;
@@ -1554,7 +1554,7 @@
             this.btn_uue.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_uue.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_uue.Location = new System.Drawing.Point(67, 389);
-            this.btn_uue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_uue.Margin = new System.Windows.Forms.Padding(2);
             this.btn_uue.Name = "btn_uue";
             this.btn_uue.Size = new System.Drawing.Size(57, 28);
             this.btn_uue.TabIndex = 91;
@@ -1566,7 +1566,7 @@
             this.btn_ubn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ubn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ubn.Location = new System.Drawing.Point(129, 389);
-            this.btn_ubn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ubn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ubn.Name = "btn_ubn";
             this.btn_ubn.Size = new System.Drawing.Size(52, 28);
             this.btn_ubn.TabIndex = 92;
@@ -1579,7 +1579,7 @@
             this.btn_la.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_la.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_la.Location = new System.Drawing.Point(188, 447);
-            this.btn_la.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_la.Margin = new System.Windows.Forms.Padding(2);
             this.btn_la.Name = "btn_la";
             this.btn_la.Size = new System.Drawing.Size(47, 29);
             this.btn_la.TabIndex = 93;
@@ -1592,7 +1592,7 @@
             this.btn_ac.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ac.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_ac.Location = new System.Drawing.Point(188, 481);
-            this.btn_ac.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ac.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ac.Name = "btn_ac";
             this.btn_ac.Size = new System.Drawing.Size(47, 28);
             this.btn_ac.TabIndex = 94;
@@ -1605,7 +1605,7 @@
             this.btn_ce.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ce.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_ce.Location = new System.Drawing.Point(240, 447);
-            this.btn_ce.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ce.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ce.Name = "btn_ce";
             this.btn_ce.Size = new System.Drawing.Size(50, 29);
             this.btn_ce.TabIndex = 95;
@@ -1618,7 +1618,7 @@
             this.btn_th.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_th.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_th.Location = new System.Drawing.Point(240, 481);
-            this.btn_th.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_th.Margin = new System.Windows.Forms.Padding(2);
             this.btn_th.Name = "btn_th";
             this.btn_th.Size = new System.Drawing.Size(50, 28);
             this.btn_th.TabIndex = 96;
@@ -1632,7 +1632,7 @@
             this.btn_pr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pr.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_pr.Location = new System.Drawing.Point(295, 447);
-            this.btn_pr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pr.Name = "btn_pr";
             this.btn_pr.Size = new System.Drawing.Size(49, 29);
             this.btn_pr.TabIndex = 97;
@@ -1645,7 +1645,7 @@
             this.btn_pa.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pa.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_pa.Location = new System.Drawing.Point(295, 481);
-            this.btn_pa.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pa.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pa.Name = "btn_pa";
             this.btn_pa.Size = new System.Drawing.Size(49, 28);
             this.btn_pa.TabIndex = 98;
@@ -1658,7 +1658,7 @@
             this.btn_nd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_nd.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_nd.Location = new System.Drawing.Point(349, 447);
-            this.btn_nd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_nd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nd.Name = "btn_nd";
             this.btn_nd.Size = new System.Drawing.Size(46, 29);
             this.btn_nd.TabIndex = 99;
@@ -1671,7 +1671,7 @@
             this.btn_pm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_pm.Location = new System.Drawing.Point(400, 447);
-            this.btn_pm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pm.Name = "btn_pm";
             this.btn_pm.Size = new System.Drawing.Size(44, 29);
             this.btn_pm.TabIndex = 100;
@@ -1684,7 +1684,7 @@
             this.btn_sm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_sm.Location = new System.Drawing.Point(450, 447);
-            this.btn_sm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_sm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sm.Name = "btn_sm";
             this.btn_sm.Size = new System.Drawing.Size(47, 29);
             this.btn_sm.TabIndex = 101;
@@ -1697,7 +1697,7 @@
             this.btn_eu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_eu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_eu.Location = new System.Drawing.Point(502, 447);
-            this.btn_eu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_eu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_eu.Name = "btn_eu";
             this.btn_eu.Size = new System.Drawing.Size(44, 29);
             this.btn_eu.TabIndex = 102;
@@ -1710,7 +1710,7 @@
             this.btn_gd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_gd.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_gd.Location = new System.Drawing.Point(551, 447);
-            this.btn_gd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_gd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_gd.Name = "btn_gd";
             this.btn_gd.Size = new System.Drawing.Size(46, 29);
             this.btn_gd.TabIndex = 103;
@@ -1723,7 +1723,7 @@
             this.btn_tb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tb.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_tb.Location = new System.Drawing.Point(603, 447);
-            this.btn_tb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_tb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tb.Name = "btn_tb";
             this.btn_tb.Size = new System.Drawing.Size(47, 29);
             this.btn_tb.TabIndex = 104;
@@ -1736,7 +1736,7 @@
             this.btn_dy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_dy.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_dy.Location = new System.Drawing.Point(654, 447);
-            this.btn_dy.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_dy.Margin = new System.Windows.Forms.Padding(2);
             this.btn_dy.Name = "btn_dy";
             this.btn_dy.Size = new System.Drawing.Size(47, 29);
             this.btn_dy.TabIndex = 105;
@@ -1749,7 +1749,7 @@
             this.btn_ho.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ho.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_ho.Location = new System.Drawing.Point(705, 447);
-            this.btn_ho.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_ho.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ho.Name = "btn_ho";
             this.btn_ho.Size = new System.Drawing.Size(47, 29);
             this.btn_ho.TabIndex = 106;
@@ -1762,7 +1762,7 @@
             this.btn_er.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_er.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_er.Location = new System.Drawing.Point(757, 447);
-            this.btn_er.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_er.Margin = new System.Windows.Forms.Padding(2);
             this.btn_er.Name = "btn_er";
             this.btn_er.Size = new System.Drawing.Size(44, 29);
             this.btn_er.TabIndex = 107;
@@ -1775,7 +1775,7 @@
             this.btn_tm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_tm.Location = new System.Drawing.Point(807, 447);
-            this.btn_tm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_tm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tm.Name = "btn_tm";
             this.btn_tm.Size = new System.Drawing.Size(47, 29);
             this.btn_tm.TabIndex = 108;
@@ -1788,7 +1788,7 @@
             this.btn_yb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_yb.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_yb.Location = new System.Drawing.Point(859, 447);
-            this.btn_yb.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_yb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yb.Name = "btn_yb";
             this.btn_yb.Size = new System.Drawing.Size(47, 29);
             this.btn_yb.TabIndex = 109;
@@ -1801,7 +1801,7 @@
             this.btn_u.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_u.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_u.Location = new System.Drawing.Point(349, 481);
-            this.btn_u.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_u.Margin = new System.Windows.Forms.Padding(2);
             this.btn_u.Name = "btn_u";
             this.btn_u.Size = new System.Drawing.Size(46, 28);
             this.btn_u.TabIndex = 110;
@@ -1814,7 +1814,7 @@
             this.btn_np.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_np.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_np.Location = new System.Drawing.Point(400, 481);
-            this.btn_np.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_np.Margin = new System.Windows.Forms.Padding(2);
             this.btn_np.Name = "btn_np";
             this.btn_np.Size = new System.Drawing.Size(44, 28);
             this.btn_np.TabIndex = 111;
@@ -1827,7 +1827,7 @@
             this.btn_pu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_pu.Location = new System.Drawing.Point(450, 481);
-            this.btn_pu.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pu.Name = "btn_pu";
             this.btn_pu.Size = new System.Drawing.Size(47, 28);
             this.btn_pu.TabIndex = 112;
@@ -1840,7 +1840,7 @@
             this.btn_am.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_am.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_am.Location = new System.Drawing.Point(502, 481);
-            this.btn_am.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_am.Margin = new System.Windows.Forms.Padding(2);
             this.btn_am.Name = "btn_am";
             this.btn_am.Size = new System.Drawing.Size(44, 28);
             this.btn_am.TabIndex = 113;
@@ -1853,7 +1853,7 @@
             this.btn_cm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_cm.Location = new System.Drawing.Point(551, 481);
-            this.btn_cm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cm.Name = "btn_cm";
             this.btn_cm.Size = new System.Drawing.Size(46, 28);
             this.btn_cm.TabIndex = 114;
@@ -1866,7 +1866,7 @@
             this.btn_bk.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_bk.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_bk.Location = new System.Drawing.Point(603, 481);
-            this.btn_bk.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_bk.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bk.Name = "btn_bk";
             this.btn_bk.Size = new System.Drawing.Size(47, 28);
             this.btn_bk.TabIndex = 115;
@@ -1879,7 +1879,7 @@
             this.btn_cf.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cf.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_cf.Location = new System.Drawing.Point(654, 481);
-            this.btn_cf.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_cf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cf.Name = "btn_cf";
             this.btn_cf.Size = new System.Drawing.Size(47, 28);
             this.btn_cf.TabIndex = 116;
@@ -1892,7 +1892,7 @@
             this.btn_es.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_es.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_es.Location = new System.Drawing.Point(705, 481);
-            this.btn_es.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_es.Margin = new System.Windows.Forms.Padding(2);
             this.btn_es.Name = "btn_es";
             this.btn_es.Size = new System.Drawing.Size(47, 28);
             this.btn_es.TabIndex = 117;
@@ -1905,7 +1905,7 @@
             this.btn_fm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fm.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_fm.Location = new System.Drawing.Point(757, 481);
-            this.btn_fm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_fm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fm.Name = "btn_fm";
             this.btn_fm.Size = new System.Drawing.Size(44, 28);
             this.btn_fm.TabIndex = 118;
@@ -1918,7 +1918,7 @@
             this.btn_md.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_md.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_md.Location = new System.Drawing.Point(807, 481);
-            this.btn_md.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_md.Margin = new System.Windows.Forms.Padding(2);
             this.btn_md.Name = "btn_md";
             this.btn_md.Size = new System.Drawing.Size(47, 28);
             this.btn_md.TabIndex = 119;
@@ -1931,7 +1931,7 @@
             this.btn_no.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_no.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_no.Location = new System.Drawing.Point(859, 481);
-            this.btn_no.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_no.Margin = new System.Windows.Forms.Padding(2);
             this.btn_no.Name = "btn_no";
             this.btn_no.Size = new System.Drawing.Size(47, 28);
             this.btn_no.TabIndex = 120;
@@ -2375,6 +2375,7 @@
             this.salir.TabIndex = 137;
             this.salir.Text = "Salir";
             this.salir.UseVisualStyleBackColor = true;
+            this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
             // TablaPeriodica
             // 
@@ -2554,7 +2555,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TablaPeriodica";
             this.Text = "Tabla Periodica";
             this.TransparencyKey = System.Drawing.Color.Black;
