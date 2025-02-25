@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -46,16 +46,313 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Ag.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ag.Designer.cs">
+      <DependentUpon>Ag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Al.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Al.Designer.cs">
+      <DependentUpon>Al.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ar.Designer.cs">
+      <DependentUpon>Ar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="As.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="As.Designer.cs">
+      <DependentUpon>As.cs</DependentUpon>
+    </Compile>
+    <Compile Include="At.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="At.Designer.cs">
+      <DependentUpon>At.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Au.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Au.Designer.cs">
+      <DependentUpon>Au.cs</DependentUpon>
+    </Compile>
+    <Compile Include="B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="B.Designer.cs">
+      <DependentUpon>B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bi.Designer.cs">
+      <DependentUpon>Bi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Br.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Br.Designer.cs">
+      <DependentUpon>Br.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C.Designer.cs">
+      <DependentUpon>C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cd.Designer.cs">
+      <DependentUpon>Cd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cl.Designer.cs">
+      <DependentUpon>Cl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cn.Designer.cs">
+      <DependentUpon>Cn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cu.Designer.cs">
+      <DependentUpon>Cu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ds.Designer.cs">
+      <DependentUpon>Ds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F.Designer.cs">
+      <DependentUpon>F.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fl.Designer.cs">
+      <DependentUpon>Fl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ga.Designer.cs">
+      <DependentUpon>Ga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ge.Designer.cs">
+      <DependentUpon>Ge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="He.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="He.Designer.cs">
+      <DependentUpon>He.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hg.Designer.cs">
+      <DependentUpon>Hg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="I.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="I.Designer.cs">
+      <DependentUpon>I.cs</DependentUpon>
+    </Compile>
+    <Compile Include="In.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="In.Designer.cs">
+      <DependentUpon>In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kr.Designer.cs">
+      <DependentUpon>Kr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lv.Designer.cs">
+      <DependentUpon>Lv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mc.Designer.cs">
+      <DependentUpon>Mc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="N.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="N.Designer.cs">
+      <DependentUpon>N.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ne.Designer.cs">
+      <DependentUpon>Ne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nh.Designer.cs">
+      <DependentUpon>Nh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ni.Designer.cs">
+      <DependentUpon>Ni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="O.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="O.Designer.cs">
+      <DependentUpon>O.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Og.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Og.Designer.cs">
+      <DependentUpon>Og.cs</DependentUpon>
+    </Compile>
+    <Compile Include="P.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="P.Designer.cs">
+      <DependentUpon>P.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pb.Designer.cs">
+      <DependentUpon>Pb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pd.Designer.cs">
+      <DependentUpon>Pd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Po.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Po.Designer.cs">
+      <DependentUpon>Po.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pt.Designer.cs">
+      <DependentUpon>Pt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rg.Designer.cs">
+      <DependentUpon>Rg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rn.Designer.cs">
+      <DependentUpon>Rn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="S.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="S.Designer.cs">
+      <DependentUpon>S.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sb.Designer.cs">
+      <DependentUpon>Sb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Se.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Se.Designer.cs">
+      <DependentUpon>Se.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Si.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Si.Designer.cs">
+      <DependentUpon>Si.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sn.Designer.cs">
+      <DependentUpon>Sn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tabla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tabla.Designer.cs">
+      <DependentUpon>Tabla.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Te.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Te.Designer.cs">
+      <DependentUpon>Te.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tl.Designer.cs">
+      <DependentUpon>Tl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ts.Designer.cs">
+      <DependentUpon>Ts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Xe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Xe.Designer.cs">
+      <DependentUpon>Xe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zn.Designer.cs">
+      <DependentUpon>Zn.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Al.resx">
+      <DependentUpon>Al.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tabla.resx">
+      <DependentUpon>Tabla.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
