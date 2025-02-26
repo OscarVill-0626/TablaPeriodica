@@ -226,12 +226,12 @@
             // 
             this.lbl_tabla.AutoSize = true;
             this.lbl_tabla.BackColor = System.Drawing.Color.Snow;
-            this.lbl_tabla.Font = new System.Drawing.Font("Fredoka One", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_tabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_tabla.ForeColor = System.Drawing.SystemColors.Desktop;
             this.lbl_tabla.Location = new System.Drawing.Point(187, 22);
             this.lbl_tabla.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_tabla.Name = "lbl_tabla";
-            this.lbl_tabla.Size = new System.Drawing.Size(635, 29);
+            this.lbl_tabla.Size = new System.Drawing.Size(788, 36);
             this.lbl_tabla.TabIndex = 0;
             this.lbl_tabla.Text = "TABLA PERIODICA DE LOS ELEMENTOS QUÍMICOS";
             this.lbl_tabla.Click += new System.EventHandler(this.label1_Click);
@@ -467,6 +467,7 @@
             this.btn_lu.TabIndex = 16;
             this.btn_lu.Text = "Lu";
             this.btn_lu.UseVisualStyleBackColor = false;
+            this.btn_lu.Click += new System.EventHandler(this.btn_lu_Click);
             // 
             // btn_lr
             // 
@@ -481,6 +482,7 @@
             this.btn_lr.TabIndex = 17;
             this.btn_lr.Text = "Lr";
             this.btn_lr.UseVisualStyleBackColor = false;
+            this.btn_lr.Click += new System.EventHandler(this.btn_lr_Click);
             // 
             // btn_ti
             // 
@@ -1587,6 +1589,7 @@
             this.btn_uue.TabIndex = 91;
             this.btn_uue.Text = "Uue";
             this.btn_uue.UseVisualStyleBackColor = true;
+            this.btn_uue.Click += new System.EventHandler(this.btn_uue_Click);
             // 
             // btn_ubn
             // 
@@ -1599,6 +1602,7 @@
             this.btn_ubn.TabIndex = 92;
             this.btn_ubn.Text = "Ubn";
             this.btn_ubn.UseVisualStyleBackColor = true;
+            this.btn_ubn.Click += new System.EventHandler(this.btn_ubn_Click);
             // 
             // btn_la
             // 
@@ -1972,7 +1976,7 @@
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label1.Location = new System.Drawing.Point(299, 106);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(83, 13);
+            this.label1.Size = new System.Drawing.Size(107, 17);
             this.label1.TabIndex = 131;
             this.label1.Text = "Gases nobles";
             // 
@@ -1983,7 +1987,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label2.Location = new System.Drawing.Point(299, 132);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 13);
+            this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 132;
             this.label2.Text = "Halógenos";
             // 
@@ -1994,7 +1998,7 @@
             this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label3.Location = new System.Drawing.Point(299, 157);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.Size = new System.Drawing.Size(89, 17);
             this.label3.TabIndex = 133;
             this.label3.Text = "No metales";
             // 
@@ -2005,7 +2009,7 @@
             this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label4.Location = new System.Drawing.Point(299, 187);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.Size = new System.Drawing.Size(86, 17);
             this.label4.TabIndex = 134;
             this.label4.Text = "Metaloides";
             // 
@@ -2016,7 +2020,7 @@
             this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label5.Location = new System.Drawing.Point(299, 216);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(84, 13);
+            this.label5.Size = new System.Drawing.Size(109, 17);
             this.label5.TabIndex = 135;
             this.label5.Text = "Otros metales";
             // 
@@ -2027,7 +2031,7 @@
             this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label6.Location = new System.Drawing.Point(527, 104);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(128, 13);
+            this.label6.Size = new System.Drawing.Size(163, 17);
             this.label6.TabIndex = 135;
             this.label6.Text = "Metales de transición";
             // 
@@ -2038,7 +2042,7 @@
             this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label7.Location = new System.Drawing.Point(527, 130);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 13);
+            this.label7.Size = new System.Drawing.Size(117, 17);
             this.label7.TabIndex = 135;
             this.label7.Text = "Alcalinotérreos";
             // 
@@ -2049,7 +2053,7 @@
             this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label8.Location = new System.Drawing.Point(527, 154);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(105, 13);
+            this.label8.Size = new System.Drawing.Size(133, 17);
             this.label8.TabIndex = 135;
             this.label8.Text = "Metales alcalinos";
             // 
@@ -2060,7 +2064,7 @@
             this.label9.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label9.Location = new System.Drawing.Point(530, 183);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(69, 13);
+            this.label9.Size = new System.Drawing.Size(88, 17);
             this.label9.TabIndex = 135;
             this.label9.Text = "Lantánidos";
             // 
@@ -2070,7 +2074,7 @@
             this.label10.BackColor = System.Drawing.Color.Snow;
             this.label10.Location = new System.Drawing.Point(530, 209);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(61, 13);
+            this.label10.Size = new System.Drawing.Size(74, 17);
             this.label10.TabIndex = 135;
             this.label10.Text = "Actínidos";
             // 
@@ -2079,7 +2083,7 @@
             this.label11.AutoSize = true;
             this.label11.Location = new System.Drawing.Point(34, 191);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 13);
+            this.label11.Size = new System.Drawing.Size(17, 17);
             this.label11.TabIndex = 136;
             this.label11.Text = "1";
             // 
@@ -2088,7 +2092,7 @@
             this.label12.AutoSize = true;
             this.label12.Location = new System.Drawing.Point(34, 216);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 13);
+            this.label12.Size = new System.Drawing.Size(17, 17);
             this.label12.TabIndex = 136;
             this.label12.Text = "2";
             // 
@@ -2097,7 +2101,7 @@
             this.label13.AutoSize = true;
             this.label13.Location = new System.Drawing.Point(34, 243);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 13);
+            this.label13.Size = new System.Drawing.Size(17, 17);
             this.label13.TabIndex = 136;
             this.label13.Text = "3";
             // 
@@ -2106,7 +2110,7 @@
             this.label14.AutoSize = true;
             this.label14.Location = new System.Drawing.Point(34, 272);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 13);
+            this.label14.Size = new System.Drawing.Size(17, 17);
             this.label14.TabIndex = 136;
             this.label14.Text = "4";
             // 
@@ -2115,7 +2119,7 @@
             this.label15.AutoSize = true;
             this.label15.Location = new System.Drawing.Point(34, 306);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(14, 13);
+            this.label15.Size = new System.Drawing.Size(17, 17);
             this.label15.TabIndex = 136;
             this.label15.Text = "5";
             // 
@@ -2124,7 +2128,7 @@
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(34, 335);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(14, 13);
+            this.label16.Size = new System.Drawing.Size(17, 17);
             this.label16.TabIndex = 136;
             this.label16.Text = "6";
             // 
@@ -2133,7 +2137,7 @@
             this.label17.AutoSize = true;
             this.label17.Location = new System.Drawing.Point(34, 364);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(14, 13);
+            this.label17.Size = new System.Drawing.Size(17, 17);
             this.label17.TabIndex = 136;
             this.label17.Text = "7";
             // 
@@ -2142,7 +2146,7 @@
             this.label18.AutoSize = true;
             this.label18.Location = new System.Drawing.Point(84, 157);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(14, 13);
+            this.label18.Size = new System.Drawing.Size(17, 17);
             this.label18.TabIndex = 136;
             this.label18.Text = "1";
             // 
@@ -2151,7 +2155,7 @@
             this.label19.AutoSize = true;
             this.label19.Location = new System.Drawing.Point(144, 187);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(14, 13);
+            this.label19.Size = new System.Drawing.Size(17, 17);
             this.label19.TabIndex = 136;
             this.label19.Text = "2";
             // 
@@ -2160,7 +2164,7 @@
             this.label20.AutoSize = true;
             this.label20.Location = new System.Drawing.Point(207, 244);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(14, 13);
+            this.label20.Size = new System.Drawing.Size(17, 17);
             this.label20.TabIndex = 136;
             this.label20.Text = "3";
             this.label20.Click += new System.EventHandler(this.label20_Click);
@@ -2171,7 +2175,7 @@
             this.label21.Location = new System.Drawing.Point(266, 244);
             this.label21.Name = "label21";
             this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label21.Size = new System.Drawing.Size(14, 13);
+            this.label21.Size = new System.Drawing.Size(17, 17);
             this.label21.TabIndex = 136;
             this.label21.Text = "4";
             // 
@@ -2180,7 +2184,7 @@
             this.label22.AutoSize = true;
             this.label22.Location = new System.Drawing.Point(315, 244);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(14, 13);
+            this.label22.Size = new System.Drawing.Size(17, 17);
             this.label22.TabIndex = 136;
             this.label22.Text = "5";
             // 
@@ -2189,7 +2193,7 @@
             this.label23.AutoSize = true;
             this.label23.Location = new System.Drawing.Point(368, 244);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(14, 13);
+            this.label23.Size = new System.Drawing.Size(17, 17);
             this.label23.TabIndex = 136;
             this.label23.Text = "6";
             // 
@@ -2198,7 +2202,7 @@
             this.label24.AutoSize = true;
             this.label24.Location = new System.Drawing.Point(417, 244);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(14, 13);
+            this.label24.Size = new System.Drawing.Size(17, 17);
             this.label24.TabIndex = 136;
             this.label24.Text = "7";
             // 
@@ -2207,7 +2211,7 @@
             this.label25.AutoSize = true;
             this.label25.Location = new System.Drawing.Point(469, 243);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(14, 13);
+            this.label25.Size = new System.Drawing.Size(17, 17);
             this.label25.TabIndex = 136;
             this.label25.Text = "8";
             // 
@@ -2216,7 +2220,7 @@
             this.label26.AutoSize = true;
             this.label26.Location = new System.Drawing.Point(516, 244);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(14, 13);
+            this.label26.Size = new System.Drawing.Size(17, 17);
             this.label26.TabIndex = 136;
             this.label26.Text = "9";
             // 
@@ -2225,7 +2229,7 @@
             this.label27.AutoSize = true;
             this.label27.Location = new System.Drawing.Point(570, 243);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(21, 13);
+            this.label27.Size = new System.Drawing.Size(26, 17);
             this.label27.TabIndex = 136;
             this.label27.Text = "10";
             // 
@@ -2234,7 +2238,7 @@
             this.label28.AutoSize = true;
             this.label28.Location = new System.Drawing.Point(620, 244);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(21, 13);
+            this.label28.Size = new System.Drawing.Size(26, 17);
             this.label28.TabIndex = 136;
             this.label28.Text = "11";
             // 
@@ -2243,7 +2247,7 @@
             this.label29.AutoSize = true;
             this.label29.Location = new System.Drawing.Point(666, 244);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(21, 13);
+            this.label29.Size = new System.Drawing.Size(26, 17);
             this.label29.TabIndex = 136;
             this.label29.Text = "12";
             // 
@@ -2252,7 +2256,7 @@
             this.label30.AutoSize = true;
             this.label30.Location = new System.Drawing.Point(720, 194);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(21, 13);
+            this.label30.Size = new System.Drawing.Size(26, 17);
             this.label30.TabIndex = 136;
             this.label30.Text = "13";
             // 
@@ -2261,7 +2265,7 @@
             this.label31.AutoSize = true;
             this.label31.Location = new System.Drawing.Point(777, 194);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(21, 13);
+            this.label31.Size = new System.Drawing.Size(26, 17);
             this.label31.TabIndex = 136;
             this.label31.Text = "14";
             // 
@@ -2270,7 +2274,7 @@
             this.label32.AutoSize = true;
             this.label32.Location = new System.Drawing.Point(812, 191);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(21, 13);
+            this.label32.Size = new System.Drawing.Size(26, 17);
             this.label32.TabIndex = 136;
             this.label32.Text = "15";
             this.label32.Click += new System.EventHandler(this.label32_Click);
@@ -2280,7 +2284,7 @@
             this.label33.AutoSize = true;
             this.label33.Location = new System.Drawing.Point(856, 191);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(21, 13);
+            this.label33.Size = new System.Drawing.Size(26, 17);
             this.label33.TabIndex = 136;
             this.label33.Text = "16";
             this.label33.Click += new System.EventHandler(this.label33_Click);
@@ -2290,7 +2294,7 @@
             this.label34.AutoSize = true;
             this.label34.Location = new System.Drawing.Point(898, 191);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(21, 13);
+            this.label34.Size = new System.Drawing.Size(26, 17);
             this.label34.TabIndex = 136;
             this.label34.Text = "17";
             // 
@@ -2299,7 +2303,7 @@
             this.label35.AutoSize = true;
             this.label35.Location = new System.Drawing.Point(947, 157);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(21, 13);
+            this.label35.Size = new System.Drawing.Size(26, 17);
             this.label35.TabIndex = 136;
             this.label35.Text = "18";
             // 
@@ -2614,7 +2618,7 @@
             // 
             // TablaPeriodica
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;

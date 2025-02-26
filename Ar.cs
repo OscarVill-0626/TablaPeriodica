@@ -28,5 +28,10 @@ namespace TablaPeriodica
             Form form = new TablaPeriodica();
             form.ShowDialog();
         }
+
+        private void Ar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

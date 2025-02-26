@@ -29,17 +29,20 @@ namespace TablaPeriodica
 
         private void btn_hidrógeno_Click(object sender, EventArgs e)
         {
-
+            Form form = new H();
+            form.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form form = new K();
+            form.ShowDialog();
         }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-
+            Form form = new Mg();
+            form.ShowDialog();
         }
 
         private void button6_Click(object sender, EventArgs e)
@@ -56,82 +59,99 @@ namespace TablaPeriodica
 
         private void btn_li_Click(object sender, EventArgs e)
         {
-
+            Form form = new Li();
+            form.ShowDialog();
         }
 
         private void btn_be_Click(object sender, EventArgs e)
         {
+            Form form = new Be();
+            form.ShowDialog();
 
         }
 
         private void btn_na_Click(object sender, EventArgs e)
         {
-
+            Form form = new Na();
+            form.ShowDialog();
         }
 
         private void btn_ca_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ca();
+            form.ShowDialog();
         }
 
         private void btn_sr_Click(object sender, EventArgs e)
         {
-
+            Form form = new Sr();
+            form.ShowDialog();
         }
 
         private void btn_rb_Click(object sender, EventArgs e)
         {
-
+            Form form = new Rb();
+            form.ShowDialog();
         }
 
         private void btn_cs_Click(object sender, EventArgs e)
         {
-
+            Form form = new Cs();
+            form.ShowDialog();
         }
 
         private void btn_ba_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ba();
+            form.ShowDialog();
         }
 
         private void btn_ra_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ra();
+            form.ShowDialog();
         }
 
         private void btn_fr_Click(object sender, EventArgs e)
         {
-
+            Form form = new Fr();
+            form.ShowDialog();
         }
 
         private void btn_y_Click(object sender, EventArgs e)
         {
-
+            Form form = new Y();
+            form.ShowDialog();
         }
 
         private void btn_sc_Click(object sender, EventArgs e)
         {
-
+            Form form = new Sc();
+            form.ShowDialog();
         }
 
         private void btn_ti_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ti();
+            form.ShowDialog();
         }
 
         private void btn_zr_Click(object sender, EventArgs e)
         {
-
+            Form form = new Zr();
+            form.ShowDialog();
         }
 
         private void btn_hf_Click(object sender, EventArgs e)
         {
-
+            Form form = new Hf();
+            form.ShowDialog();
         }
 
         private void btn_rf_Click(object sender, EventArgs e)
         {
-
+            Form form = new Rf();
+            form.ShowDialog();
         }
 
         private void btn_db_Click(object sender, EventArgs e)
@@ -151,32 +171,38 @@ namespace TablaPeriodica
 
         private void btn_nb_Click(object sender, EventArgs e)
         {
-
+            Form form = new Nb();
+            form.ShowDialog();
         }
 
         private void btn_v_Click(object sender, EventArgs e)
         {
-
+            Form form = new V();
+            form.ShowDialog();
         }
 
         private void btn_cr_Click(object sender, EventArgs e)
         {
-
+            Form form = new Cr();
+            form.ShowDialog();
         }
 
         private void btn_mo_Click(object sender, EventArgs e)
         {
-
+            Form form = new Mo();
+            form.ShowDialog();
         }
 
         private void btn_mn_Click(object sender, EventArgs e)
         {
-
+            Form form = new Mn();
+            form.ShowDialog();
         }
 
         private void btn_tc_Click(object sender, EventArgs e)
         {
-
+            Form form = new Tc();
+            form.ShowDialog();
         }
 
         private void btn_re_Click(object sender, EventArgs e)
@@ -201,22 +227,26 @@ namespace TablaPeriodica
 
         private void btn_ru_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ru();
+            form.ShowDialog();
         }
 
         private void btn_fe_Click(object sender, EventArgs e)
         {
-
+            Form form = new Fe();
+            form.ShowDialog();
         }
 
         private void btn_co_Click(object sender, EventArgs e)
         {
-
+            Form form = new Co();
+            form.ShowDialog();
         }
 
         private void btn_rh_Click(object sender, EventArgs e)
         {
-
+            Form form = new Rh();
+            form.ShowDialog();
         }
 
         private void btn_ir_Click(object sender, EventArgs e)
@@ -534,6 +564,30 @@ namespace TablaPeriodica
         private void salir_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btn_uue_Click(object sender, EventArgs e)
+        {
+            Form form = new Uue();
+            form.ShowDialog();
+        }
+
+        private void btn_ubn_Click(object sender, EventArgs e)
+        {
+            Form form = new Ubn();
+            form.ShowDialog();
+        }
+
+        private void btn_lu_Click(object sender, EventArgs e)
+        {
+            Form form = new Lu();
+            form.ShowDialog();
+        }
+
+        private void btn_lr_Click(object sender, EventArgs e)
+        {
+            Form form = new Lr();
+            form.ShowDialog();
         }
     }
 }
