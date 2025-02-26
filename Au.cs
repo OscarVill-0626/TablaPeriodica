@@ -16,5 +16,10 @@ namespace TablaPeriodica
         {
             InitializeComponent();
         }
+
+        private void Au_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

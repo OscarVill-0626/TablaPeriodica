@@ -16,5 +16,22 @@ namespace TablaPeriodica
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form form = new TablaPeriodica();
+            form.ShowDialog();
+        }
     }
 }

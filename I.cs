@@ -16,5 +16,10 @@ namespace TablaPeriodica
         {
             InitializeComponent();
         }
+
+        private void l53_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

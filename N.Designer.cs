@@ -29,20 +29,78 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(N));
+            this.l7 = new System.Windows.Forms.Label();
+            this.ni = new System.Windows.Forms.Label();
+            this.nitro = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // l7
+            // 
+            this.l7.AutoSize = true;
+            this.l7.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l7.Location = new System.Drawing.Point(223, 17);
+            this.l7.Name = "l7";
+            this.l7.Size = new System.Drawing.Size(22, 23);
+            this.l7.TabIndex = 0;
+            this.l7.Text = "7";
+            // 
+            // ni
+            // 
+            this.ni.AutoSize = true;
+            this.ni.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ni.Location = new System.Drawing.Point(126, 40);
+            this.ni.Name = "ni";
+            this.ni.Size = new System.Drawing.Size(119, 116);
+            this.ni.TabIndex = 0;
+            this.ni.Text = "N";
+            // 
+            // nitro
+            // 
+            this.nitro.AutoSize = true;
+            this.nitro.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nitro.Location = new System.Drawing.Point(123, 156);
+            this.nitro.Name = "nitro";
+            this.nitro.Size = new System.Drawing.Size(111, 23);
+            this.nitro.TabIndex = 0;
+            this.nitro.Text = "Nitrógeno";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(0, 182);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(321, 112);
+            this.label4.TabIndex = 0;
+            this.label4.Text = resources.GetString("label4.Text");
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // N
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(276, 257);
+            this.BackColor = System.Drawing.Color.OrangeRed;
+            this.ClientSize = new System.Drawing.Size(331, 297);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.nitro);
+            this.Controls.Add(this.ni);
+            this.Controls.Add(this.l7);
+            this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "N";
             this.Text = "N";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label l7;
+        private System.Windows.Forms.Label ni;
+        private System.Windows.Forms.Label nitro;
+        private System.Windows.Forms.Label label4;
     }
 }

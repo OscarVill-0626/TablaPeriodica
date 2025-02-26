@@ -117,6 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="info.Text" xml:space="preserve">
+    <value>Peso atómico: 83.80
+Punto de fusión: -157°C
+Punto de ebullición: -152°C
+Fase a temperatura y presión estándar: Gas
+Configuración electrónica: [Ar]3d104s24p6
+Estados de oxidación comunes: 0
+Número de electrones de valencia: 8</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>

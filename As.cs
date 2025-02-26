@@ -16,5 +16,13 @@ namespace TablaPeriodica
         {
             InitializeComponent();
         }
+
+        private void regresar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form form = new TablaPeriodica();
+            form.ShowDialog();
+
+        }
     }
 }
