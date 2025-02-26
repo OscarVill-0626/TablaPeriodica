@@ -142,6 +142,12 @@
     <Compile Include="Cn.Designer.cs">
       <DependentUpon>Cn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Co.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Co.Designer.cs">
+      <DependentUpon>Co.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cr.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -292,6 +298,12 @@
     <Compile Include="Mn.Designer.cs">
       <DependentUpon>Mn.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mo.Designer.cs">
+      <DependentUpon>Mo.cs</DependentUpon>
+    </Compile>
     <Compile Include="N.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -303,6 +315,12 @@
     </Compile>
     <Compile Include="Na.Designer.cs">
       <DependentUpon>Na.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nb.Designer.cs">
+      <DependentUpon>Nb.cs</DependentUpon>
     </Compile>
     <Compile Include="Ne.cs">
       <SubType>Form</SubType>
@@ -388,11 +406,23 @@
     <Compile Include="Rg.Designer.cs">
       <DependentUpon>Rg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Rh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rh.Designer.cs">
+      <DependentUpon>Rh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rn.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Rn.Designer.cs">
       <DependentUpon>Rn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ru.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ru.Designer.cs">
+      <DependentUpon>Ru.cs</DependentUpon>
     </Compile>
     <Compile Include="S.cs">
       <SubType>Form</SubType>
@@ -444,6 +474,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tc.Designer.cs">
+      <DependentUpon>Tc.cs</DependentUpon>
+    </Compile>
     <Compile Include="Te.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -558,6 +594,9 @@
     <EmbeddedResource Include="Cn.resx">
       <DependentUpon>Cn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Co.resx">
+      <DependentUpon>Co.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cr.resx">
       <DependentUpon>Cr.cs</DependentUpon>
     </EmbeddedResource>
@@ -633,11 +672,17 @@
     <EmbeddedResource Include="Mn.resx">
       <DependentUpon>Mn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mo.resx">
+      <DependentUpon>Mo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="N.resx">
       <DependentUpon>N.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Na.resx">
       <DependentUpon>Na.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nb.resx">
+      <DependentUpon>Nb.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ne.resx">
       <DependentUpon>Ne.cs</DependentUpon>
@@ -681,8 +726,14 @@
     <EmbeddedResource Include="Rg.resx">
       <DependentUpon>Rg.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Rh.resx">
+      <DependentUpon>Rh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Rn.resx">
       <DependentUpon>Rn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ru.resx">
+      <DependentUpon>Ru.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="S.resx">
       <DependentUpon>S.cs</DependentUpon>
@@ -718,6 +769,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Tc.resx">
+      <DependentUpon>Tc.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Te.resx">
       <DependentUpon>Te.cs</DependentUpon>
     </EmbeddedResource>
