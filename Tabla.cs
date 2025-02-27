@@ -156,17 +156,20 @@ namespace TablaPeriodica
 
         private void btn_db_Click(object sender, EventArgs e)
         {
-
+            Form form = new Db();
+            form.ShowDialog();
         }
 
         private void btn_sg_Click(object sender, EventArgs e)
         {
-
+            Form form = new Sg();
+            form.ShowDialog();
         }
 
         private void btn_ta_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ta();
+            form.ShowDialog();
         }
 
         private void btn_nb_Click(object sender, EventArgs e)
@@ -207,22 +210,26 @@ namespace TablaPeriodica
 
         private void btn_re_Click(object sender, EventArgs e)
         {
-
+            Form form = new Re();
+            form.ShowDialog();
         }
 
         private void btn_bh_Click(object sender, EventArgs e)
         {
-
+            Form form = new Bh();
+            form.ShowDialog();
         }
 
         private void btn_hs_Click(object sender, EventArgs e)
         {
-
+            Form form = new Hs();
+            form.ShowDialog();
         }
 
         private void btn_os_Click(object sender, EventArgs e)
         {
-
+            Form form = new Os();
+            form.ShowDialog();
         }
 
         private void btn_ru_Click(object sender, EventArgs e)
@@ -251,12 +258,14 @@ namespace TablaPeriodica
 
         private void btn_ir_Click(object sender, EventArgs e)
         {
-
+            Form form = new Ir();
+            form.ShowDialog();
         }
 
         private void btn_mt_Click(object sender, EventArgs e)
         {
-
+            Form form = new Mt();
+            form.ShowDialog();
         }
 
         private void btn_ds_Click(object sender, EventArgs e)
@@ -587,6 +596,42 @@ namespace TablaPeriodica
         private void btn_lr_Click(object sender, EventArgs e)
         {
             Form form = new Lr();
+            form.ShowDialog();
+        }
+
+        private void btn_w_Click(object sender, EventArgs e)
+        {
+            Form form = new W();
+            form.ShowDialog();
+        }
+
+        private void button1_Click_3(object sender, EventArgs e)
+        {
+            Form form = new La();
+            form.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form form = new Ce();
+            form.ShowDialog();
+        }
+
+        private void Btn_pra_Click(object sender, EventArgs e)
+        {
+            Form form = new Pr();
+            form.ShowDialog();
+        }
+
+        private void Btn_neo_Click(object sender, EventArgs e)
+        {
+            Form form = new Nd();
+            form.ShowDialog();
+        }
+
+        private void Btn_Pro_Click(object sender, EventArgs e)
+        {
+            Form form = new Pm();
             form.ShowDialog();
         }
     }

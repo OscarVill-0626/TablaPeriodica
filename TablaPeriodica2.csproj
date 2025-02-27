@@ -100,6 +100,12 @@
     <Compile Include="Be.Designer.cs">
       <DependentUpon>Be.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bh.Designer.cs">
+      <DependentUpon>Bh.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +171,12 @@
     </Compile>
     <Compile Include="Cu.Designer.cs">
       <DependentUpon>Cu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db.Designer.cs">
+      <DependentUpon>Db.cs</DependentUpon>
     </Compile>
     <Compile Include="Ds.cs">
       <SubType>Form</SubType>
@@ -232,6 +244,12 @@
     <Compile Include="Hg.Designer.cs">
       <DependentUpon>Hg.cs</DependentUpon>
     </Compile>
+    <Compile Include="Hs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hs.Designer.cs">
+      <DependentUpon>Hs.cs</DependentUpon>
+    </Compile>
     <Compile Include="I.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,6 +261,12 @@
     </Compile>
     <Compile Include="In.Designer.cs">
       <DependentUpon>In.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ir.Designer.cs">
+      <DependentUpon>Ir.cs</DependentUpon>
     </Compile>
     <Compile Include="K.cs">
       <SubType>Form</SubType>
@@ -304,6 +328,12 @@
     <Compile Include="Mo.Designer.cs">
       <DependentUpon>Mo.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mt.Designer.cs">
+      <DependentUpon>Mt.cs</DependentUpon>
+    </Compile>
     <Compile Include="N.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -352,6 +382,12 @@
     <Compile Include="Og.Designer.cs">
       <DependentUpon>Og.cs</DependentUpon>
     </Compile>
+    <Compile Include="Os.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Os.Designer.cs">
+      <DependentUpon>Os.cs</DependentUpon>
+    </Compile>
     <Compile Include="P.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -393,6 +429,12 @@
     </Compile>
     <Compile Include="Rb.Designer.cs">
       <DependentUpon>Rb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Re.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Re.Designer.cs">
+      <DependentUpon>Re.cs</DependentUpon>
     </Compile>
     <Compile Include="Rf.cs">
       <SubType>Form</SubType>
@@ -448,6 +490,12 @@
     <Compile Include="Se.Designer.cs">
       <DependentUpon>Se.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sg.Designer.cs">
+      <DependentUpon>Sg.cs</DependentUpon>
+    </Compile>
     <Compile Include="Si.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -465,6 +513,12 @@
     </Compile>
     <Compile Include="Sr.Designer.cs">
       <DependentUpon>Sr.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ta.Designer.cs">
+      <DependentUpon>Ta.cs</DependentUpon>
     </Compile>
     <Compile Include="Tabla.cs">
       <SubType>Form</SubType>
@@ -522,6 +576,12 @@
     <Compile Include="V.Designer.cs">
       <DependentUpon>V.cs</DependentUpon>
     </Compile>
+    <Compile Include="W.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="W.Designer.cs">
+      <DependentUpon>W.cs</DependentUpon>
+    </Compile>
     <Compile Include="Xe.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -573,6 +633,9 @@
     <EmbeddedResource Include="Be.resx">
       <DependentUpon>Be.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Bh.resx">
+      <DependentUpon>Bh.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bi.resx">
       <DependentUpon>Bi.cs</DependentUpon>
     </EmbeddedResource>
@@ -605,6 +668,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cu.resx">
       <DependentUpon>Cu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db.resx">
+      <DependentUpon>Db.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Ds.resx">
       <DependentUpon>Ds.cs</DependentUpon>
@@ -639,11 +705,17 @@
     <EmbeddedResource Include="Hg.resx">
       <DependentUpon>Hg.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Hs.resx">
+      <DependentUpon>Hs.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="I.resx">
       <DependentUpon>I.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="In.resx">
       <DependentUpon>In.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ir.resx">
+      <DependentUpon>Ir.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="K.resx">
       <DependentUpon>K.cs</DependentUpon>
@@ -675,6 +747,9 @@
     <EmbeddedResource Include="Mo.resx">
       <DependentUpon>Mo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Mt.resx">
+      <DependentUpon>Mt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="N.resx">
       <DependentUpon>N.cs</DependentUpon>
     </EmbeddedResource>
@@ -699,6 +774,9 @@
     <EmbeddedResource Include="Og.resx">
       <DependentUpon>Og.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Os.resx">
+      <DependentUpon>Os.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="P.resx">
       <DependentUpon>P.cs</DependentUpon>
     </EmbeddedResource>
@@ -719,6 +797,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rb.resx">
       <DependentUpon>Rb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re.resx">
+      <DependentUpon>Re.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rf.resx">
       <DependentUpon>Rf.cs</DependentUpon>
@@ -747,6 +828,9 @@
     <EmbeddedResource Include="Se.resx">
       <DependentUpon>Se.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sg.resx">
+      <DependentUpon>Sg.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Si.resx">
       <DependentUpon>Si.cs</DependentUpon>
     </EmbeddedResource>
@@ -755,6 +839,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sr.resx">
       <DependentUpon>Sr.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ta.resx">
+      <DependentUpon>Ta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Tabla.resx">
       <DependentUpon>Tabla.cs</DependentUpon>
@@ -792,6 +879,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="V.resx">
       <DependentUpon>V.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W.resx">
+      <DependentUpon>W.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Xe.resx">
       <DependentUpon>Xe.cs</DependentUpon>
