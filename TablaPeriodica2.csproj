@@ -136,6 +136,12 @@
     <Compile Include="Cd.Designer.cs">
       <DependentUpon>Cd.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ce.Designer.cs">
+      <DependentUpon>Ce.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cl.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +286,12 @@
     <Compile Include="Kr.Designer.cs">
       <DependentUpon>Kr.cs</DependentUpon>
     </Compile>
+    <Compile Include="La.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="La.Designer.cs">
+      <DependentUpon>La.cs</DependentUpon>
+    </Compile>
     <Compile Include="Li.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -352,6 +364,12 @@
     <Compile Include="Nb.Designer.cs">
       <DependentUpon>Nb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nd.Designer.cs">
+      <DependentUpon>Nd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ne.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -406,11 +424,23 @@
     <Compile Include="Pb.Designer.cs">
       <DependentUpon>Pb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pm.Designer.cs">
+      <DependentUpon>Pm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Po.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Po.Designer.cs">
       <DependentUpon>Po.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pr.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pr.Designer.cs">
+      <DependentUpon>Pr.cs</DependentUpon>
     </Compile>
     <Compile Include="Pt.cs">
       <SubType>Form</SubType>
@@ -651,6 +681,9 @@
     <EmbeddedResource Include="Cd.resx">
       <DependentUpon>Cd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ce.resx">
+      <DependentUpon>Ce.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cl.resx">
       <DependentUpon>Cl.cs</DependentUpon>
     </EmbeddedResource>
@@ -723,6 +756,9 @@
     <EmbeddedResource Include="Kr.resx">
       <DependentUpon>Kr.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="La.resx">
+      <DependentUpon>La.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Li.resx">
       <DependentUpon>Li.cs</DependentUpon>
     </EmbeddedResource>
@@ -759,6 +795,9 @@
     <EmbeddedResource Include="Nb.resx">
       <DependentUpon>Nb.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Nd.resx">
+      <DependentUpon>Nd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ne.resx">
       <DependentUpon>Ne.cs</DependentUpon>
     </EmbeddedResource>
@@ -786,8 +825,14 @@
     <EmbeddedResource Include="Pb.resx">
       <DependentUpon>Pb.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pm.resx">
+      <DependentUpon>Pm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Po.resx">
       <DependentUpon>Po.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pr.resx">
+      <DependentUpon>Pr.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pt.resx">
       <DependentUpon>Pt.cs</DependentUpon>
