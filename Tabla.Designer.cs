@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lbl_tabla = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPeriodica));
             this.btn_h = new System.Windows.Forms.Button();
             this.btn_li = new System.Windows.Forms.Button();
             this.btn_na = new System.Windows.Forms.Button();
@@ -119,129 +119,101 @@
             this.btn_ts = new System.Windows.Forms.Button();
             this.btn_og = new System.Windows.Forms.Button();
             this.btn_he = new System.Windows.Forms.Button();
-            this.btn_uue = new System.Windows.Forms.Button();
-            this.btn_ubn = new System.Windows.Forms.Button();
-            this.btn_la = new System.Windows.Forms.Button();
-            this.btn_ac = new System.Windows.Forms.Button();
-            this.btn_ce = new System.Windows.Forms.Button();
-            this.btn_th = new System.Windows.Forms.Button();
-            this.btn_pr = new System.Windows.Forms.Button();
-            this.btn_pa = new System.Windows.Forms.Button();
-            this.btn_nd = new System.Windows.Forms.Button();
-            this.btn_pm = new System.Windows.Forms.Button();
-            this.btn_sm = new System.Windows.Forms.Button();
-            this.btn_eu = new System.Windows.Forms.Button();
-            this.btn_gd = new System.Windows.Forms.Button();
             this.btn_tb = new System.Windows.Forms.Button();
             this.btn_dy = new System.Windows.Forms.Button();
             this.btn_ho = new System.Windows.Forms.Button();
             this.btn_er = new System.Windows.Forms.Button();
             this.btn_tm = new System.Windows.Forms.Button();
             this.btn_yb = new System.Windows.Forms.Button();
-            this.btn_u = new System.Windows.Forms.Button();
-            this.btn_np = new System.Windows.Forms.Button();
-            this.btn_pu = new System.Windows.Forms.Button();
-            this.btn_am = new System.Windows.Forms.Button();
-            this.btn_cm = new System.Windows.Forms.Button();
             this.btn_bk = new System.Windows.Forms.Button();
             this.btn_cf = new System.Windows.Forms.Button();
             this.btn_es = new System.Windows.Forms.Button();
             this.btn_fm = new System.Windows.Forms.Button();
             this.btn_md = new System.Windows.Forms.Button();
             this.btn_no = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.gasesn = new System.Windows.Forms.Label();
+            this.pverdelimon = new System.Windows.Forms.Label();
+            this.nom = new System.Windows.Forms.Label();
+            this.matl = new System.Windows.Forms.Label();
+            this.otros = new System.Windows.Forms.Label();
+            this.metales = new System.Windows.Forms.Label();
+            this.alcalinos = new System.Windows.Forms.Label();
+            this.metalesal = new System.Windows.Forms.Label();
+            this.lantanidos = new System.Windows.Forms.Label();
+            this.actinidos = new System.Windows.Forms.Label();
+            this.l1 = new System.Windows.Forms.Label();
+            this.l2 = new System.Windows.Forms.Label();
+            this.l3 = new System.Windows.Forms.Label();
+            this.l4 = new System.Windows.Forms.Label();
+            this.l5 = new System.Windows.Forms.Label();
+            this.l6 = new System.Windows.Forms.Label();
+            this.l8 = new System.Windows.Forms.Label();
+            this.l11 = new System.Windows.Forms.Label();
+            this.l12 = new System.Windows.Forms.Label();
+            this.l13 = new System.Windows.Forms.Label();
+            this.l14 = new System.Windows.Forms.Label();
+            this.l15 = new System.Windows.Forms.Label();
+            this.l16 = new System.Windows.Forms.Label();
+            this.l17 = new System.Windows.Forms.Label();
+            this.l18 = new System.Windows.Forms.Label();
+            this.l19 = new System.Windows.Forms.Label();
+            this.l10 = new System.Windows.Forms.Label();
+            this.l111 = new System.Windows.Forms.Label();
+            this.l122 = new System.Windows.Forms.Label();
+            this.l113 = new System.Windows.Forms.Label();
+            this.l114 = new System.Windows.Forms.Label();
+            this.l115 = new System.Windows.Forms.Label();
+            this.l116 = new System.Windows.Forms.Label();
+            this.l1117 = new System.Windows.Forms.Label();
+            this.l118 = new System.Windows.Forms.Label();
+            this.pazulop = new System.Windows.Forms.PictureBox();
+            this.popaco = new System.Windows.Forms.PictureBox();
+            this.pazulm = new System.Windows.Forms.PictureBox();
+            this.pamarillo = new System.Windows.Forms.PictureBox();
+            this.pnarajnja = new System.Windows.Forms.PictureBox();
+            this.pazul = new System.Windows.Forms.PictureBox();
+            this.ppurple = new System.Windows.Forms.PictureBox();
+            this.ppink = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pverde = new System.Windows.Forms.PictureBox();
             this.Btn_Lan = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.Ac = new System.Windows.Forms.Button();
             this.Btn_Cerio = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.Th = new System.Windows.Forms.Button();
             this.Btn_pra = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.Pa = new System.Windows.Forms.Button();
             this.Btn_neo = new System.Windows.Forms.Button();
             this.Btn_Pro = new System.Windows.Forms.Button();
             this.Btn_sam = new System.Windows.Forms.Button();
             this.Btn_eur = new System.Windows.Forms.Button();
             this.Btn_gad = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.U = new System.Windows.Forms.Button();
+            this.Np = new System.Windows.Forms.Button();
+            this.Pu = new System.Windows.Forms.Button();
+            this.Am = new System.Windows.Forms.Button();
+            this.Cm = new System.Windows.Forms.Button();
+            this.tabla = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pazulop)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popaco)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pazulm)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pamarillo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pnarajnja)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pazul)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ppurple)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ppink)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pverde)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lbl_tabla
-            // 
-            this.lbl_tabla.AutoSize = true;
-            this.lbl_tabla.BackColor = System.Drawing.Color.Snow;
-            this.lbl_tabla.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_tabla.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lbl_tabla.Location = new System.Drawing.Point(187, 22);
-            this.lbl_tabla.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.lbl_tabla.Name = "lbl_tabla";
-            this.lbl_tabla.Size = new System.Drawing.Size(788, 36);
-            this.lbl_tabla.TabIndex = 0;
-            this.lbl_tabla.Text = "TABLA PERIODICA DE LOS ELEMENTOS QUÍMICOS";
-            this.lbl_tabla.Click += new System.EventHandler(this.label1_Click);
             // 
             // btn_h
             // 
             this.btn_h.BackColor = System.Drawing.Color.OrangeRed;
             this.btn_h.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_h.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_h.Location = new System.Drawing.Point(67, 187);
+            this.btn_h.Location = new System.Drawing.Point(265, 244);
             this.btn_h.Margin = new System.Windows.Forms.Padding(2);
             this.btn_h.Name = "btn_h";
             this.btn_h.Size = new System.Drawing.Size(57, 22);
@@ -256,7 +228,7 @@
             this.btn_li.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_li.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_li.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_li.Location = new System.Drawing.Point(67, 213);
+            this.btn_li.Location = new System.Drawing.Point(265, 270);
             this.btn_li.Margin = new System.Windows.Forms.Padding(2);
             this.btn_li.Name = "btn_li";
             this.btn_li.Size = new System.Drawing.Size(55, 20);
@@ -271,7 +243,7 @@
             this.btn_na.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_na.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_na.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_na.Location = new System.Drawing.Point(67, 238);
+            this.btn_na.Location = new System.Drawing.Point(265, 295);
             this.btn_na.Margin = new System.Windows.Forms.Padding(2);
             this.btn_na.Name = "btn_na";
             this.btn_na.Size = new System.Drawing.Size(55, 24);
@@ -286,7 +258,7 @@
             this.btn_k.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_k.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_k.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_k.Location = new System.Drawing.Point(67, 267);
+            this.btn_k.Location = new System.Drawing.Point(265, 324);
             this.btn_k.Margin = new System.Windows.Forms.Padding(2);
             this.btn_k.Name = "btn_k";
             this.btn_k.Size = new System.Drawing.Size(57, 25);
@@ -301,7 +273,7 @@
             this.btn_rb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_rb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_rb.Location = new System.Drawing.Point(67, 297);
+            this.btn_rb.Location = new System.Drawing.Point(265, 354);
             this.btn_rb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rb.Name = "btn_rb";
             this.btn_rb.Size = new System.Drawing.Size(57, 24);
@@ -316,7 +288,7 @@
             this.btn_cs.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cs.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cs.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cs.Location = new System.Drawing.Point(67, 326);
+            this.btn_cs.Location = new System.Drawing.Point(265, 383);
             this.btn_cs.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cs.Name = "btn_cs";
             this.btn_cs.Size = new System.Drawing.Size(57, 28);
@@ -331,7 +303,7 @@
             this.btn_fr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_fr.Location = new System.Drawing.Point(67, 359);
+            this.btn_fr.Location = new System.Drawing.Point(265, 416);
             this.btn_fr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fr.Name = "btn_fr";
             this.btn_fr.Size = new System.Drawing.Size(57, 25);
@@ -345,7 +317,7 @@
             this.btn_be.BackColor = System.Drawing.Color.Yellow;
             this.btn_be.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_be.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_be.Location = new System.Drawing.Point(128, 213);
+            this.btn_be.Location = new System.Drawing.Point(326, 270);
             this.btn_be.Margin = new System.Windows.Forms.Padding(2);
             this.btn_be.Name = "btn_be";
             this.btn_be.Size = new System.Drawing.Size(51, 20);
@@ -359,7 +331,7 @@
             this.btn_mg.BackColor = System.Drawing.Color.Yellow;
             this.btn_mg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_mg.Location = new System.Drawing.Point(129, 239);
+            this.btn_mg.Location = new System.Drawing.Point(327, 296);
             this.btn_mg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mg.Name = "btn_mg";
             this.btn_mg.Size = new System.Drawing.Size(52, 24);
@@ -373,7 +345,7 @@
             this.btn_ca.BackColor = System.Drawing.Color.Yellow;
             this.btn_ca.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ca.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ca.Location = new System.Drawing.Point(129, 267);
+            this.btn_ca.Location = new System.Drawing.Point(327, 324);
             this.btn_ca.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ca.Name = "btn_ca";
             this.btn_ca.Size = new System.Drawing.Size(54, 25);
@@ -387,7 +359,7 @@
             this.btn_sr.BackColor = System.Drawing.Color.Yellow;
             this.btn_sr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sr.Location = new System.Drawing.Point(129, 297);
+            this.btn_sr.Location = new System.Drawing.Point(327, 354);
             this.btn_sr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sr.Name = "btn_sr";
             this.btn_sr.Size = new System.Drawing.Size(52, 24);
@@ -401,7 +373,7 @@
             this.btn_ba.BackColor = System.Drawing.Color.Yellow;
             this.btn_ba.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ba.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ba.Location = new System.Drawing.Point(131, 326);
+            this.btn_ba.Location = new System.Drawing.Point(329, 383);
             this.btn_ba.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ba.Name = "btn_ba";
             this.btn_ba.Size = new System.Drawing.Size(52, 24);
@@ -415,7 +387,7 @@
             this.btn_ra.BackColor = System.Drawing.Color.Yellow;
             this.btn_ra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ra.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ra.Location = new System.Drawing.Point(131, 359);
+            this.btn_ra.Location = new System.Drawing.Point(329, 416);
             this.btn_ra.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ra.Name = "btn_ra";
             this.btn_ra.Size = new System.Drawing.Size(52, 25);
@@ -430,7 +402,7 @@
             this.btn_sc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_sc.Location = new System.Drawing.Point(188, 267);
+            this.btn_sc.Location = new System.Drawing.Point(386, 324);
             this.btn_sc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sc.Name = "btn_sc";
             this.btn_sc.Size = new System.Drawing.Size(52, 25);
@@ -445,7 +417,7 @@
             this.btn_y.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_y.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_y.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_y.Location = new System.Drawing.Point(188, 297);
+            this.btn_y.Location = new System.Drawing.Point(386, 354);
             this.btn_y.Margin = new System.Windows.Forms.Padding(2);
             this.btn_y.Name = "btn_y";
             this.btn_y.Size = new System.Drawing.Size(52, 24);
@@ -456,11 +428,11 @@
             // 
             // btn_lu
             // 
-            this.btn_lu.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_lu.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_lu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_lu.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_lu.Location = new System.Drawing.Point(188, 326);
+            this.btn_lu.Location = new System.Drawing.Point(386, 383);
             this.btn_lu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lu.Name = "btn_lu";
             this.btn_lu.Size = new System.Drawing.Size(52, 28);
@@ -471,11 +443,11 @@
             // 
             // btn_lr
             // 
-            this.btn_lr.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btn_lr.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_lr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_lr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lr.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_lr.Location = new System.Drawing.Point(188, 359);
+            this.btn_lr.Location = new System.Drawing.Point(386, 416);
             this.btn_lr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lr.Name = "btn_lr";
             this.btn_lr.Size = new System.Drawing.Size(52, 25);
@@ -490,7 +462,7 @@
             this.btn_ti.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ti.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ti.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ti.Location = new System.Drawing.Point(246, 267);
+            this.btn_ti.Location = new System.Drawing.Point(444, 324);
             this.btn_ti.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ti.Name = "btn_ti";
             this.btn_ti.Size = new System.Drawing.Size(51, 25);
@@ -505,7 +477,7 @@
             this.btn_zr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_zr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_zr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_zr.Location = new System.Drawing.Point(245, 297);
+            this.btn_zr.Location = new System.Drawing.Point(443, 354);
             this.btn_zr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_zr.Name = "btn_zr";
             this.btn_zr.Size = new System.Drawing.Size(51, 24);
@@ -520,7 +492,7 @@
             this.btn_hf.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_hf.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hf.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_hf.Location = new System.Drawing.Point(245, 328);
+            this.btn_hf.Location = new System.Drawing.Point(443, 385);
             this.btn_hf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hf.Name = "btn_hf";
             this.btn_hf.Size = new System.Drawing.Size(51, 24);
@@ -535,7 +507,7 @@
             this.btn_rf.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_rf.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rf.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_rf.Location = new System.Drawing.Point(245, 359);
+            this.btn_rf.Location = new System.Drawing.Point(443, 416);
             this.btn_rf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rf.Name = "btn_rf";
             this.btn_rf.Size = new System.Drawing.Size(51, 25);
@@ -550,7 +522,7 @@
             this.btn_v.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_v.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_v.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_v.Location = new System.Drawing.Point(302, 267);
+            this.btn_v.Location = new System.Drawing.Point(500, 324);
             this.btn_v.Margin = new System.Windows.Forms.Padding(2);
             this.btn_v.Name = "btn_v";
             this.btn_v.Size = new System.Drawing.Size(47, 25);
@@ -565,7 +537,7 @@
             this.btn_nb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_nb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_nb.Location = new System.Drawing.Point(302, 297);
+            this.btn_nb.Location = new System.Drawing.Point(500, 354);
             this.btn_nb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nb.Name = "btn_nb";
             this.btn_nb.Size = new System.Drawing.Size(47, 24);
@@ -580,7 +552,7 @@
             this.btn_ta.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ta.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ta.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ta.Location = new System.Drawing.Point(302, 328);
+            this.btn_ta.Location = new System.Drawing.Point(500, 385);
             this.btn_ta.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ta.Name = "btn_ta";
             this.btn_ta.Size = new System.Drawing.Size(47, 24);
@@ -595,7 +567,7 @@
             this.btn_db.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_db.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_db.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_db.Location = new System.Drawing.Point(302, 359);
+            this.btn_db.Location = new System.Drawing.Point(500, 416);
             this.btn_db.Margin = new System.Windows.Forms.Padding(2);
             this.btn_db.Name = "btn_db";
             this.btn_db.Size = new System.Drawing.Size(47, 25);
@@ -610,7 +582,7 @@
             this.btn_cr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cr.Location = new System.Drawing.Point(353, 267);
+            this.btn_cr.Location = new System.Drawing.Point(551, 324);
             this.btn_cr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cr.Name = "btn_cr";
             this.btn_cr.Size = new System.Drawing.Size(41, 25);
@@ -625,7 +597,7 @@
             this.btn_mo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mo.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_mo.Location = new System.Drawing.Point(353, 297);
+            this.btn_mo.Location = new System.Drawing.Point(551, 354);
             this.btn_mo.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mo.Name = "btn_mo";
             this.btn_mo.Size = new System.Drawing.Size(41, 24);
@@ -640,7 +612,7 @@
             this.btn_w.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_w.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_w.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_w.Location = new System.Drawing.Point(353, 328);
+            this.btn_w.Location = new System.Drawing.Point(551, 385);
             this.btn_w.Margin = new System.Windows.Forms.Padding(2);
             this.btn_w.Name = "btn_w";
             this.btn_w.Size = new System.Drawing.Size(41, 24);
@@ -655,7 +627,7 @@
             this.btn_sg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_sg.Location = new System.Drawing.Point(353, 359);
+            this.btn_sg.Location = new System.Drawing.Point(551, 416);
             this.btn_sg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sg.Name = "btn_sg";
             this.btn_sg.Size = new System.Drawing.Size(41, 25);
@@ -670,7 +642,7 @@
             this.btn_mn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_mn.Location = new System.Drawing.Point(400, 267);
+            this.btn_mn.Location = new System.Drawing.Point(598, 324);
             this.btn_mn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mn.Name = "btn_mn";
             this.btn_mn.Size = new System.Drawing.Size(49, 25);
@@ -685,7 +657,7 @@
             this.btn_tc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_tc.Location = new System.Drawing.Point(400, 297);
+            this.btn_tc.Location = new System.Drawing.Point(598, 354);
             this.btn_tc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tc.Name = "btn_tc";
             this.btn_tc.Size = new System.Drawing.Size(49, 24);
@@ -700,7 +672,7 @@
             this.btn_re.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_re.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_re.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_re.Location = new System.Drawing.Point(400, 328);
+            this.btn_re.Location = new System.Drawing.Point(598, 385);
             this.btn_re.Margin = new System.Windows.Forms.Padding(2);
             this.btn_re.Name = "btn_re";
             this.btn_re.Size = new System.Drawing.Size(49, 23);
@@ -715,7 +687,7 @@
             this.btn_bh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_bh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_bh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_bh.Location = new System.Drawing.Point(400, 359);
+            this.btn_bh.Location = new System.Drawing.Point(598, 416);
             this.btn_bh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bh.Name = "btn_bh";
             this.btn_bh.Size = new System.Drawing.Size(49, 25);
@@ -730,7 +702,7 @@
             this.btn_fe.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fe.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_fe.Location = new System.Drawing.Point(454, 267);
+            this.btn_fe.Location = new System.Drawing.Point(652, 324);
             this.btn_fe.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fe.Name = "btn_fe";
             this.btn_fe.Size = new System.Drawing.Size(46, 25);
@@ -745,7 +717,7 @@
             this.btn_ru.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ru.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ru.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ru.Location = new System.Drawing.Point(454, 297);
+            this.btn_ru.Location = new System.Drawing.Point(652, 354);
             this.btn_ru.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ru.Name = "btn_ru";
             this.btn_ru.Size = new System.Drawing.Size(46, 24);
@@ -760,7 +732,7 @@
             this.btn_os.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_os.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_os.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_os.Location = new System.Drawing.Point(454, 328);
+            this.btn_os.Location = new System.Drawing.Point(652, 385);
             this.btn_os.Margin = new System.Windows.Forms.Padding(2);
             this.btn_os.Name = "btn_os";
             this.btn_os.Size = new System.Drawing.Size(46, 23);
@@ -775,7 +747,7 @@
             this.btn_hs.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_hs.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hs.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_hs.Location = new System.Drawing.Point(454, 359);
+            this.btn_hs.Location = new System.Drawing.Point(652, 416);
             this.btn_hs.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hs.Name = "btn_hs";
             this.btn_hs.Size = new System.Drawing.Size(46, 25);
@@ -790,7 +762,7 @@
             this.btn_co.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_co.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_co.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_co.Location = new System.Drawing.Point(505, 267);
+            this.btn_co.Location = new System.Drawing.Point(703, 324);
             this.btn_co.Margin = new System.Windows.Forms.Padding(2);
             this.btn_co.Name = "btn_co";
             this.btn_co.Size = new System.Drawing.Size(44, 25);
@@ -805,7 +777,7 @@
             this.btn_rh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_rh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_rh.Location = new System.Drawing.Point(505, 297);
+            this.btn_rh.Location = new System.Drawing.Point(703, 354);
             this.btn_rh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rh.Name = "btn_rh";
             this.btn_rh.Size = new System.Drawing.Size(44, 24);
@@ -820,7 +792,7 @@
             this.btn_ir.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ir.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ir.Location = new System.Drawing.Point(505, 328);
+            this.btn_ir.Location = new System.Drawing.Point(703, 385);
             this.btn_ir.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ir.Name = "btn_ir";
             this.btn_ir.Size = new System.Drawing.Size(44, 23);
@@ -835,7 +807,7 @@
             this.btn_mt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mt.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_mt.Location = new System.Drawing.Point(505, 359);
+            this.btn_mt.Location = new System.Drawing.Point(703, 416);
             this.btn_mt.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mt.Name = "btn_mt";
             this.btn_mt.Size = new System.Drawing.Size(44, 25);
@@ -850,7 +822,7 @@
             this.btn_ni.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ni.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ni.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ni.Location = new System.Drawing.Point(555, 267);
+            this.btn_ni.Location = new System.Drawing.Point(753, 324);
             this.btn_ni.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ni.Name = "btn_ni";
             this.btn_ni.Size = new System.Drawing.Size(47, 25);
@@ -865,7 +837,7 @@
             this.btn_pd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pd.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_pd.Location = new System.Drawing.Point(555, 297);
+            this.btn_pd.Location = new System.Drawing.Point(753, 354);
             this.btn_pd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pd.Name = "btn_pd";
             this.btn_pd.Size = new System.Drawing.Size(47, 24);
@@ -880,7 +852,7 @@
             this.btn_pt.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pt.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pt.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_pt.Location = new System.Drawing.Point(555, 327);
+            this.btn_pt.Location = new System.Drawing.Point(753, 384);
             this.btn_pt.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pt.Name = "btn_pt";
             this.btn_pt.Size = new System.Drawing.Size(47, 27);
@@ -895,7 +867,7 @@
             this.btn_ds.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ds.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ds.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ds.Location = new System.Drawing.Point(555, 360);
+            this.btn_ds.Location = new System.Drawing.Point(753, 417);
             this.btn_ds.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ds.Name = "btn_ds";
             this.btn_ds.Size = new System.Drawing.Size(47, 25);
@@ -910,7 +882,7 @@
             this.btn_cu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cu.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cu.Location = new System.Drawing.Point(607, 267);
+            this.btn_cu.Location = new System.Drawing.Point(805, 324);
             this.btn_cu.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cu.Name = "btn_cu";
             this.btn_cu.Size = new System.Drawing.Size(44, 25);
@@ -925,7 +897,7 @@
             this.btn_ag.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ag.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ag.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ag.Location = new System.Drawing.Point(607, 297);
+            this.btn_ag.Location = new System.Drawing.Point(805, 354);
             this.btn_ag.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ag.Name = "btn_ag";
             this.btn_ag.Size = new System.Drawing.Size(44, 24);
@@ -940,7 +912,7 @@
             this.btn_au.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_au.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_au.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_au.Location = new System.Drawing.Point(607, 327);
+            this.btn_au.Location = new System.Drawing.Point(805, 384);
             this.btn_au.Margin = new System.Windows.Forms.Padding(2);
             this.btn_au.Name = "btn_au";
             this.btn_au.Size = new System.Drawing.Size(44, 27);
@@ -955,7 +927,7 @@
             this.btn_rg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_rg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_rg.Location = new System.Drawing.Point(607, 360);
+            this.btn_rg.Location = new System.Drawing.Point(805, 417);
             this.btn_rg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rg.Name = "btn_rg";
             this.btn_rg.Size = new System.Drawing.Size(44, 25);
@@ -970,7 +942,7 @@
             this.btn_zn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_zn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_zn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_zn.Location = new System.Drawing.Point(658, 267);
+            this.btn_zn.Location = new System.Drawing.Point(856, 324);
             this.btn_zn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_zn.Name = "btn_zn";
             this.btn_zn.Size = new System.Drawing.Size(46, 24);
@@ -985,7 +957,7 @@
             this.btn_cd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cd.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cd.Location = new System.Drawing.Point(658, 297);
+            this.btn_cd.Location = new System.Drawing.Point(856, 354);
             this.btn_cd.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cd.Name = "btn_cd";
             this.btn_cd.Size = new System.Drawing.Size(46, 24);
@@ -1000,7 +972,7 @@
             this.btn_hg.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_hg.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_hg.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_hg.Location = new System.Drawing.Point(658, 327);
+            this.btn_hg.Location = new System.Drawing.Point(856, 384);
             this.btn_hg.Margin = new System.Windows.Forms.Padding(2);
             this.btn_hg.Name = "btn_hg";
             this.btn_hg.Size = new System.Drawing.Size(46, 27);
@@ -1015,7 +987,7 @@
             this.btn_cn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cn.Location = new System.Drawing.Point(659, 360);
+            this.btn_cn.Location = new System.Drawing.Point(857, 417);
             this.btn_cn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cn.Name = "btn_cn";
             this.btn_cn.Size = new System.Drawing.Size(44, 25);
@@ -1030,7 +1002,7 @@
             this.btn_ga.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ga.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ga.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ga.Location = new System.Drawing.Point(709, 267);
+            this.btn_ga.Location = new System.Drawing.Point(907, 324);
             this.btn_ga.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ga.Name = "btn_ga";
             this.btn_ga.Size = new System.Drawing.Size(47, 25);
@@ -1045,7 +1017,7 @@
             this.btn_in.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_in.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_in.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_in.Location = new System.Drawing.Point(709, 298);
+            this.btn_in.Location = new System.Drawing.Point(907, 355);
             this.btn_in.Margin = new System.Windows.Forms.Padding(2);
             this.btn_in.Name = "btn_in";
             this.btn_in.Size = new System.Drawing.Size(47, 24);
@@ -1060,7 +1032,7 @@
             this.btn_tl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_tl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_tl.Location = new System.Drawing.Point(709, 327);
+            this.btn_tl.Location = new System.Drawing.Point(907, 384);
             this.btn_tl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tl.Name = "btn_tl";
             this.btn_tl.Size = new System.Drawing.Size(47, 27);
@@ -1075,7 +1047,7 @@
             this.btn_nh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_nh.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_nh.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_nh.Location = new System.Drawing.Point(709, 360);
+            this.btn_nh.Location = new System.Drawing.Point(907, 417);
             this.btn_nh.Margin = new System.Windows.Forms.Padding(2);
             this.btn_nh.Name = "btn_nh";
             this.btn_nh.Size = new System.Drawing.Size(47, 25);
@@ -1090,7 +1062,7 @@
             this.btn_al.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_al.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_al.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_al.Location = new System.Drawing.Point(709, 238);
+            this.btn_al.Location = new System.Drawing.Point(907, 295);
             this.btn_al.Margin = new System.Windows.Forms.Padding(2);
             this.btn_al.Name = "btn_al";
             this.btn_al.Size = new System.Drawing.Size(47, 24);
@@ -1105,7 +1077,7 @@
             this.btn_b.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_b.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_b.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_b.Location = new System.Drawing.Point(709, 209);
+            this.btn_b.Location = new System.Drawing.Point(907, 266);
             this.btn_b.Margin = new System.Windows.Forms.Padding(2);
             this.btn_b.Name = "btn_b";
             this.btn_b.Size = new System.Drawing.Size(47, 24);
@@ -1120,7 +1092,7 @@
             this.btn_c.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_c.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_c.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_c.Location = new System.Drawing.Point(761, 209);
+            this.btn_c.Location = new System.Drawing.Point(959, 266);
             this.btn_c.Margin = new System.Windows.Forms.Padding(2);
             this.btn_c.Name = "btn_c";
             this.btn_c.Size = new System.Drawing.Size(41, 24);
@@ -1135,7 +1107,7 @@
             this.btn_si.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_si.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_si.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_si.Location = new System.Drawing.Point(761, 238);
+            this.btn_si.Location = new System.Drawing.Point(959, 295);
             this.btn_si.Margin = new System.Windows.Forms.Padding(2);
             this.btn_si.Name = "btn_si";
             this.btn_si.Size = new System.Drawing.Size(41, 24);
@@ -1150,7 +1122,7 @@
             this.btn_ge.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ge.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ge.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ge.Location = new System.Drawing.Point(761, 267);
+            this.btn_ge.Location = new System.Drawing.Point(959, 324);
             this.btn_ge.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ge.Name = "btn_ge";
             this.btn_ge.Size = new System.Drawing.Size(41, 25);
@@ -1165,7 +1137,7 @@
             this.btn_sn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_sn.Location = new System.Drawing.Point(761, 297);
+            this.btn_sn.Location = new System.Drawing.Point(959, 354);
             this.btn_sn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sn.Name = "btn_sn";
             this.btn_sn.Size = new System.Drawing.Size(41, 24);
@@ -1180,7 +1152,7 @@
             this.btn_pb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_pb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_pb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_pb.Location = new System.Drawing.Point(761, 328);
+            this.btn_pb.Location = new System.Drawing.Point(959, 385);
             this.btn_pb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_pb.Name = "btn_pb";
             this.btn_pb.Size = new System.Drawing.Size(41, 27);
@@ -1195,7 +1167,7 @@
             this.btn_fl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_fl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_fl.Location = new System.Drawing.Point(761, 360);
+            this.btn_fl.Location = new System.Drawing.Point(959, 417);
             this.btn_fl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fl.Name = "btn_fl";
             this.btn_fl.Size = new System.Drawing.Size(41, 25);
@@ -1210,7 +1182,7 @@
             this.btn_n.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_n.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_n.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_n.Location = new System.Drawing.Point(807, 209);
+            this.btn_n.Location = new System.Drawing.Point(1005, 266);
             this.btn_n.Margin = new System.Windows.Forms.Padding(2);
             this.btn_n.Name = "btn_n";
             this.btn_n.Size = new System.Drawing.Size(37, 24);
@@ -1225,7 +1197,7 @@
             this.btn_o.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_o.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_o.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_o.Location = new System.Drawing.Point(850, 209);
+            this.btn_o.Location = new System.Drawing.Point(1048, 266);
             this.btn_o.Margin = new System.Windows.Forms.Padding(2);
             this.btn_o.Name = "btn_o";
             this.btn_o.Size = new System.Drawing.Size(37, 24);
@@ -1240,7 +1212,7 @@
             this.btn_f.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_f.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_f.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_f.Location = new System.Drawing.Point(892, 209);
+            this.btn_f.Location = new System.Drawing.Point(1090, 266);
             this.btn_f.Margin = new System.Windows.Forms.Padding(2);
             this.btn_f.Name = "btn_f";
             this.btn_f.Size = new System.Drawing.Size(37, 24);
@@ -1255,7 +1227,7 @@
             this.btn_ne.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ne.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ne.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ne.Location = new System.Drawing.Point(935, 209);
+            this.btn_ne.Location = new System.Drawing.Point(1133, 266);
             this.btn_ne.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ne.Name = "btn_ne";
             this.btn_ne.Size = new System.Drawing.Size(46, 24);
@@ -1270,7 +1242,7 @@
             this.btn_p.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_p.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_p.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_p.Location = new System.Drawing.Point(807, 239);
+            this.btn_p.Location = new System.Drawing.Point(1005, 301);
             this.btn_p.Margin = new System.Windows.Forms.Padding(2);
             this.btn_p.Name = "btn_p";
             this.btn_p.Size = new System.Drawing.Size(37, 24);
@@ -1285,7 +1257,7 @@
             this.btn_s.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_s.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_s.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_s.Location = new System.Drawing.Point(850, 239);
+            this.btn_s.Location = new System.Drawing.Point(1048, 296);
             this.btn_s.Margin = new System.Windows.Forms.Padding(2);
             this.btn_s.Name = "btn_s";
             this.btn_s.Size = new System.Drawing.Size(37, 24);
@@ -1300,7 +1272,7 @@
             this.btn_cl.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cl.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_cl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cl.Location = new System.Drawing.Point(892, 238);
+            this.btn_cl.Location = new System.Drawing.Point(1090, 295);
             this.btn_cl.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cl.Name = "btn_cl";
             this.btn_cl.Size = new System.Drawing.Size(37, 24);
@@ -1315,7 +1287,7 @@
             this.btn_ar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ar.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ar.Location = new System.Drawing.Point(934, 239);
+            this.btn_ar.Location = new System.Drawing.Point(1132, 296);
             this.btn_ar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ar.Name = "btn_ar";
             this.btn_ar.Size = new System.Drawing.Size(47, 24);
@@ -1330,7 +1302,7 @@
             this.btn_as.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_as.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_as.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_as.Location = new System.Drawing.Point(807, 267);
+            this.btn_as.Location = new System.Drawing.Point(1005, 324);
             this.btn_as.Margin = new System.Windows.Forms.Padding(2);
             this.btn_as.Name = "btn_as";
             this.btn_as.Size = new System.Drawing.Size(37, 24);
@@ -1345,7 +1317,7 @@
             this.btn_se.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_se.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_se.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_se.Location = new System.Drawing.Point(850, 269);
+            this.btn_se.Location = new System.Drawing.Point(1048, 326);
             this.btn_se.Margin = new System.Windows.Forms.Padding(2);
             this.btn_se.Name = "btn_se";
             this.btn_se.Size = new System.Drawing.Size(37, 23);
@@ -1360,7 +1332,7 @@
             this.btn_br.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_br.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_br.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_br.Location = new System.Drawing.Point(892, 267);
+            this.btn_br.Location = new System.Drawing.Point(1090, 324);
             this.btn_br.Margin = new System.Windows.Forms.Padding(2);
             this.btn_br.Name = "btn_br";
             this.btn_br.Size = new System.Drawing.Size(37, 25);
@@ -1375,7 +1347,7 @@
             this.btn_kr.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_kr.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_kr.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_kr.Location = new System.Drawing.Point(934, 269);
+            this.btn_kr.Location = new System.Drawing.Point(1132, 326);
             this.btn_kr.Margin = new System.Windows.Forms.Padding(2);
             this.btn_kr.Name = "btn_kr";
             this.btn_kr.Size = new System.Drawing.Size(47, 25);
@@ -1390,7 +1362,7 @@
             this.btn_sb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_sb.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_sb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_sb.Location = new System.Drawing.Point(807, 296);
+            this.btn_sb.Location = new System.Drawing.Point(1005, 353);
             this.btn_sb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_sb.Name = "btn_sb";
             this.btn_sb.Size = new System.Drawing.Size(37, 23);
@@ -1405,7 +1377,7 @@
             this.btn_te.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_te.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_te.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_te.Location = new System.Drawing.Point(850, 298);
+            this.btn_te.Location = new System.Drawing.Point(1048, 355);
             this.btn_te.Margin = new System.Windows.Forms.Padding(2);
             this.btn_te.Name = "btn_te";
             this.btn_te.Size = new System.Drawing.Size(37, 21);
@@ -1420,7 +1392,7 @@
             this.btn_i.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_i.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_i.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_i.Location = new System.Drawing.Point(892, 298);
+            this.btn_i.Location = new System.Drawing.Point(1090, 355);
             this.btn_i.Margin = new System.Windows.Forms.Padding(2);
             this.btn_i.Name = "btn_i";
             this.btn_i.Size = new System.Drawing.Size(37, 23);
@@ -1435,7 +1407,7 @@
             this.btn_xe.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_xe.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_xe.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_xe.Location = new System.Drawing.Point(934, 300);
+            this.btn_xe.Location = new System.Drawing.Point(1132, 357);
             this.btn_xe.Margin = new System.Windows.Forms.Padding(2);
             this.btn_xe.Name = "btn_xe";
             this.btn_xe.Size = new System.Drawing.Size(47, 24);
@@ -1450,7 +1422,7 @@
             this.btn_bi.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_bi.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_bi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_bi.Location = new System.Drawing.Point(807, 327);
+            this.btn_bi.Location = new System.Drawing.Point(1005, 384);
             this.btn_bi.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bi.Name = "btn_bi";
             this.btn_bi.Size = new System.Drawing.Size(37, 26);
@@ -1465,7 +1437,7 @@
             this.btn_po.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_po.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_po.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_po.Location = new System.Drawing.Point(850, 328);
+            this.btn_po.Location = new System.Drawing.Point(1048, 385);
             this.btn_po.Margin = new System.Windows.Forms.Padding(2);
             this.btn_po.Name = "btn_po";
             this.btn_po.Size = new System.Drawing.Size(37, 24);
@@ -1480,7 +1452,7 @@
             this.btn_at.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_at.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_at.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_at.Location = new System.Drawing.Point(892, 329);
+            this.btn_at.Location = new System.Drawing.Point(1090, 386);
             this.btn_at.Margin = new System.Windows.Forms.Padding(2);
             this.btn_at.Name = "btn_at";
             this.btn_at.Size = new System.Drawing.Size(37, 27);
@@ -1495,7 +1467,7 @@
             this.btn_rn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_rn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_rn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_rn.Location = new System.Drawing.Point(935, 330);
+            this.btn_rn.Location = new System.Drawing.Point(1133, 387);
             this.btn_rn.Margin = new System.Windows.Forms.Padding(2);
             this.btn_rn.Name = "btn_rn";
             this.btn_rn.Size = new System.Drawing.Size(47, 27);
@@ -1510,7 +1482,7 @@
             this.btn_mc.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_mc.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_mc.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_mc.Location = new System.Drawing.Point(807, 360);
+            this.btn_mc.Location = new System.Drawing.Point(1005, 417);
             this.btn_mc.Margin = new System.Windows.Forms.Padding(2);
             this.btn_mc.Name = "btn_mc";
             this.btn_mc.Size = new System.Drawing.Size(37, 25);
@@ -1525,7 +1497,7 @@
             this.btn_lv.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_lv.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_lv.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_lv.Location = new System.Drawing.Point(850, 360);
+            this.btn_lv.Location = new System.Drawing.Point(1048, 417);
             this.btn_lv.Margin = new System.Windows.Forms.Padding(2);
             this.btn_lv.Name = "btn_lv";
             this.btn_lv.Size = new System.Drawing.Size(37, 26);
@@ -1540,7 +1512,7 @@
             this.btn_ts.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ts.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ts.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ts.Location = new System.Drawing.Point(892, 361);
+            this.btn_ts.Location = new System.Drawing.Point(1090, 418);
             this.btn_ts.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ts.Name = "btn_ts";
             this.btn_ts.Size = new System.Drawing.Size(37, 25);
@@ -1555,7 +1527,7 @@
             this.btn_og.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_og.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_og.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_og.Location = new System.Drawing.Point(934, 361);
+            this.btn_og.Location = new System.Drawing.Point(1132, 418);
             this.btn_og.Margin = new System.Windows.Forms.Padding(2);
             this.btn_og.Name = "btn_og";
             this.btn_og.Size = new System.Drawing.Size(47, 27);
@@ -1570,7 +1542,7 @@
             this.btn_he.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_he.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_he.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_he.Location = new System.Drawing.Point(934, 179);
+            this.btn_he.Location = new System.Drawing.Point(1132, 236);
             this.btn_he.Margin = new System.Windows.Forms.Padding(2);
             this.btn_he.Name = "btn_he";
             this.btn_he.Size = new System.Drawing.Size(47, 25);
@@ -1579,841 +1551,645 @@
             this.btn_he.UseVisualStyleBackColor = false;
             this.btn_he.Click += new System.EventHandler(this.btn_he_Click);
             // 
-            // btn_uue
-            // 
-            this.btn_uue.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_uue.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_uue.Location = new System.Drawing.Point(67, 389);
-            this.btn_uue.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_uue.Name = "btn_uue";
-            this.btn_uue.Size = new System.Drawing.Size(57, 28);
-            this.btn_uue.TabIndex = 91;
-            this.btn_uue.Text = "Uue";
-            this.btn_uue.UseVisualStyleBackColor = true;
-            this.btn_uue.Click += new System.EventHandler(this.btn_uue_Click);
-            // 
-            // btn_ubn
-            // 
-            this.btn_ubn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ubn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ubn.Location = new System.Drawing.Point(129, 389);
-            this.btn_ubn.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_ubn.Name = "btn_ubn";
-            this.btn_ubn.Size = new System.Drawing.Size(52, 28);
-            this.btn_ubn.TabIndex = 92;
-            this.btn_ubn.Text = "Ubn";
-            this.btn_ubn.UseVisualStyleBackColor = true;
-            this.btn_ubn.Click += new System.EventHandler(this.btn_ubn_Click);
-            // 
-            // btn_la
-            // 
-            this.btn_la.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_la.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_la.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_la.Location = new System.Drawing.Point(188, 447);
-            this.btn_la.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_la.Name = "btn_la";
-            this.btn_la.Size = new System.Drawing.Size(47, 29);
-            this.btn_la.TabIndex = 93;
-            this.btn_la.Text = "La";
-            this.btn_la.UseVisualStyleBackColor = false;
-            // 
-            // btn_ac
-            // 
-            this.btn_ac.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_ac.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ac.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_ac.Location = new System.Drawing.Point(188, 481);
-            this.btn_ac.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_ac.Name = "btn_ac";
-            this.btn_ac.Size = new System.Drawing.Size(47, 28);
-            this.btn_ac.TabIndex = 94;
-            this.btn_ac.Text = "Ac";
-            this.btn_ac.UseVisualStyleBackColor = false;
-            // 
-            // btn_ce
-            // 
-            this.btn_ce.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_ce.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_ce.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_ce.Location = new System.Drawing.Point(240, 447);
-            this.btn_ce.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_ce.Name = "btn_ce";
-            this.btn_ce.Size = new System.Drawing.Size(50, 29);
-            this.btn_ce.TabIndex = 95;
-            this.btn_ce.Text = "Ce";
-            this.btn_ce.UseVisualStyleBackColor = false;
-            // 
-            // btn_th
-            // 
-            this.btn_th.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_th.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_th.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_th.Location = new System.Drawing.Point(240, 481);
-            this.btn_th.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_th.Name = "btn_th";
-            this.btn_th.Size = new System.Drawing.Size(50, 28);
-            this.btn_th.TabIndex = 96;
-            this.btn_th.Text = "Th";
-            this.btn_th.UseVisualStyleBackColor = false;
-            this.btn_th.Click += new System.EventHandler(this.btn_th_Click);
-            // 
-            // btn_pr
-            // 
-            this.btn_pr.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_pr.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_pr.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_pr.Location = new System.Drawing.Point(295, 447);
-            this.btn_pr.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_pr.Name = "btn_pr";
-            this.btn_pr.Size = new System.Drawing.Size(49, 29);
-            this.btn_pr.TabIndex = 97;
-            this.btn_pr.Text = "Pr";
-            this.btn_pr.UseVisualStyleBackColor = false;
-            // 
-            // btn_pa
-            // 
-            this.btn_pa.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_pa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_pa.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_pa.Location = new System.Drawing.Point(295, 481);
-            this.btn_pa.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_pa.Name = "btn_pa";
-            this.btn_pa.Size = new System.Drawing.Size(49, 28);
-            this.btn_pa.TabIndex = 98;
-            this.btn_pa.Text = "Pa";
-            this.btn_pa.UseVisualStyleBackColor = false;
-            // 
-            // btn_nd
-            // 
-            this.btn_nd.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_nd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_nd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_nd.Location = new System.Drawing.Point(349, 447);
-            this.btn_nd.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_nd.Name = "btn_nd";
-            this.btn_nd.Size = new System.Drawing.Size(46, 29);
-            this.btn_nd.TabIndex = 99;
-            this.btn_nd.Text = "Nd";
-            this.btn_nd.UseVisualStyleBackColor = false;
-            // 
-            // btn_pm
-            // 
-            this.btn_pm.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_pm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_pm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_pm.Location = new System.Drawing.Point(400, 447);
-            this.btn_pm.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_pm.Name = "btn_pm";
-            this.btn_pm.Size = new System.Drawing.Size(44, 29);
-            this.btn_pm.TabIndex = 100;
-            this.btn_pm.Text = "Pm";
-            this.btn_pm.UseVisualStyleBackColor = false;
-            // 
-            // btn_sm
-            // 
-            this.btn_sm.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_sm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_sm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_sm.Location = new System.Drawing.Point(450, 447);
-            this.btn_sm.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_sm.Name = "btn_sm";
-            this.btn_sm.Size = new System.Drawing.Size(47, 29);
-            this.btn_sm.TabIndex = 101;
-            this.btn_sm.Text = "Sm";
-            this.btn_sm.UseVisualStyleBackColor = false;
-            // 
-            // btn_eu
-            // 
-            this.btn_eu.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_eu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_eu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_eu.Location = new System.Drawing.Point(502, 447);
-            this.btn_eu.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_eu.Name = "btn_eu";
-            this.btn_eu.Size = new System.Drawing.Size(44, 29);
-            this.btn_eu.TabIndex = 102;
-            this.btn_eu.Text = "Eu";
-            this.btn_eu.UseVisualStyleBackColor = false;
-            // 
-            // btn_gd
-            // 
-            this.btn_gd.BackColor = System.Drawing.Color.DarkKhaki;
-            this.btn_gd.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_gd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_gd.Location = new System.Drawing.Point(551, 447);
-            this.btn_gd.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_gd.Name = "btn_gd";
-            this.btn_gd.Size = new System.Drawing.Size(46, 29);
-            this.btn_gd.TabIndex = 103;
-            this.btn_gd.Text = "Gd";
-            this.btn_gd.UseVisualStyleBackColor = false;
-            // 
             // btn_tb
             // 
             this.btn_tb.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_tb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_tb.Location = new System.Drawing.Point(603, 447);
+            this.btn_tb.Location = new System.Drawing.Point(796, 510);
             this.btn_tb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tb.Name = "btn_tb";
             this.btn_tb.Size = new System.Drawing.Size(47, 29);
             this.btn_tb.TabIndex = 104;
             this.btn_tb.Text = "Tb";
             this.btn_tb.UseVisualStyleBackColor = false;
+            this.btn_tb.Click += new System.EventHandler(this.btn_tb_Click);
             // 
             // btn_dy
             // 
             this.btn_dy.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_dy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_dy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_dy.Location = new System.Drawing.Point(654, 447);
+            this.btn_dy.Location = new System.Drawing.Point(847, 510);
             this.btn_dy.Margin = new System.Windows.Forms.Padding(2);
             this.btn_dy.Name = "btn_dy";
             this.btn_dy.Size = new System.Drawing.Size(47, 29);
             this.btn_dy.TabIndex = 105;
             this.btn_dy.Text = "Dy";
             this.btn_dy.UseVisualStyleBackColor = false;
+            this.btn_dy.Click += new System.EventHandler(this.btn_dy_Click);
             // 
             // btn_ho
             // 
             this.btn_ho.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_ho.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ho.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_ho.Location = new System.Drawing.Point(705, 447);
+            this.btn_ho.Location = new System.Drawing.Point(898, 510);
             this.btn_ho.Margin = new System.Windows.Forms.Padding(2);
             this.btn_ho.Name = "btn_ho";
             this.btn_ho.Size = new System.Drawing.Size(47, 29);
             this.btn_ho.TabIndex = 106;
             this.btn_ho.Text = "Ho";
             this.btn_ho.UseVisualStyleBackColor = false;
+            this.btn_ho.Click += new System.EventHandler(this.btn_ho_Click);
             // 
             // btn_er
             // 
             this.btn_er.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_er.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_er.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_er.Location = new System.Drawing.Point(757, 447);
+            this.btn_er.Location = new System.Drawing.Point(950, 510);
             this.btn_er.Margin = new System.Windows.Forms.Padding(2);
             this.btn_er.Name = "btn_er";
             this.btn_er.Size = new System.Drawing.Size(44, 29);
             this.btn_er.TabIndex = 107;
             this.btn_er.Text = "Er";
             this.btn_er.UseVisualStyleBackColor = false;
+            this.btn_er.Click += new System.EventHandler(this.btn_er_Click);
             // 
             // btn_tm
             // 
             this.btn_tm.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_tm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_tm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_tm.Location = new System.Drawing.Point(807, 447);
+            this.btn_tm.Location = new System.Drawing.Point(1000, 510);
             this.btn_tm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_tm.Name = "btn_tm";
             this.btn_tm.Size = new System.Drawing.Size(47, 29);
             this.btn_tm.TabIndex = 108;
             this.btn_tm.Text = "Tm";
             this.btn_tm.UseVisualStyleBackColor = false;
+            this.btn_tm.Click += new System.EventHandler(this.btn_tm_Click);
             // 
             // btn_yb
             // 
             this.btn_yb.BackColor = System.Drawing.Color.DarkKhaki;
             this.btn_yb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_yb.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_yb.Location = new System.Drawing.Point(859, 447);
+            this.btn_yb.Location = new System.Drawing.Point(1052, 510);
             this.btn_yb.Margin = new System.Windows.Forms.Padding(2);
             this.btn_yb.Name = "btn_yb";
             this.btn_yb.Size = new System.Drawing.Size(47, 29);
             this.btn_yb.TabIndex = 109;
             this.btn_yb.Text = "Yb";
             this.btn_yb.UseVisualStyleBackColor = false;
-            // 
-            // btn_u
-            // 
-            this.btn_u.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_u.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_u.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_u.Location = new System.Drawing.Point(349, 481);
-            this.btn_u.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_u.Name = "btn_u";
-            this.btn_u.Size = new System.Drawing.Size(46, 28);
-            this.btn_u.TabIndex = 110;
-            this.btn_u.Text = "U";
-            this.btn_u.UseVisualStyleBackColor = false;
-            // 
-            // btn_np
-            // 
-            this.btn_np.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_np.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_np.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_np.Location = new System.Drawing.Point(400, 481);
-            this.btn_np.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_np.Name = "btn_np";
-            this.btn_np.Size = new System.Drawing.Size(44, 28);
-            this.btn_np.TabIndex = 111;
-            this.btn_np.Text = "Np";
-            this.btn_np.UseVisualStyleBackColor = false;
-            // 
-            // btn_pu
-            // 
-            this.btn_pu.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_pu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_pu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_pu.Location = new System.Drawing.Point(450, 481);
-            this.btn_pu.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_pu.Name = "btn_pu";
-            this.btn_pu.Size = new System.Drawing.Size(47, 28);
-            this.btn_pu.TabIndex = 112;
-            this.btn_pu.Text = "Pu";
-            this.btn_pu.UseVisualStyleBackColor = false;
-            // 
-            // btn_am
-            // 
-            this.btn_am.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_am.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_am.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_am.Location = new System.Drawing.Point(502, 481);
-            this.btn_am.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_am.Name = "btn_am";
-            this.btn_am.Size = new System.Drawing.Size(44, 28);
-            this.btn_am.TabIndex = 113;
-            this.btn_am.Text = "Am";
-            this.btn_am.UseVisualStyleBackColor = false;
-            // 
-            // btn_cm
-            // 
-            this.btn_cm.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.btn_cm.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cm.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btn_cm.Location = new System.Drawing.Point(551, 481);
-            this.btn_cm.Margin = new System.Windows.Forms.Padding(2);
-            this.btn_cm.Name = "btn_cm";
-            this.btn_cm.Size = new System.Drawing.Size(46, 28);
-            this.btn_cm.TabIndex = 114;
-            this.btn_cm.Text = "Cm";
-            this.btn_cm.UseVisualStyleBackColor = false;
+            this.btn_yb.Click += new System.EventHandler(this.btn_yb_Click);
             // 
             // btn_bk
             // 
             this.btn_bk.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_bk.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_bk.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_bk.Location = new System.Drawing.Point(603, 481);
+            this.btn_bk.Location = new System.Drawing.Point(796, 544);
             this.btn_bk.Margin = new System.Windows.Forms.Padding(2);
             this.btn_bk.Name = "btn_bk";
             this.btn_bk.Size = new System.Drawing.Size(47, 28);
             this.btn_bk.TabIndex = 115;
             this.btn_bk.Text = "Bk";
             this.btn_bk.UseVisualStyleBackColor = false;
+            this.btn_bk.Click += new System.EventHandler(this.btn_bk_Click);
             // 
             // btn_cf
             // 
             this.btn_cf.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_cf.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_cf.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_cf.Location = new System.Drawing.Point(654, 481);
+            this.btn_cf.Location = new System.Drawing.Point(847, 544);
             this.btn_cf.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cf.Name = "btn_cf";
             this.btn_cf.Size = new System.Drawing.Size(47, 28);
             this.btn_cf.TabIndex = 116;
             this.btn_cf.Text = "Cf";
             this.btn_cf.UseVisualStyleBackColor = false;
+            this.btn_cf.Click += new System.EventHandler(this.btn_cf_Click);
             // 
             // btn_es
             // 
             this.btn_es.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_es.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_es.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_es.Location = new System.Drawing.Point(705, 481);
+            this.btn_es.Location = new System.Drawing.Point(898, 544);
             this.btn_es.Margin = new System.Windows.Forms.Padding(2);
             this.btn_es.Name = "btn_es";
             this.btn_es.Size = new System.Drawing.Size(47, 28);
             this.btn_es.TabIndex = 117;
             this.btn_es.Text = "Es";
             this.btn_es.UseVisualStyleBackColor = false;
+            this.btn_es.Click += new System.EventHandler(this.btn_es_Click);
             // 
             // btn_fm
             // 
             this.btn_fm.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_fm.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_fm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_fm.Location = new System.Drawing.Point(757, 481);
+            this.btn_fm.Location = new System.Drawing.Point(950, 544);
             this.btn_fm.Margin = new System.Windows.Forms.Padding(2);
             this.btn_fm.Name = "btn_fm";
             this.btn_fm.Size = new System.Drawing.Size(44, 28);
             this.btn_fm.TabIndex = 118;
             this.btn_fm.Text = "Fm";
             this.btn_fm.UseVisualStyleBackColor = false;
+            this.btn_fm.Click += new System.EventHandler(this.btn_fm_Click);
             // 
             // btn_md
             // 
             this.btn_md.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_md.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_md.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_md.Location = new System.Drawing.Point(807, 481);
+            this.btn_md.Location = new System.Drawing.Point(1000, 544);
             this.btn_md.Margin = new System.Windows.Forms.Padding(2);
             this.btn_md.Name = "btn_md";
             this.btn_md.Size = new System.Drawing.Size(47, 28);
             this.btn_md.TabIndex = 119;
             this.btn_md.Text = "Md";
             this.btn_md.UseVisualStyleBackColor = false;
+            this.btn_md.Click += new System.EventHandler(this.btn_md_Click);
             // 
             // btn_no
             // 
             this.btn_no.BackColor = System.Drawing.Color.LightSeaGreen;
             this.btn_no.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_no.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btn_no.Location = new System.Drawing.Point(859, 481);
+            this.btn_no.Location = new System.Drawing.Point(1052, 544);
             this.btn_no.Margin = new System.Windows.Forms.Padding(2);
             this.btn_no.Name = "btn_no";
             this.btn_no.Size = new System.Drawing.Size(47, 28);
             this.btn_no.TabIndex = 120;
             this.btn_no.Text = "No";
             this.btn_no.UseVisualStyleBackColor = false;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Snow;
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Location = new System.Drawing.Point(299, 106);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 17);
-            this.label1.TabIndex = 131;
-            this.label1.Text = "Gases nobles";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Snow;
-            this.label2.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label2.Location = new System.Drawing.Point(299, 132);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(85, 17);
-            this.label2.TabIndex = 132;
-            this.label2.Text = "Halógenos";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Snow;
-            this.label3.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label3.Location = new System.Drawing.Point(299, 157);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(89, 17);
-            this.label3.TabIndex = 133;
-            this.label3.Text = "No metales";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Snow;
-            this.label4.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label4.Location = new System.Drawing.Point(299, 187);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(86, 17);
-            this.label4.TabIndex = 134;
-            this.label4.Text = "Metaloides";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Snow;
-            this.label5.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label5.Location = new System.Drawing.Point(299, 216);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(109, 17);
-            this.label5.TabIndex = 135;
-            this.label5.Text = "Otros metales";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Snow;
-            this.label6.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label6.Location = new System.Drawing.Point(527, 104);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(163, 17);
-            this.label6.TabIndex = 135;
-            this.label6.Text = "Metales de transición";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Snow;
-            this.label7.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label7.Location = new System.Drawing.Point(527, 130);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(117, 17);
-            this.label7.TabIndex = 135;
-            this.label7.Text = "Alcalinotérreos";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Snow;
-            this.label8.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label8.Location = new System.Drawing.Point(527, 154);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(133, 17);
-            this.label8.TabIndex = 135;
-            this.label8.Text = "Metales alcalinos";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Snow;
-            this.label9.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label9.Location = new System.Drawing.Point(530, 183);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 17);
-            this.label9.TabIndex = 135;
-            this.label9.Text = "Lantánidos";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Snow;
-            this.label10.Location = new System.Drawing.Point(530, 209);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(74, 17);
-            this.label10.TabIndex = 135;
-            this.label10.Text = "Actínidos";
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(34, 191);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(17, 17);
-            this.label11.TabIndex = 136;
-            this.label11.Text = "1";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(34, 216);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(17, 17);
-            this.label12.TabIndex = 136;
-            this.label12.Text = "2";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(34, 243);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(17, 17);
-            this.label13.TabIndex = 136;
-            this.label13.Text = "3";
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(34, 272);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(17, 17);
-            this.label14.TabIndex = 136;
-            this.label14.Text = "4";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(34, 306);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(17, 17);
-            this.label15.TabIndex = 136;
-            this.label15.Text = "5";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(34, 335);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(17, 17);
-            this.label16.TabIndex = 136;
-            this.label16.Text = "6";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(34, 364);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(17, 17);
-            this.label17.TabIndex = 136;
-            this.label17.Text = "7";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(84, 157);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 17);
-            this.label18.TabIndex = 136;
-            this.label18.Text = "1";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(144, 187);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(17, 17);
-            this.label19.TabIndex = 136;
-            this.label19.Text = "2";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(207, 244);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(17, 17);
-            this.label20.TabIndex = 136;
-            this.label20.Text = "3";
-            this.label20.Click += new System.EventHandler(this.label20_Click);
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(266, 244);
-            this.label21.Name = "label21";
-            this.label21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.label21.Size = new System.Drawing.Size(17, 17);
-            this.label21.TabIndex = 136;
-            this.label21.Text = "4";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(315, 244);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(17, 17);
-            this.label22.TabIndex = 136;
-            this.label22.Text = "5";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(368, 244);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(17, 17);
-            this.label23.TabIndex = 136;
-            this.label23.Text = "6";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(417, 244);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(17, 17);
-            this.label24.TabIndex = 136;
-            this.label24.Text = "7";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(469, 243);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(17, 17);
-            this.label25.TabIndex = 136;
-            this.label25.Text = "8";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(516, 244);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(17, 17);
-            this.label26.TabIndex = 136;
-            this.label26.Text = "9";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(570, 243);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(26, 17);
-            this.label27.TabIndex = 136;
-            this.label27.Text = "10";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(620, 244);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(26, 17);
-            this.label28.TabIndex = 136;
-            this.label28.Text = "11";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(666, 244);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(26, 17);
-            this.label29.TabIndex = 136;
-            this.label29.Text = "12";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(720, 194);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(26, 17);
-            this.label30.TabIndex = 136;
-            this.label30.Text = "13";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(777, 194);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(26, 17);
-            this.label31.TabIndex = 136;
-            this.label31.Text = "14";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(812, 191);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(26, 17);
-            this.label32.TabIndex = 136;
-            this.label32.Text = "15";
-            this.label32.Click += new System.EventHandler(this.label32_Click);
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(856, 191);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(26, 17);
-            this.label33.TabIndex = 136;
-            this.label33.Text = "16";
-            this.label33.Click += new System.EventHandler(this.label33_Click);
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(898, 191);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(26, 17);
-            this.label34.TabIndex = 136;
-            this.label34.Text = "17";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(947, 157);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(26, 17);
-            this.label35.TabIndex = 136;
-            this.label35.Text = "18";
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pictureBox10.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox10.Location = new System.Drawing.Point(502, 207);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox10.TabIndex = 130;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.BackColor = System.Drawing.Color.DarkKhaki;
-            this.pictureBox9.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox9.Location = new System.Drawing.Point(502, 179);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(18, 17);
-            this.pictureBox9.TabIndex = 129;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.pictureBox8.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox8.Location = new System.Drawing.Point(502, 149);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(18, 18);
-            this.pictureBox8.TabIndex = 128;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox7.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox7.Location = new System.Drawing.Point(502, 124);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(18, 19);
-            this.pictureBox7.TabIndex = 127;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BackColor = System.Drawing.Color.OrangeRed;
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Location = new System.Drawing.Point(269, 151);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(21, 19);
-            this.pictureBox6.TabIndex = 126;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(502, 98);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(18, 19);
-            this.pictureBox5.TabIndex = 125;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Purple;
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Location = new System.Drawing.Point(269, 209);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(20, 18);
-            this.pictureBox4.TabIndex = 124;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.DeepPink;
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(269, 179);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(20, 19);
-            this.pictureBox3.TabIndex = 123;
-            this.pictureBox3.TabStop = false;
+            this.btn_no.Click += new System.EventHandler(this.btn_no_Click);
+            // 
+            // gasesn
+            // 
+            this.gasesn.AutoSize = true;
+            this.gasesn.BackColor = System.Drawing.Color.Snow;
+            this.gasesn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.gasesn.Location = new System.Drawing.Point(514, 126);
+            this.gasesn.Name = "gasesn";
+            this.gasesn.Size = new System.Drawing.Size(83, 13);
+            this.gasesn.TabIndex = 131;
+            this.gasesn.Text = "Gases nobles";
+            // 
+            // pverdelimon
+            // 
+            this.pverdelimon.AutoSize = true;
+            this.pverdelimon.BackColor = System.Drawing.Color.Snow;
+            this.pverdelimon.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.pverdelimon.Location = new System.Drawing.Point(514, 152);
+            this.pverdelimon.Name = "pverdelimon";
+            this.pverdelimon.Size = new System.Drawing.Size(67, 13);
+            this.pverdelimon.TabIndex = 132;
+            this.pverdelimon.Text = "Halógenos";
+            // 
+            // nom
+            // 
+            this.nom.AutoSize = true;
+            this.nom.BackColor = System.Drawing.Color.Snow;
+            this.nom.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.nom.Location = new System.Drawing.Point(514, 177);
+            this.nom.Name = "nom";
+            this.nom.Size = new System.Drawing.Size(70, 13);
+            this.nom.TabIndex = 133;
+            this.nom.Text = "No metales";
+            // 
+            // matl
+            // 
+            this.matl.AutoSize = true;
+            this.matl.BackColor = System.Drawing.Color.Snow;
+            this.matl.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.matl.Location = new System.Drawing.Point(514, 207);
+            this.matl.Name = "matl";
+            this.matl.Size = new System.Drawing.Size(68, 13);
+            this.matl.TabIndex = 134;
+            this.matl.Text = "Metaloides";
+            // 
+            // otros
+            // 
+            this.otros.AutoSize = true;
+            this.otros.BackColor = System.Drawing.Color.Snow;
+            this.otros.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.otros.Location = new System.Drawing.Point(514, 236);
+            this.otros.Name = "otros";
+            this.otros.Size = new System.Drawing.Size(84, 13);
+            this.otros.TabIndex = 135;
+            this.otros.Text = "Otros metales";
+            // 
+            // metales
+            // 
+            this.metales.AutoSize = true;
+            this.metales.BackColor = System.Drawing.Color.Snow;
+            this.metales.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.metales.Location = new System.Drawing.Point(742, 124);
+            this.metales.Name = "metales";
+            this.metales.Size = new System.Drawing.Size(128, 13);
+            this.metales.TabIndex = 135;
+            this.metales.Text = "Metales de transición";
+            // 
+            // alcalinos
+            // 
+            this.alcalinos.AutoSize = true;
+            this.alcalinos.BackColor = System.Drawing.Color.Snow;
+            this.alcalinos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.alcalinos.Location = new System.Drawing.Point(742, 150);
+            this.alcalinos.Name = "alcalinos";
+            this.alcalinos.Size = new System.Drawing.Size(91, 13);
+            this.alcalinos.TabIndex = 135;
+            this.alcalinos.Text = "Alcalinotérreos";
+            // 
+            // metalesal
+            // 
+            this.metalesal.AutoSize = true;
+            this.metalesal.BackColor = System.Drawing.Color.Snow;
+            this.metalesal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.metalesal.Location = new System.Drawing.Point(742, 174);
+            this.metalesal.Name = "metalesal";
+            this.metalesal.Size = new System.Drawing.Size(105, 13);
+            this.metalesal.TabIndex = 135;
+            this.metalesal.Text = "Metales alcalinos";
+            // 
+            // lantanidos
+            // 
+            this.lantanidos.AutoSize = true;
+            this.lantanidos.BackColor = System.Drawing.Color.Snow;
+            this.lantanidos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lantanidos.Location = new System.Drawing.Point(745, 203);
+            this.lantanidos.Name = "lantanidos";
+            this.lantanidos.Size = new System.Drawing.Size(69, 13);
+            this.lantanidos.TabIndex = 135;
+            this.lantanidos.Text = "Lantánidos";
+            // 
+            // actinidos
+            // 
+            this.actinidos.AutoSize = true;
+            this.actinidos.BackColor = System.Drawing.Color.Snow;
+            this.actinidos.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.actinidos.Location = new System.Drawing.Point(745, 229);
+            this.actinidos.Name = "actinidos";
+            this.actinidos.Size = new System.Drawing.Size(61, 13);
+            this.actinidos.TabIndex = 135;
+            this.actinidos.Text = "Actínidos";
+            // 
+            // l1
+            // 
+            this.l1.AutoSize = true;
+            this.l1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l1.Location = new System.Drawing.Point(232, 248);
+            this.l1.Name = "l1";
+            this.l1.Size = new System.Drawing.Size(14, 13);
+            this.l1.TabIndex = 136;
+            this.l1.Text = "1";
+            // 
+            // l2
+            // 
+            this.l2.AutoSize = true;
+            this.l2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l2.Location = new System.Drawing.Point(232, 273);
+            this.l2.Name = "l2";
+            this.l2.Size = new System.Drawing.Size(14, 13);
+            this.l2.TabIndex = 136;
+            this.l2.Text = "2";
+            // 
+            // l3
+            // 
+            this.l3.AutoSize = true;
+            this.l3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l3.Location = new System.Drawing.Point(232, 300);
+            this.l3.Name = "l3";
+            this.l3.Size = new System.Drawing.Size(14, 13);
+            this.l3.TabIndex = 136;
+            this.l3.Text = "3";
+            // 
+            // l4
+            // 
+            this.l4.AutoSize = true;
+            this.l4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l4.Location = new System.Drawing.Point(232, 329);
+            this.l4.Name = "l4";
+            this.l4.Size = new System.Drawing.Size(14, 13);
+            this.l4.TabIndex = 136;
+            this.l4.Text = "4";
+            // 
+            // l5
+            // 
+            this.l5.AutoSize = true;
+            this.l5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l5.Location = new System.Drawing.Point(232, 363);
+            this.l5.Name = "l5";
+            this.l5.Size = new System.Drawing.Size(14, 13);
+            this.l5.TabIndex = 136;
+            this.l5.Text = "5";
+            // 
+            // l6
+            // 
+            this.l6.AutoSize = true;
+            this.l6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l6.Location = new System.Drawing.Point(232, 392);
+            this.l6.Name = "l6";
+            this.l6.Size = new System.Drawing.Size(14, 13);
+            this.l6.TabIndex = 136;
+            this.l6.Text = "6";
+            this.l6.Click += new System.EventHandler(this.label16_Click);
+            // 
+            // l8
+            // 
+            this.l8.AutoSize = true;
+            this.l8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l8.Location = new System.Drawing.Point(232, 421);
+            this.l8.Name = "l8";
+            this.l8.Size = new System.Drawing.Size(14, 13);
+            this.l8.TabIndex = 136;
+            this.l8.Text = "7";
+            // 
+            // l11
+            // 
+            this.l11.AutoSize = true;
+            this.l11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l11.Location = new System.Drawing.Point(282, 214);
+            this.l11.Name = "l11";
+            this.l11.Size = new System.Drawing.Size(14, 13);
+            this.l11.TabIndex = 136;
+            this.l11.Text = "1";
+            // 
+            // l12
+            // 
+            this.l12.AutoSize = true;
+            this.l12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l12.Location = new System.Drawing.Point(342, 244);
+            this.l12.Name = "l12";
+            this.l12.Size = new System.Drawing.Size(14, 13);
+            this.l12.TabIndex = 136;
+            this.l12.Text = "2";
+            // 
+            // l13
+            // 
+            this.l13.AutoSize = true;
+            this.l13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l13.Location = new System.Drawing.Point(405, 301);
+            this.l13.Name = "l13";
+            this.l13.Size = new System.Drawing.Size(14, 13);
+            this.l13.TabIndex = 136;
+            this.l13.Text = "3";
+            this.l13.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // l14
+            // 
+            this.l14.AutoSize = true;
+            this.l14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l14.Location = new System.Drawing.Point(464, 301);
+            this.l14.Name = "l14";
+            this.l14.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.l14.Size = new System.Drawing.Size(14, 13);
+            this.l14.TabIndex = 136;
+            this.l14.Text = "4";
+            // 
+            // l15
+            // 
+            this.l15.AutoSize = true;
+            this.l15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l15.Location = new System.Drawing.Point(513, 301);
+            this.l15.Name = "l15";
+            this.l15.Size = new System.Drawing.Size(14, 13);
+            this.l15.TabIndex = 136;
+            this.l15.Text = "5";
+            // 
+            // l16
+            // 
+            this.l16.AutoSize = true;
+            this.l16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l16.Location = new System.Drawing.Point(566, 301);
+            this.l16.Name = "l16";
+            this.l16.Size = new System.Drawing.Size(14, 13);
+            this.l16.TabIndex = 136;
+            this.l16.Text = "6";
+            // 
+            // l17
+            // 
+            this.l17.AutoSize = true;
+            this.l17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l17.Location = new System.Drawing.Point(615, 301);
+            this.l17.Name = "l17";
+            this.l17.Size = new System.Drawing.Size(14, 13);
+            this.l17.TabIndex = 136;
+            this.l17.Text = "7";
+            // 
+            // l18
+            // 
+            this.l18.AutoSize = true;
+            this.l18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l18.Location = new System.Drawing.Point(667, 300);
+            this.l18.Name = "l18";
+            this.l18.Size = new System.Drawing.Size(14, 13);
+            this.l18.TabIndex = 136;
+            this.l18.Text = "8";
+            // 
+            // l19
+            // 
+            this.l19.AutoSize = true;
+            this.l19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l19.Location = new System.Drawing.Point(714, 301);
+            this.l19.Name = "l19";
+            this.l19.Size = new System.Drawing.Size(14, 13);
+            this.l19.TabIndex = 136;
+            this.l19.Text = "9";
+            // 
+            // l10
+            // 
+            this.l10.AutoSize = true;
+            this.l10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l10.Location = new System.Drawing.Point(768, 300);
+            this.l10.Name = "l10";
+            this.l10.Size = new System.Drawing.Size(21, 13);
+            this.l10.TabIndex = 136;
+            this.l10.Text = "10";
+            // 
+            // l111
+            // 
+            this.l111.AutoSize = true;
+            this.l111.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l111.Location = new System.Drawing.Point(818, 301);
+            this.l111.Name = "l111";
+            this.l111.Size = new System.Drawing.Size(21, 13);
+            this.l111.TabIndex = 136;
+            this.l111.Text = "11";
+            // 
+            // l122
+            // 
+            this.l122.AutoSize = true;
+            this.l122.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l122.Location = new System.Drawing.Point(864, 301);
+            this.l122.Name = "l122";
+            this.l122.Size = new System.Drawing.Size(21, 13);
+            this.l122.TabIndex = 136;
+            this.l122.Text = "12";
+            // 
+            // l113
+            // 
+            this.l113.AutoSize = true;
+            this.l113.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l113.Location = new System.Drawing.Point(918, 251);
+            this.l113.Name = "l113";
+            this.l113.Size = new System.Drawing.Size(21, 13);
+            this.l113.TabIndex = 136;
+            this.l113.Text = "13";
+            // 
+            // l114
+            // 
+            this.l114.AutoSize = true;
+            this.l114.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l114.Location = new System.Drawing.Point(975, 251);
+            this.l114.Name = "l114";
+            this.l114.Size = new System.Drawing.Size(21, 13);
+            this.l114.TabIndex = 136;
+            this.l114.Text = "14";
+            // 
+            // l115
+            // 
+            this.l115.AutoSize = true;
+            this.l115.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l115.Location = new System.Drawing.Point(1010, 248);
+            this.l115.Name = "l115";
+            this.l115.Size = new System.Drawing.Size(21, 13);
+            this.l115.TabIndex = 136;
+            this.l115.Text = "15";
+            this.l115.Click += new System.EventHandler(this.label32_Click);
+            // 
+            // l116
+            // 
+            this.l116.AutoSize = true;
+            this.l116.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l116.Location = new System.Drawing.Point(1054, 248);
+            this.l116.Name = "l116";
+            this.l116.Size = new System.Drawing.Size(21, 13);
+            this.l116.TabIndex = 136;
+            this.l116.Text = "16";
+            this.l116.Click += new System.EventHandler(this.label33_Click);
+            // 
+            // l1117
+            // 
+            this.l1117.AutoSize = true;
+            this.l1117.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l1117.Location = new System.Drawing.Point(1096, 248);
+            this.l1117.Name = "l1117";
+            this.l1117.Size = new System.Drawing.Size(21, 13);
+            this.l1117.TabIndex = 136;
+            this.l1117.Text = "17";
+            // 
+            // l118
+            // 
+            this.l118.AutoSize = true;
+            this.l118.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.l118.Location = new System.Drawing.Point(1145, 214);
+            this.l118.Name = "l118";
+            this.l118.Size = new System.Drawing.Size(21, 13);
+            this.l118.TabIndex = 136;
+            this.l118.Text = "18";
+            // 
+            // pazulop
+            // 
+            this.pazulop.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pazulop.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pazulop.Location = new System.Drawing.Point(717, 227);
+            this.pazulop.Name = "pazulop";
+            this.pazulop.Size = new System.Drawing.Size(18, 18);
+            this.pazulop.TabIndex = 130;
+            this.pazulop.TabStop = false;
+            // 
+            // popaco
+            // 
+            this.popaco.BackColor = System.Drawing.Color.DarkKhaki;
+            this.popaco.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.popaco.Location = new System.Drawing.Point(717, 199);
+            this.popaco.Name = "popaco";
+            this.popaco.Size = new System.Drawing.Size(18, 17);
+            this.popaco.TabIndex = 129;
+            this.popaco.TabStop = false;
+            // 
+            // pazulm
+            // 
+            this.pazulm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.pazulm.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pazulm.Location = new System.Drawing.Point(717, 169);
+            this.pazulm.Name = "pazulm";
+            this.pazulm.Size = new System.Drawing.Size(18, 18);
+            this.pazulm.TabIndex = 128;
+            this.pazulm.TabStop = false;
+            // 
+            // pamarillo
+            // 
+            this.pamarillo.BackColor = System.Drawing.Color.Yellow;
+            this.pamarillo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pamarillo.Location = new System.Drawing.Point(717, 144);
+            this.pamarillo.Name = "pamarillo";
+            this.pamarillo.Size = new System.Drawing.Size(18, 19);
+            this.pamarillo.TabIndex = 127;
+            this.pamarillo.TabStop = false;
+            // 
+            // pnarajnja
+            // 
+            this.pnarajnja.BackColor = System.Drawing.Color.OrangeRed;
+            this.pnarajnja.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pnarajnja.Location = new System.Drawing.Point(484, 171);
+            this.pnarajnja.Name = "pnarajnja";
+            this.pnarajnja.Size = new System.Drawing.Size(21, 19);
+            this.pnarajnja.TabIndex = 126;
+            this.pnarajnja.TabStop = false;
+            // 
+            // pazul
+            // 
+            this.pazul.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.pazul.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pazul.Location = new System.Drawing.Point(717, 118);
+            this.pazul.Name = "pazul";
+            this.pazul.Size = new System.Drawing.Size(18, 19);
+            this.pazul.TabIndex = 125;
+            this.pazul.TabStop = false;
+            // 
+            // ppurple
+            // 
+            this.ppurple.BackColor = System.Drawing.Color.Purple;
+            this.ppurple.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ppurple.Location = new System.Drawing.Point(484, 229);
+            this.ppurple.Name = "ppurple";
+            this.ppurple.Size = new System.Drawing.Size(20, 18);
+            this.ppurple.TabIndex = 124;
+            this.ppurple.TabStop = false;
+            // 
+            // ppink
+            // 
+            this.ppink.BackColor = System.Drawing.Color.DeepPink;
+            this.ppink.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.ppink.Location = new System.Drawing.Point(484, 199);
+            this.ppink.Name = "ppink";
+            this.ppink.Size = new System.Drawing.Size(20, 19);
+            this.ppink.TabIndex = 123;
+            this.ppink.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.YellowGreen;
             this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(269, 125);
+            this.pictureBox2.Location = new System.Drawing.Point(484, 145);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(20, 20);
             this.pictureBox2.TabIndex = 122;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // pverde
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DarkGreen;
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(269, 100);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(20, 19);
-            this.pictureBox1.TabIndex = 121;
-            this.pictureBox1.TabStop = false;
+            this.pverde.BackColor = System.Drawing.Color.DarkGreen;
+            this.pverde.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pverde.Location = new System.Drawing.Point(484, 120);
+            this.pverde.Name = "pverde";
+            this.pverde.Size = new System.Drawing.Size(20, 19);
+            this.pverde.TabIndex = 121;
+            this.pverde.TabStop = false;
             // 
             // Btn_Lan
             // 
             this.Btn_Lan.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_Lan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Lan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_Lan.Location = new System.Drawing.Point(192, 447);
+            this.Btn_Lan.Location = new System.Drawing.Point(385, 510);
             this.Btn_Lan.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Lan.Name = "Btn_Lan";
             this.Btn_Lan.Size = new System.Drawing.Size(47, 29);
@@ -2422,25 +2198,26 @@
             this.Btn_Lan.UseVisualStyleBackColor = false;
             this.Btn_Lan.Click += new System.EventHandler(this.button1_Click_3);
             // 
-            // button2
+            // Ac
             // 
-            this.button2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Location = new System.Drawing.Point(192, 481);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(47, 28);
-            this.button2.TabIndex = 94;
-            this.button2.Text = "Ac";
-            this.button2.UseVisualStyleBackColor = false;
+            this.Ac.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Ac.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ac.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Ac.Location = new System.Drawing.Point(385, 544);
+            this.Ac.Margin = new System.Windows.Forms.Padding(2);
+            this.Ac.Name = "Ac";
+            this.Ac.Size = new System.Drawing.Size(47, 28);
+            this.Ac.TabIndex = 94;
+            this.Ac.Text = "Ac";
+            this.Ac.UseVisualStyleBackColor = false;
+            this.Ac.Click += new System.EventHandler(this.button2_Click);
             // 
             // Btn_Cerio
             // 
             this.Btn_Cerio.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_Cerio.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Cerio.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_Cerio.Location = new System.Drawing.Point(244, 447);
+            this.Btn_Cerio.Location = new System.Drawing.Point(437, 510);
             this.Btn_Cerio.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Cerio.Name = "Btn_Cerio";
             this.Btn_Cerio.Size = new System.Drawing.Size(50, 29);
@@ -2449,26 +2226,26 @@
             this.Btn_Cerio.UseVisualStyleBackColor = false;
             this.Btn_Cerio.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // Th
             // 
-            this.button4.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(244, 481);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 28);
-            this.button4.TabIndex = 96;
-            this.button4.Text = "Th";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.btn_th_Click);
+            this.Th.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Th.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Th.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Th.Location = new System.Drawing.Point(437, 544);
+            this.Th.Margin = new System.Windows.Forms.Padding(2);
+            this.Th.Name = "Th";
+            this.Th.Size = new System.Drawing.Size(50, 28);
+            this.Th.TabIndex = 96;
+            this.Th.Text = "Th";
+            this.Th.UseVisualStyleBackColor = false;
+            this.Th.Click += new System.EventHandler(this.btn_th_Click);
             // 
             // Btn_pra
             // 
             this.Btn_pra.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_pra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_pra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_pra.Location = new System.Drawing.Point(299, 447);
+            this.Btn_pra.Location = new System.Drawing.Point(492, 510);
             this.Btn_pra.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_pra.Name = "Btn_pra";
             this.Btn_pra.Size = new System.Drawing.Size(49, 29);
@@ -2477,25 +2254,26 @@
             this.Btn_pra.UseVisualStyleBackColor = false;
             this.Btn_pra.Click += new System.EventHandler(this.Btn_pra_Click);
             // 
-            // button6
+            // Pa
             // 
-            this.button6.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button6.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(299, 481);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(49, 28);
-            this.button6.TabIndex = 98;
-            this.button6.Text = "Pa";
-            this.button6.UseVisualStyleBackColor = false;
+            this.Pa.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Pa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Pa.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Pa.Location = new System.Drawing.Point(492, 544);
+            this.Pa.Margin = new System.Windows.Forms.Padding(2);
+            this.Pa.Name = "Pa";
+            this.Pa.Size = new System.Drawing.Size(49, 28);
+            this.Pa.TabIndex = 98;
+            this.Pa.Text = "Pa";
+            this.Pa.UseVisualStyleBackColor = false;
+            this.Pa.Click += new System.EventHandler(this.Pa_Click);
             // 
             // Btn_neo
             // 
             this.Btn_neo.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_neo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_neo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_neo.Location = new System.Drawing.Point(353, 447);
+            this.Btn_neo.Location = new System.Drawing.Point(546, 510);
             this.Btn_neo.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_neo.Name = "Btn_neo";
             this.Btn_neo.Size = new System.Drawing.Size(46, 29);
@@ -2509,7 +2287,7 @@
             this.Btn_Pro.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_Pro.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_Pro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_Pro.Location = new System.Drawing.Point(404, 447);
+            this.Btn_Pro.Location = new System.Drawing.Point(597, 510);
             this.Btn_Pro.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Pro.Name = "Btn_Pro";
             this.Btn_Pro.Size = new System.Drawing.Size(44, 29);
@@ -2523,173 +2301,235 @@
             this.Btn_sam.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_sam.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_sam.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_sam.Location = new System.Drawing.Point(454, 447);
+            this.Btn_sam.Location = new System.Drawing.Point(647, 510);
             this.Btn_sam.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_sam.Name = "Btn_sam";
             this.Btn_sam.Size = new System.Drawing.Size(47, 29);
             this.Btn_sam.TabIndex = 101;
             this.Btn_sam.Text = "Sm";
             this.Btn_sam.UseVisualStyleBackColor = false;
+            this.Btn_sam.Click += new System.EventHandler(this.Btn_sam_Click);
             // 
             // Btn_eur
             // 
             this.Btn_eur.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_eur.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_eur.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_eur.Location = new System.Drawing.Point(506, 447);
+            this.Btn_eur.Location = new System.Drawing.Point(699, 510);
             this.Btn_eur.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_eur.Name = "Btn_eur";
             this.Btn_eur.Size = new System.Drawing.Size(44, 29);
             this.Btn_eur.TabIndex = 102;
             this.Btn_eur.Text = "Eu";
             this.Btn_eur.UseVisualStyleBackColor = false;
+            this.Btn_eur.Click += new System.EventHandler(this.Btn_eur_Click);
             // 
             // Btn_gad
             // 
             this.Btn_gad.BackColor = System.Drawing.Color.DarkKhaki;
             this.Btn_gad.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_gad.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Btn_gad.Location = new System.Drawing.Point(555, 447);
+            this.Btn_gad.Location = new System.Drawing.Point(748, 510);
             this.Btn_gad.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_gad.Name = "Btn_gad";
             this.Btn_gad.Size = new System.Drawing.Size(46, 29);
             this.Btn_gad.TabIndex = 103;
             this.Btn_gad.Text = "Gd";
             this.Btn_gad.UseVisualStyleBackColor = false;
+            this.Btn_gad.Click += new System.EventHandler(this.Btn_gad_Click);
             // 
-            // button12
+            // U
             // 
-            this.button12.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button12.Location = new System.Drawing.Point(353, 481);
-            this.button12.Margin = new System.Windows.Forms.Padding(2);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(46, 28);
-            this.button12.TabIndex = 110;
-            this.button12.Text = "U";
-            this.button12.UseVisualStyleBackColor = false;
+            this.U.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.U.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.U.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.U.Location = new System.Drawing.Point(546, 544);
+            this.U.Margin = new System.Windows.Forms.Padding(2);
+            this.U.Name = "U";
+            this.U.Size = new System.Drawing.Size(46, 28);
+            this.U.TabIndex = 110;
+            this.U.Text = "U";
+            this.U.UseVisualStyleBackColor = false;
+            this.U.Click += new System.EventHandler(this.U_Click);
             // 
-            // button13
+            // Np
             // 
-            this.button13.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button13.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button13.Location = new System.Drawing.Point(404, 481);
-            this.button13.Margin = new System.Windows.Forms.Padding(2);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(44, 28);
-            this.button13.TabIndex = 111;
-            this.button13.Text = "Np";
-            this.button13.UseVisualStyleBackColor = false;
+            this.Np.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Np.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Np.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Np.Location = new System.Drawing.Point(597, 544);
+            this.Np.Margin = new System.Windows.Forms.Padding(2);
+            this.Np.Name = "Np";
+            this.Np.Size = new System.Drawing.Size(44, 28);
+            this.Np.TabIndex = 111;
+            this.Np.Text = "Np";
+            this.Np.UseVisualStyleBackColor = false;
+            this.Np.Click += new System.EventHandler(this.Np_Click);
             // 
-            // button14
+            // Pu
             // 
-            this.button14.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button14.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button14.Location = new System.Drawing.Point(454, 481);
-            this.button14.Margin = new System.Windows.Forms.Padding(2);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(47, 28);
-            this.button14.TabIndex = 112;
-            this.button14.Text = "Pu";
-            this.button14.UseVisualStyleBackColor = false;
+            this.Pu.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Pu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Pu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Pu.Location = new System.Drawing.Point(647, 544);
+            this.Pu.Margin = new System.Windows.Forms.Padding(2);
+            this.Pu.Name = "Pu";
+            this.Pu.Size = new System.Drawing.Size(47, 28);
+            this.Pu.TabIndex = 112;
+            this.Pu.Text = "Pu";
+            this.Pu.UseVisualStyleBackColor = false;
+            this.Pu.Click += new System.EventHandler(this.Pu_Click);
             // 
-            // button15
+            // Am
             // 
-            this.button15.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button15.Location = new System.Drawing.Point(506, 481);
-            this.button15.Margin = new System.Windows.Forms.Padding(2);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(44, 28);
-            this.button15.TabIndex = 113;
-            this.button15.Text = "Am";
-            this.button15.UseVisualStyleBackColor = false;
+            this.Am.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Am.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Am.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Am.Location = new System.Drawing.Point(699, 544);
+            this.Am.Margin = new System.Windows.Forms.Padding(2);
+            this.Am.Name = "Am";
+            this.Am.Size = new System.Drawing.Size(44, 28);
+            this.Am.TabIndex = 113;
+            this.Am.Text = "Am";
+            this.Am.UseVisualStyleBackColor = false;
+            this.Am.Click += new System.EventHandler(this.Am_Click);
             // 
-            // button16
+            // Cm
             // 
-            this.button16.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.button16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button16.Location = new System.Drawing.Point(555, 481);
-            this.button16.Margin = new System.Windows.Forms.Padding(2);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(46, 28);
-            this.button16.TabIndex = 114;
-            this.button16.Text = "Cm";
-            this.button16.UseVisualStyleBackColor = false;
+            this.Cm.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.Cm.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cm.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Cm.Location = new System.Drawing.Point(748, 544);
+            this.Cm.Margin = new System.Windows.Forms.Padding(2);
+            this.Cm.Name = "Cm";
+            this.Cm.Size = new System.Drawing.Size(46, 28);
+            this.Cm.TabIndex = 114;
+            this.Cm.Text = "Cm";
+            this.Cm.UseVisualStyleBackColor = false;
+            this.Cm.Click += new System.EventHandler(this.Cm_Click);
+            // 
+            // tabla
+            // 
+            this.tabla.AutoSize = true;
+            this.tabla.BackColor = System.Drawing.Color.White;
+            this.tabla.Font = new System.Drawing.Font("Fredoka One", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tabla.ForeColor = System.Drawing.Color.Black;
+            this.tabla.Location = new System.Drawing.Point(355, 20);
+            this.tabla.Name = "tabla";
+            this.tabla.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.tabla.Size = new System.Drawing.Size(635, 29);
+            this.tabla.TabIndex = 137;
+            this.tabla.Text = "TABLA PERIODICA DE LOS ELEMENTOS QUÍMICOS";
+            this.tabla.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.DarkKhaki;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(436, 511);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(47, 29);
+            this.button1.TabIndex = 93;
+            this.button1.Text = "La";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_3);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button2.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(265, 445);
+            this.button2.Margin = new System.Windows.Forms.Padding(2);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(57, 25);
+            this.button2.TabIndex = 7;
+            this.button2.Text = "Uue";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.btn_fr_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(329, 445);
+            this.button3.Margin = new System.Windows.Forms.Padding(2);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(52, 25);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Ubn";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.btn_ra_Click);
             // 
             // TablaPeriodica
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1078, 546);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.ClientSize = new System.Drawing.Size(1318, 653);
+            this.Controls.Add(this.tabla);
+            this.Controls.Add(this.l8);
+            this.Controls.Add(this.l6);
+            this.Controls.Add(this.l5);
+            this.Controls.Add(this.l4);
+            this.Controls.Add(this.l3);
+            this.Controls.Add(this.l2);
+            this.Controls.Add(this.l118);
+            this.Controls.Add(this.l1117);
+            this.Controls.Add(this.l116);
+            this.Controls.Add(this.l115);
+            this.Controls.Add(this.l114);
+            this.Controls.Add(this.l113);
+            this.Controls.Add(this.l122);
+            this.Controls.Add(this.l111);
+            this.Controls.Add(this.l10);
+            this.Controls.Add(this.l19);
+            this.Controls.Add(this.l18);
+            this.Controls.Add(this.l17);
+            this.Controls.Add(this.l16);
+            this.Controls.Add(this.l15);
+            this.Controls.Add(this.l14);
+            this.Controls.Add(this.l13);
+            this.Controls.Add(this.l12);
+            this.Controls.Add(this.l11);
+            this.Controls.Add(this.l1);
+            this.Controls.Add(this.actinidos);
+            this.Controls.Add(this.lantanidos);
+            this.Controls.Add(this.metalesal);
+            this.Controls.Add(this.alcalinos);
+            this.Controls.Add(this.metales);
+            this.Controls.Add(this.otros);
+            this.Controls.Add(this.matl);
+            this.Controls.Add(this.nom);
+            this.Controls.Add(this.pverdelimon);
+            this.Controls.Add(this.gasesn);
+            this.Controls.Add(this.pazulop);
+            this.Controls.Add(this.popaco);
+            this.Controls.Add(this.pazulm);
+            this.Controls.Add(this.pamarillo);
+            this.Controls.Add(this.pnarajnja);
+            this.Controls.Add(this.pazul);
+            this.Controls.Add(this.ppurple);
+            this.Controls.Add(this.ppink);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pverde);
             this.Controls.Add(this.btn_no);
             this.Controls.Add(this.btn_md);
             this.Controls.Add(this.btn_fm);
             this.Controls.Add(this.btn_es);
             this.Controls.Add(this.btn_cf);
             this.Controls.Add(this.btn_bk);
-            this.Controls.Add(this.button16);
-            this.Controls.Add(this.btn_cm);
-            this.Controls.Add(this.button15);
-            this.Controls.Add(this.btn_am);
-            this.Controls.Add(this.button14);
-            this.Controls.Add(this.btn_pu);
-            this.Controls.Add(this.button13);
-            this.Controls.Add(this.btn_np);
-            this.Controls.Add(this.button12);
-            this.Controls.Add(this.btn_u);
+            this.Controls.Add(this.Cm);
+            this.Controls.Add(this.Am);
+            this.Controls.Add(this.Pu);
+            this.Controls.Add(this.Np);
+            this.Controls.Add(this.U);
             this.Controls.Add(this.btn_yb);
             this.Controls.Add(this.btn_tm);
             this.Controls.Add(this.btn_er);
@@ -2697,29 +2537,17 @@
             this.Controls.Add(this.btn_dy);
             this.Controls.Add(this.btn_tb);
             this.Controls.Add(this.Btn_gad);
-            this.Controls.Add(this.btn_gd);
             this.Controls.Add(this.Btn_eur);
-            this.Controls.Add(this.btn_eu);
             this.Controls.Add(this.Btn_sam);
-            this.Controls.Add(this.btn_sm);
             this.Controls.Add(this.Btn_Pro);
-            this.Controls.Add(this.btn_pm);
             this.Controls.Add(this.Btn_neo);
-            this.Controls.Add(this.btn_nd);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.btn_pa);
+            this.Controls.Add(this.Pa);
             this.Controls.Add(this.Btn_pra);
-            this.Controls.Add(this.btn_pr);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.btn_th);
+            this.Controls.Add(this.Th);
             this.Controls.Add(this.Btn_Cerio);
-            this.Controls.Add(this.btn_ce);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Ac);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Btn_Lan);
-            this.Controls.Add(this.btn_ac);
-            this.Controls.Add(this.btn_la);
-            this.Controls.Add(this.btn_ubn);
-            this.Controls.Add(this.btn_uue);
             this.Controls.Add(this.btn_he);
             this.Controls.Add(this.btn_og);
             this.Controls.Add(this.btn_ts);
@@ -2797,12 +2625,14 @@
             this.Controls.Add(this.btn_lu);
             this.Controls.Add(this.btn_y);
             this.Controls.Add(this.btn_sc);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btn_ra);
             this.Controls.Add(this.btn_ba);
             this.Controls.Add(this.btn_sr);
             this.Controls.Add(this.btn_ca);
             this.Controls.Add(this.btn_mg);
             this.Controls.Add(this.btn_be);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btn_fr);
             this.Controls.Add(this.btn_cs);
             this.Controls.Add(this.btn_rb);
@@ -2810,34 +2640,32 @@
             this.Controls.Add(this.btn_na);
             this.Controls.Add(this.btn_li);
             this.Controls.Add(this.btn_h);
-            this.Controls.Add(this.lbl_tabla);
             this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TablaPeriodica";
             this.Text = "Tabla Periodica";
-            this.TransparencyKey = System.Drawing.Color.Black;
+            this.TransparencyKey = System.Drawing.SystemColors.ActiveBorder;
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pazulop)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.popaco)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pazulm)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pamarillo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pnarajnja)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pazul)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ppurple)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ppink)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pverde)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lbl_tabla;
         private System.Windows.Forms.Button btn_h;
         private System.Windows.Forms.Button btn_li;
         private System.Windows.Forms.Button btn_na;
@@ -2928,97 +2756,83 @@
         private System.Windows.Forms.Button btn_ts;
         private System.Windows.Forms.Button btn_og;
         private System.Windows.Forms.Button btn_he;
-        private System.Windows.Forms.Button btn_uue;
-        private System.Windows.Forms.Button btn_ubn;
-        private System.Windows.Forms.Button btn_la;
-        private System.Windows.Forms.Button btn_ac;
-        private System.Windows.Forms.Button btn_ce;
-        private System.Windows.Forms.Button btn_th;
-        private System.Windows.Forms.Button btn_pr;
-        private System.Windows.Forms.Button btn_pa;
-        private System.Windows.Forms.Button btn_nd;
-        private System.Windows.Forms.Button btn_pm;
-        private System.Windows.Forms.Button btn_sm;
-        private System.Windows.Forms.Button btn_eu;
-        private System.Windows.Forms.Button btn_gd;
         private System.Windows.Forms.Button btn_tb;
         private System.Windows.Forms.Button btn_dy;
         private System.Windows.Forms.Button btn_ho;
         private System.Windows.Forms.Button btn_er;
         private System.Windows.Forms.Button btn_tm;
         private System.Windows.Forms.Button btn_yb;
-        private System.Windows.Forms.Button btn_u;
-        private System.Windows.Forms.Button btn_np;
-        private System.Windows.Forms.Button btn_pu;
-        private System.Windows.Forms.Button btn_am;
-        private System.Windows.Forms.Button btn_cm;
         private System.Windows.Forms.Button btn_bk;
         private System.Windows.Forms.Button btn_cf;
         private System.Windows.Forms.Button btn_es;
         private System.Windows.Forms.Button btn_fm;
         private System.Windows.Forms.Button btn_md;
         private System.Windows.Forms.Button btn_no;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pverde;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.PictureBox ppink;
+        private System.Windows.Forms.PictureBox ppurple;
+        private System.Windows.Forms.PictureBox pazul;
+        private System.Windows.Forms.PictureBox pnarajnja;
+        private System.Windows.Forms.PictureBox pamarillo;
+        private System.Windows.Forms.PictureBox pazulm;
+        private System.Windows.Forms.PictureBox popaco;
+        private System.Windows.Forms.PictureBox pazulop;
+        private System.Windows.Forms.Label gasesn;
+        private System.Windows.Forms.Label pverdelimon;
+        private System.Windows.Forms.Label nom;
+        private System.Windows.Forms.Label matl;
+        private System.Windows.Forms.Label otros;
+        private System.Windows.Forms.Label metales;
+        private System.Windows.Forms.Label alcalinos;
+        private System.Windows.Forms.Label metalesal;
+        private System.Windows.Forms.Label lantanidos;
+        private System.Windows.Forms.Label actinidos;
+        private System.Windows.Forms.Label l1;
+        private System.Windows.Forms.Label l2;
+        private System.Windows.Forms.Label l3;
+        private System.Windows.Forms.Label l4;
+        private System.Windows.Forms.Label l5;
+        private System.Windows.Forms.Label l6;
+        private System.Windows.Forms.Label l8;
+        private System.Windows.Forms.Label l11;
+        private System.Windows.Forms.Label l12;
+        private System.Windows.Forms.Label l13;
+        private System.Windows.Forms.Label l14;
+        private System.Windows.Forms.Label l15;
+        private System.Windows.Forms.Label l16;
+        private System.Windows.Forms.Label l17;
+        private System.Windows.Forms.Label l18;
+        private System.Windows.Forms.Label l19;
+        private System.Windows.Forms.Label l10;
+        private System.Windows.Forms.Label l111;
+        private System.Windows.Forms.Label l122;
+        private System.Windows.Forms.Label l113;
+        private System.Windows.Forms.Label l114;
+        private System.Windows.Forms.Label l115;
+        private System.Windows.Forms.Label l116;
+        private System.Windows.Forms.Label l1117;
+        private System.Windows.Forms.Label l118;
         private System.Windows.Forms.Button Btn_Lan;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button Ac;
         private System.Windows.Forms.Button Btn_Cerio;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button Th;
         private System.Windows.Forms.Button Btn_pra;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button Pa;
         private System.Windows.Forms.Button Btn_neo;
         private System.Windows.Forms.Button Btn_Pro;
         private System.Windows.Forms.Button Btn_sam;
         private System.Windows.Forms.Button Btn_eur;
         private System.Windows.Forms.Button Btn_gad;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button U;
+        private System.Windows.Forms.Button Np;
+        private System.Windows.Forms.Button Pu;
+        private System.Windows.Forms.Button Am;
+        private System.Windows.Forms.Button Cm;
+        private System.Windows.Forms.Label tabla;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 

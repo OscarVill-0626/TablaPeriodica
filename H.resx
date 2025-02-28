@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Peso atómico: 1.008
+Punto de fusión: -259.1°C
+Punto de ebullición: -252.9°C
+Fase a temperatura y presión estándar: Gas
+Configuración electrónica: 1s1
+Estados de oxidación comunes: ±1
+Número de electrones de valencia: 1</value>
+  </data>
 </root>

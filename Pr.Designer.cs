@@ -29,74 +29,68 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Pr));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.praseodimio = new System.Windows.Forms.Label();
+            this.prr = new System.Windows.Forms.Label();
+            this.l59 = new System.Windows.Forms.Label();
+            this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // praseodimio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.praseodimio.AutoSize = true;
+            this.praseodimio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.praseodimio.Location = new System.Drawing.Point(102, 108);
+            this.praseodimio.Name = "praseodimio";
+            this.praseodimio.Size = new System.Drawing.Size(131, 23);
+            this.praseodimio.TabIndex = 0;
+            this.praseodimio.Text = "Praseodimio";
             // 
-            // label2
+            // prr
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(168, 30);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.prr.AutoSize = true;
+            this.prr.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.prr.Location = new System.Drawing.Point(86, -8);
+            this.prr.Name = "prr";
+            this.prr.Size = new System.Drawing.Size(156, 116);
+            this.prr.TabIndex = 1;
+            this.prr.Text = "Pr";
             // 
-            // label3
+            // l59
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(268, 30);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.l59.AutoSize = true;
+            this.l59.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l59.Location = new System.Drawing.Point(248, 9);
+            this.l59.Name = "l59";
+            this.l59.Size = new System.Drawing.Size(33, 23);
+            this.l59.TabIndex = 2;
+            this.l59.Text = "59";
             // 
-            // label4
+            // info
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(168, 115);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(168, 171);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.info.AutoSize = true;
+            this.info.Location = new System.Drawing.Point(-1, 131);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(340, 112);
+            this.info.TabIndex = 3;
+            this.info.Text = resources.GetString("info.Text");
             // 
             // Pr
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(410, 234);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.ClientSize = new System.Drawing.Size(336, 251);
+            this.Controls.Add(this.info);
+            this.Controls.Add(this.l59);
+            this.Controls.Add(this.prr);
+            this.Controls.Add(this.praseodimio);
+            this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Pr";
             this.Text = "Pr";
+            this.Load += new System.EventHandler(this.Pr_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,10 +98,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label praseodimio;
+        private System.Windows.Forms.Label prr;
+        private System.Windows.Forms.Label l59;
+        private System.Windows.Forms.Label info;
     }
 }

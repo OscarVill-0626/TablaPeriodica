@@ -29,72 +29,65 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Nd));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.neodimio = new System.Windows.Forms.Label();
+            this.ndd = new System.Windows.Forms.Label();
+            this.l60 = new System.Windows.Forms.Label();
+            this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // neodimio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.neodimio.AutoSize = true;
+            this.neodimio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.neodimio.Location = new System.Drawing.Point(143, 125);
+            this.neodimio.Name = "neodimio";
+            this.neodimio.Size = new System.Drawing.Size(102, 23);
+            this.neodimio.TabIndex = 0;
+            this.neodimio.Text = "Neodimio";
             // 
-            // label2
+            // ndd
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(217, 37);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 25);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.ndd.AutoSize = true;
+            this.ndd.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ndd.Location = new System.Drawing.Point(99, 9);
+            this.ndd.Name = "ndd";
+            this.ndd.Size = new System.Drawing.Size(177, 116);
+            this.ndd.TabIndex = 1;
+            this.ndd.Text = "Nd";
             // 
-            // label3
+            // l60
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(302, 37);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 25);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.l60.AutoSize = true;
+            this.l60.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l60.Location = new System.Drawing.Point(272, 30);
+            this.l60.Name = "l60";
+            this.l60.Size = new System.Drawing.Size(35, 23);
+            this.l60.TabIndex = 2;
+            this.l60.Text = "60";
             // 
-            // label4
+            // info
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(122, 100);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(70, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(122, 160);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(70, 25);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "label5";
+            this.info.AutoSize = true;
+            this.info.Location = new System.Drawing.Point(-3, 148);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(340, 112);
+            this.info.TabIndex = 3;
+            this.info.Text = resources.GetString("info.Text");
             // 
             // Nd
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(408, 240);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.ClientSize = new System.Drawing.Size(367, 267);
+            this.Controls.Add(this.info);
+            this.Controls.Add(this.l60);
+            this.Controls.Add(this.ndd);
+            this.Controls.Add(this.neodimio);
+            this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Nd";
             this.Text = "Nd";
             this.ResumeLayout(false);
@@ -104,10 +97,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label neodimio;
+        private System.Windows.Forms.Label ndd;
+        private System.Windows.Forms.Label l60;
+        private System.Windows.Forms.Label info;
     }
 }

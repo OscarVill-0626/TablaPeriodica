@@ -32,73 +32,65 @@
             this.Txt_nom = new System.Windows.Forms.Label();
             this.Txt_smbQui = new System.Windows.Forms.Label();
             this.Txt_numAto = new System.Windows.Forms.Label();
-            this.Tzt_edoOx = new System.Windows.Forms.Label();
-            this.Txt_edoOx = new System.Windows.Forms.Label();
+            this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Txt_nom
             // 
             this.Txt_nom.AutoSize = true;
-            this.Txt_nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nom.Location = new System.Drawing.Point(146, 239);
+            this.Txt_nom.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nom.Location = new System.Drawing.Point(80, 114);
+            this.Txt_nom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Txt_nom.Name = "Txt_nom";
-            this.Txt_nom.Size = new System.Drawing.Size(106, 25);
+            this.Txt_nom.Size = new System.Drawing.Size(105, 23);
             this.Txt_nom.TabIndex = 0;
             this.Txt_nom.Text = "Magnesio";
             // 
             // Txt_smbQui
             // 
             this.Txt_smbQui.AutoSize = true;
-            this.Txt_smbQui.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_smbQui.Location = new System.Drawing.Point(91, 83);
+            this.Txt_smbQui.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_smbQui.Location = new System.Drawing.Point(51, -2);
+            this.Txt_smbQui.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Txt_smbQui.Name = "Txt_smbQui";
-            this.Txt_smbQui.Size = new System.Drawing.Size(226, 135);
+            this.Txt_smbQui.Size = new System.Drawing.Size(191, 116);
             this.Txt_smbQui.TabIndex = 1;
             this.Txt_smbQui.Text = "Mg";
             // 
             // Txt_numAto
             // 
             this.Txt_numAto.AutoSize = true;
-            this.Txt_numAto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_numAto.Location = new System.Drawing.Point(12, 39);
+            this.Txt_numAto.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_numAto.Location = new System.Drawing.Point(223, 9);
+            this.Txt_numAto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Txt_numAto.Name = "Txt_numAto";
-            this.Txt_numAto.Size = new System.Drawing.Size(36, 25);
+            this.Txt_numAto.Size = new System.Drawing.Size(32, 23);
             this.Txt_numAto.TabIndex = 2;
             this.Txt_numAto.Text = "12";
             // 
-            // Tzt_edoOx
+            // info
             // 
-            this.Tzt_edoOx.AutoSize = true;
-            this.Tzt_edoOx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Tzt_edoOx.ForeColor = System.Drawing.SystemColors.ControlDark;
-            this.Tzt_edoOx.Location = new System.Drawing.Point(328, 39);
-            this.Tzt_edoOx.Name = "Tzt_edoOx";
-            this.Tzt_edoOx.Size = new System.Drawing.Size(37, 25);
-            this.Tzt_edoOx.TabIndex = 3;
-            this.Tzt_edoOx.Text = "+1";
-            // 
-            // Txt_edoOx
-            // 
-            this.Txt_edoOx.AutoSize = true;
-            this.Txt_edoOx.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_edoOx.Location = new System.Drawing.Point(363, 39);
-            this.Txt_edoOx.Name = "Txt_edoOx";
-            this.Txt_edoOx.Size = new System.Drawing.Size(37, 25);
-            this.Txt_edoOx.TabIndex = 4;
-            this.Txt_edoOx.Text = "+2";
+            this.info.AutoSize = true;
+            this.info.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info.Location = new System.Drawing.Point(0, 137);
+            this.info.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(340, 112);
+            this.info.TabIndex = 0;
+            this.info.Text = resources.GetString("info.Text");
             // 
             // Mg
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(412, 313);
-            this.Controls.Add(this.Txt_edoOx);
-            this.Controls.Add(this.Tzt_edoOx);
+            this.BackColor = System.Drawing.Color.Yellow;
+            this.ClientSize = new System.Drawing.Size(338, 254);
             this.Controls.Add(this.Txt_numAto);
             this.Controls.Add(this.Txt_smbQui);
+            this.Controls.Add(this.info);
             this.Controls.Add(this.Txt_nom);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Mg";
             this.Text = "Mg";
             this.ResumeLayout(false);
@@ -111,7 +103,6 @@
         private System.Windows.Forms.Label Txt_nom;
         private System.Windows.Forms.Label Txt_smbQui;
         private System.Windows.Forms.Label Txt_numAto;
-        private System.Windows.Forms.Label Tzt_edoOx;
-        private System.Windows.Forms.Label Txt_edoOx;
+        private System.Windows.Forms.Label info;
     }
 }

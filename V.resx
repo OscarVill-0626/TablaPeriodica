@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Txt_numOxi.Text" xml:space="preserve">
+    <value>Peso atómico: 50.94
+Punto de fusión: 1890°C
+Punto de ebullición: 3380°C
+Fase a temperatura y presión estándar: Solido
+Configuración electrónica: [Ar]3d34s2
+Estados de oxidación comunes: +5,2,3,4
+Número de electrones de valencia: 5</value>
+  </data>
 </root>

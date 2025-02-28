@@ -16,5 +16,10 @@ namespace TablaPeriodica
         {
             InitializeComponent();
         }
+
+        private void Txt_edoOxi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

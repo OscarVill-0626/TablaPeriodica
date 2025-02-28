@@ -32,29 +32,30 @@
             this.Txt_nom = new System.Windows.Forms.Label();
             this.Txt_numAto = new System.Windows.Forms.Label();
             this.Txt_smbQui = new System.Windows.Forms.Label();
-            this.Txt_edoOx = new System.Windows.Forms.Label();
             this.Txt_edoOxi = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Txt_nom
             // 
             this.Txt_nom.AutoSize = true;
-            this.Txt_nom.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_nom.Location = new System.Drawing.Point(180, 255);
+            this.Txt_nom.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_nom.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Txt_nom.Location = new System.Drawing.Point(111, 121);
             this.Txt_nom.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Txt_nom.Name = "Txt_nom";
-            this.Txt_nom.Size = new System.Drawing.Size(101, 25);
+            this.Txt_nom.Size = new System.Drawing.Size(91, 23);
             this.Txt_nom.TabIndex = 0;
             this.Txt_nom.Text = "Escandio";
             // 
             // Txt_numAto
             // 
             this.Txt_numAto.AutoSize = true;
-            this.Txt_numAto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_numAto.Location = new System.Drawing.Point(13, 32);
+            this.Txt_numAto.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_numAto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Txt_numAto.Location = new System.Drawing.Point(241, -1);
             this.Txt_numAto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Txt_numAto.Name = "Txt_numAto";
-            this.Txt_numAto.Size = new System.Drawing.Size(36, 25);
+            this.Txt_numAto.Size = new System.Drawing.Size(30, 23);
             this.Txt_numAto.TabIndex = 1;
             this.Txt_numAto.Text = "21";
             this.Txt_numAto.Click += new System.EventHandler(this.label2_Click);
@@ -62,41 +63,33 @@
             // Txt_smbQui
             // 
             this.Txt_smbQui.AutoSize = true;
-            this.Txt_smbQui.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_smbQui.Location = new System.Drawing.Point(130, 120);
+            this.Txt_smbQui.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_smbQui.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Txt_smbQui.Location = new System.Drawing.Point(76, -1);
             this.Txt_smbQui.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Txt_smbQui.Name = "Txt_smbQui";
-            this.Txt_smbQui.Size = new System.Drawing.Size(199, 135);
+            this.Txt_smbQui.Size = new System.Drawing.Size(157, 116);
             this.Txt_smbQui.TabIndex = 2;
             this.Txt_smbQui.Text = "Sc";
-            // 
-            // Txt_edoOx
-            // 
-            this.Txt_edoOx.AutoSize = true;
-            this.Txt_edoOx.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.Txt_edoOx.Location = new System.Drawing.Point(344, 32);
-            this.Txt_edoOx.Name = "Txt_edoOx";
-            this.Txt_edoOx.Size = new System.Drawing.Size(58, 25);
-            this.Txt_edoOx.TabIndex = 3;
-            this.Txt_edoOx.Text = "+1+2";
             // 
             // Txt_edoOxi
             // 
             this.Txt_edoOxi.AutoSize = true;
-            this.Txt_edoOxi.Location = new System.Drawing.Point(396, 32);
+            this.Txt_edoOxi.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_edoOxi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Txt_edoOxi.Location = new System.Drawing.Point(1, 145);
             this.Txt_edoOxi.Name = "Txt_edoOxi";
-            this.Txt_edoOxi.Size = new System.Drawing.Size(35, 25);
+            this.Txt_edoOxi.Size = new System.Drawing.Size(295, 112);
             this.Txt_edoOxi.TabIndex = 4;
-            this.Txt_edoOxi.Text = "+3";
+            this.Txt_edoOxi.Text = resources.GetString("Txt_edoOxi.Text");
             // 
             // Sc
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(473, 330);
+            this.ClientSize = new System.Drawing.Size(296, 269);
             this.Controls.Add(this.Txt_edoOxi);
-            this.Controls.Add(this.Txt_edoOx);
             this.Controls.Add(this.Txt_smbQui);
             this.Controls.Add(this.Txt_numAto);
             this.Controls.Add(this.Txt_nom);
@@ -115,7 +108,6 @@
         private System.Windows.Forms.Label Txt_nom;
         private System.Windows.Forms.Label Txt_numAto;
         private System.Windows.Forms.Label Txt_smbQui;
-        private System.Windows.Forms.Label Txt_edoOx;
         private System.Windows.Forms.Label Txt_edoOxi;
     }
 }

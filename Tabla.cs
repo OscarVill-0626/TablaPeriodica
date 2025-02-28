@@ -108,13 +108,13 @@ namespace TablaPeriodica
 
         private void btn_ra_Click(object sender, EventArgs e)
         {
-            Form form = new Ra();
+            Form form = new Ubn();
             form.ShowDialog();
         }
 
         private void btn_fr_Click(object sender, EventArgs e)
         {
-            Form form = new Fr();
+            Form form = new Uue();
             form.ShowDialog();
         }
 
@@ -372,7 +372,8 @@ namespace TablaPeriodica
 
         private void btn_th_Click(object sender, EventArgs e)
         {
-
+            Form form = new Th();
+            form.ShowDialog();
         }
 
         private void label20_Click(object sender, EventArgs e)
@@ -382,7 +383,8 @@ namespace TablaPeriodica
 
         private void label32_Click(object sender, EventArgs e)
         {
-
+            Form form = new Th();
+            form.ShowDialog();
         }
 
         private void label33_Click(object sender, EventArgs e)
@@ -633,6 +635,143 @@ namespace TablaPeriodica
         {
             Form form = new Pm();
             form.ShowDialog();
+        }
+
+        private void Btn_sam_Click(object sender, EventArgs e)
+        {
+            Form form = new Sm();
+            form.ShowDialog();
+        }
+
+        private void Btn_eur_Click(object sender, EventArgs e)
+        {
+            Form form = new Eu();
+            form.ShowDialog();
+        }
+
+        private void Btn_gad_Click(object sender, EventArgs e)
+        {
+            Form form = new Gd();
+            form.ShowDialog();
+        }
+
+        private void btn_tb_Click(object sender, EventArgs e)
+        {
+            Form form = new Tb();
+            form.ShowDialog();
+        }
+
+        private void btn_dy_Click(object sender, EventArgs e)
+        {
+            Form form = new Dy();
+            form.ShowDialog();
+        }
+
+        private void btn_ho_Click(object sender, EventArgs e)
+        {
+            Form form = new Ho();
+            form.ShowDialog();
+        }
+
+        private void btn_er_Click(object sender, EventArgs e)
+        {
+            Form form = new Er();
+            form.ShowDialog();
+        }
+
+        private void btn_tm_Click(object sender, EventArgs e)
+        {
+            Form form = new Tm();
+            form.ShowDialog();
+        }
+
+        private void btn_yb_Click(object sender, EventArgs e)
+        {
+            Form form = new Yb();
+            form.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form form = new Ac();
+            form.ShowDialog();
+        }
+
+        private void Pa_Click(object sender, EventArgs e)
+        {
+            Form form = new Pa();
+            form.ShowDialog();
+        }
+
+        private void U_Click(object sender, EventArgs e)
+        {
+            Form form = new U();
+            form.ShowDialog();
+        }
+
+        private void Np_Click(object sender, EventArgs e)
+        {
+            Form form = new Np();
+            form.ShowDialog();
+        }
+
+        private void Pu_Click(object sender, EventArgs e)
+        {
+            Form form = new Pu();
+            form.ShowDialog();
+        }
+
+        private void Am_Click(object sender, EventArgs e)
+        {
+            Form form = new Am();
+            form.ShowDialog();
+        }
+
+        private void Cm_Click(object sender, EventArgs e)
+        {
+            Form form = new Cm();
+            form.ShowDialog();
+        }
+
+        private void btn_bk_Click(object sender, EventArgs e)
+        {
+            Form form = new Bk();
+            form.ShowDialog();
+        }
+
+        private void btn_cf_Click(object sender, EventArgs e)
+        {
+            Form form = new Cf();
+            form.ShowDialog();
+        }
+
+        private void btn_es_Click(object sender, EventArgs e)
+        {
+            Form form = new Es();
+            form.ShowDialog();
+        }
+
+        private void btn_fm_Click(object sender, EventArgs e)
+        {
+            Form form = new Fm();
+            form.ShowDialog();
+        }
+
+        private void btn_md_Click(object sender, EventArgs e)
+        {
+            Form form = new Md();
+            form.ShowDialog();
+        }
+
+        private void btn_no_Click(object sender, EventArgs e)
+        {
+            Form form = new No();
+            form.ShowDialog();
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -74,7 +74,7 @@
             // peso
             // 
             this.peso.AutoSize = true;
-            this.peso.Location = new System.Drawing.Point(12, 238);
+            this.peso.Location = new System.Drawing.Point(0, 161);
             this.peso.Name = "peso";
             this.peso.Size = new System.Drawing.Size(144, 16);
             this.peso.TabIndex = 0;
@@ -83,7 +83,7 @@
             // punto
             // 
             this.punto.AutoSize = true;
-            this.punto.Location = new System.Drawing.Point(12, 254);
+            this.punto.Location = new System.Drawing.Point(0, 177);
             this.punto.Name = "punto";
             this.punto.Size = new System.Drawing.Size(178, 16);
             this.punto.TabIndex = 0;
@@ -92,7 +92,7 @@
             // punto2
             // 
             this.punto2.AutoSize = true;
-            this.punto2.Location = new System.Drawing.Point(12, 270);
+            this.punto2.Location = new System.Drawing.Point(0, 193);
             this.punto2.Name = "punto2";
             this.punto2.Size = new System.Drawing.Size(203, 16);
             this.punto2.TabIndex = 0;
@@ -101,7 +101,7 @@
             // fase
             // 
             this.fase.AutoSize = true;
-            this.fase.Location = new System.Drawing.Point(12, 286);
+            this.fase.Location = new System.Drawing.Point(0, 209);
             this.fase.Name = "fase";
             this.fase.Size = new System.Drawing.Size(340, 16);
             this.fase.TabIndex = 0;
@@ -110,7 +110,7 @@
             // confi
             // 
             this.confi.AutoSize = true;
-            this.confi.Location = new System.Drawing.Point(12, 302);
+            this.confi.Location = new System.Drawing.Point(0, 225);
             this.confi.Name = "confi";
             this.confi.Size = new System.Drawing.Size(285, 16);
             this.confi.TabIndex = 0;
@@ -119,7 +119,7 @@
             // estado
             // 
             this.estado.AutoSize = true;
-            this.estado.Location = new System.Drawing.Point(12, 318);
+            this.estado.Location = new System.Drawing.Point(0, 241);
             this.estado.Name = "estado";
             this.estado.Size = new System.Drawing.Size(249, 16);
             this.estado.TabIndex = 0;
@@ -128,7 +128,7 @@
             // num
             // 
             this.num.AutoSize = true;
-            this.num.Location = new System.Drawing.Point(12, 334);
+            this.num.Location = new System.Drawing.Point(0, 257);
             this.num.Name = "num";
             this.num.Size = new System.Drawing.Size(266, 16);
             this.num.TabIndex = 0;
@@ -139,7 +139,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OrangeRed;
-            this.ClientSize = new System.Drawing.Size(351, 370);
+            this.ClientSize = new System.Drawing.Size(351, 276);
             this.Controls.Add(this.num);
             this.Controls.Add(this.estado);
             this.Controls.Add(this.confi);
@@ -153,7 +153,7 @@
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "C";
             this.Text = "C";
             this.ResumeLayout(false);

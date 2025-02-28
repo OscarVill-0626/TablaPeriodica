@@ -28,66 +28,72 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(H));
             this.Txt_Hidrogeno = new System.Windows.Forms.Label();
             this.Txt_SimQuim = new System.Windows.Forms.Label();
             this.txt_NumAto = new System.Windows.Forms.Label();
-            this.Txt_estOxi = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Txt_Hidrogeno
             // 
             this.Txt_Hidrogeno.AutoSize = true;
-            this.Txt_Hidrogeno.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_Hidrogeno.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_Hidrogeno.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Txt_Hidrogeno.Location = new System.Drawing.Point(137, 215);
+            this.Txt_Hidrogeno.Location = new System.Drawing.Point(83, 108);
+            this.Txt_Hidrogeno.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Txt_Hidrogeno.Name = "Txt_Hidrogeno";
-            this.Txt_Hidrogeno.Size = new System.Drawing.Size(111, 25);
+            this.Txt_Hidrogeno.Size = new System.Drawing.Size(112, 23);
             this.Txt_Hidrogeno.TabIndex = 0;
             this.Txt_Hidrogeno.Text = "Hidrógeno";
             // 
             // Txt_SimQuim
             // 
             this.Txt_SimQuim.AutoSize = true;
-            this.Txt_SimQuim.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_SimQuim.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_SimQuim.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Txt_SimQuim.Location = new System.Drawing.Point(119, 80);
+            this.Txt_SimQuim.Location = new System.Drawing.Point(78, -8);
+            this.Txt_SimQuim.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Txt_SimQuim.Name = "Txt_SimQuim";
-            this.Txt_SimQuim.Size = new System.Drawing.Size(145, 135);
+            this.Txt_SimQuim.Size = new System.Drawing.Size(117, 116);
             this.Txt_SimQuim.TabIndex = 1;
             this.Txt_SimQuim.Text = "H";
             // 
             // txt_NumAto
             // 
             this.txt_NumAto.AutoSize = true;
-            this.txt_NumAto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_NumAto.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_NumAto.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.txt_NumAto.Location = new System.Drawing.Point(12, 24);
+            this.txt_NumAto.Location = new System.Drawing.Point(199, 9);
+            this.txt_NumAto.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txt_NumAto.Name = "txt_NumAto";
-            this.txt_NumAto.Size = new System.Drawing.Size(24, 25);
+            this.txt_NumAto.Size = new System.Drawing.Size(19, 23);
             this.txt_NumAto.TabIndex = 2;
             this.txt_NumAto.Text = "1";
             // 
-            // Txt_estOxi
+            // label1
             // 
-            this.Txt_estOxi.AutoSize = true;
-            this.Txt_estOxi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_estOxi.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.Txt_estOxi.Location = new System.Drawing.Point(293, 28);
-            this.Txt_estOxi.Name = "Txt_estOxi";
-            this.Txt_estOxi.Size = new System.Drawing.Size(53, 20);
-            this.Txt_estOxi.TabIndex = 3;
-            this.Txt_estOxi.Text = "-1 +1";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.Location = new System.Drawing.Point(0, 131);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(321, 112);
+            this.label1.TabIndex = 0;
+            this.label1.Text = resources.GetString("label1.Text");
             // 
             // H
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(395, 346);
-            this.Controls.Add(this.Txt_estOxi);
+            this.ClientSize = new System.Drawing.Size(319, 248);
             this.Controls.Add(this.txt_NumAto);
             this.Controls.Add(this.Txt_SimQuim);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Txt_Hidrogeno);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "H";
             this.Text = "H";
             this.Load += new System.EventHandler(this.H_Load);
@@ -101,6 +107,6 @@
         private System.Windows.Forms.Label Txt_Hidrogeno;
         private System.Windows.Forms.Label Txt_SimQuim;
         private System.Windows.Forms.Label txt_NumAto;
-        private System.Windows.Forms.Label Txt_estOxi;
+        private System.Windows.Forms.Label label1;
     }
 }

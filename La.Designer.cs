@@ -29,59 +29,66 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(La));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lantino = new System.Windows.Forms.Label();
+            this.info = new System.Windows.Forms.Label();
+            this.laa = new System.Windows.Forms.Label();
+            this.l57 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // lantino
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(38, 63);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(44, 16);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.lantino.AutoSize = true;
+            this.lantino.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lantino.Location = new System.Drawing.Point(113, 115);
+            this.lantino.Name = "lantino";
+            this.lantino.Size = new System.Drawing.Size(94, 23);
+            this.lantino.TabIndex = 0;
+            this.lantino.Text = "Lantano";
+            this.lantino.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // info
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(144, 181);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(44, 16);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.info.AutoSize = true;
+            this.info.Location = new System.Drawing.Point(0, 138);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(340, 112);
+            this.info.TabIndex = 1;
+            this.info.Text = resources.GetString("info.Text");
             // 
-            // label3
+            // laa
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(144, 133);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 16);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "label3";
+            this.laa.AutoSize = true;
+            this.laa.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.laa.Location = new System.Drawing.Point(80, -1);
+            this.laa.Name = "laa";
+            this.laa.Size = new System.Drawing.Size(164, 116);
+            this.laa.TabIndex = 2;
+            this.laa.Text = "La";
             // 
-            // label4
+            // l57
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(276, 63);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "label4";
+            this.l57.AutoSize = true;
+            this.l57.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l57.Location = new System.Drawing.Point(238, 10);
+            this.l57.Name = "l57";
+            this.l57.Size = new System.Drawing.Size(33, 23);
+            this.l57.TabIndex = 3;
+            this.l57.Text = "57";
             // 
             // La
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(427, 262);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.ClientSize = new System.Drawing.Size(341, 252);
+            this.Controls.Add(this.l57);
+            this.Controls.Add(this.laa);
+            this.Controls.Add(this.info);
+            this.Controls.Add(this.lantino);
+            this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "La";
             this.Text = "La";
             this.ResumeLayout(false);
@@ -91,9 +98,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lantino;
+        private System.Windows.Forms.Label info;
+        private System.Windows.Forms.Label laa;
+        private System.Windows.Forms.Label l57;
     }
 }
