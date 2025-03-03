@@ -79,7 +79,7 @@
             this.peso.AutoSize = true;
             this.peso.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.peso.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.peso.Location = new System.Drawing.Point(12, 225);
+            this.peso.Location = new System.Drawing.Point(1, 171);
             this.peso.Name = "peso";
             this.peso.Size = new System.Drawing.Size(148, 16);
             this.peso.TabIndex = 3;
@@ -90,7 +90,7 @@
             this.punto.AutoSize = true;
             this.punto.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.punto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.punto.Location = new System.Drawing.Point(13, 241);
+            this.punto.Location = new System.Drawing.Point(2, 187);
             this.punto.Name = "punto";
             this.punto.Size = new System.Drawing.Size(169, 16);
             this.punto.TabIndex = 4;
@@ -101,7 +101,7 @@
             this.punto2.AutoSize = true;
             this.punto2.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.punto2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.punto2.Location = new System.Drawing.Point(12, 255);
+            this.punto2.Location = new System.Drawing.Point(1, 201);
             this.punto2.Name = "punto2";
             this.punto2.Size = new System.Drawing.Size(202, 16);
             this.punto2.TabIndex = 5;
@@ -112,7 +112,7 @@
             this.fasesupersajajin.AutoSize = true;
             this.fasesupersajajin.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fasesupersajajin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.fasesupersajajin.Location = new System.Drawing.Point(12, 272);
+            this.fasesupersajajin.Location = new System.Drawing.Point(1, 218);
             this.fasesupersajajin.Name = "fasesupersajajin";
             this.fasesupersajajin.Size = new System.Drawing.Size(340, 16);
             this.fasesupersajajin.TabIndex = 6;
@@ -123,7 +123,7 @@
             this.confi.AutoSize = true;
             this.confi.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.confi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.confi.Location = new System.Drawing.Point(12, 289);
+            this.confi.Location = new System.Drawing.Point(1, 235);
             this.confi.Name = "confi";
             this.confi.Size = new System.Drawing.Size(282, 16);
             this.confi.TabIndex = 7;
@@ -134,7 +134,7 @@
             this.estadodelachin.AutoSize = true;
             this.estadodelachin.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.estadodelachin.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.estadodelachin.Location = new System.Drawing.Point(12, 302);
+            this.estadodelachin.Location = new System.Drawing.Point(1, 248);
             this.estadodelachin.Name = "estadodelachin";
             this.estadodelachin.Size = new System.Drawing.Size(249, 16);
             this.estadodelachin.TabIndex = 7;
@@ -145,7 +145,7 @@
             this.numero.AutoSize = true;
             this.numero.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.numero.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numero.Location = new System.Drawing.Point(12, 315);
+            this.numero.Location = new System.Drawing.Point(1, 261);
             this.numero.Name = "numero";
             this.numero.Size = new System.Drawing.Size(266, 16);
             this.numero.TabIndex = 7;
@@ -156,7 +156,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Purple;
-            this.ClientSize = new System.Drawing.Size(367, 344);
+            this.ClientSize = new System.Drawing.Size(342, 290);
             this.Controls.Add(this.numero);
             this.Controls.Add(this.estadodelachin);
             this.Controls.Add(this.confi);

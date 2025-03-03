@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tc));
             this.Txt_numAt = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.tecnecio = new System.Windows.Forms.Label();
             this.Txt_sbmQui = new System.Windows.Forms.Label();
             this.Txt_edoOxi = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -46,16 +46,16 @@
             this.Txt_numAt.TabIndex = 0;
             this.Txt_numAt.Text = "43";
             // 
-            // label3
+            // tecnecio
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(122, 117);
-            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 23);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Tecnecio";
+            this.tecnecio.AutoSize = true;
+            this.tecnecio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tecnecio.Location = new System.Drawing.Point(122, 117);
+            this.tecnecio.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.tecnecio.Name = "tecnecio";
+            this.tecnecio.Size = new System.Drawing.Size(100, 23);
+            this.tecnecio.TabIndex = 2;
+            this.tecnecio.Text = "Tecnecio";
             // 
             // Txt_sbmQui
             // 
@@ -87,7 +87,7 @@
             this.ClientSize = new System.Drawing.Size(340, 260);
             this.Controls.Add(this.Txt_edoOxi);
             this.Controls.Add(this.Txt_sbmQui);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.tecnecio);
             this.Controls.Add(this.Txt_numAt);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -104,7 +104,7 @@
         #endregion
 
         private System.Windows.Forms.Label Txt_numAt;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label tecnecio;
         private System.Windows.Forms.Label Txt_sbmQui;
         private System.Windows.Forms.Label Txt_edoOxi;
     }

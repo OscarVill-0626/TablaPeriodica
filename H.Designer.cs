@@ -32,7 +32,7 @@
             this.Txt_Hidrogeno = new System.Windows.Forms.Label();
             this.Txt_SimQuim = new System.Windows.Forms.Label();
             this.txt_NumAto = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Txt_Hidrogeno
@@ -71,17 +71,17 @@
             this.txt_NumAto.TabIndex = 2;
             this.txt_NumAto.Text = "1";
             // 
-            // label1
+            // info
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(0, 131);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(321, 112);
-            this.label1.TabIndex = 0;
-            this.label1.Text = resources.GetString("label1.Text");
+            this.info.AutoSize = true;
+            this.info.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.info.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.info.Location = new System.Drawing.Point(0, 131);
+            this.info.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.info.Name = "info";
+            this.info.Size = new System.Drawing.Size(321, 112);
+            this.info.TabIndex = 0;
+            this.info.Text = resources.GetString("info.Text");
             // 
             // H
             // 
@@ -91,9 +91,9 @@
             this.ClientSize = new System.Drawing.Size(319, 248);
             this.Controls.Add(this.txt_NumAto);
             this.Controls.Add(this.Txt_SimQuim);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.info);
             this.Controls.Add(this.Txt_Hidrogeno);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "H";
             this.Text = "H";
             this.Load += new System.EventHandler(this.H_Load);
@@ -107,6 +107,6 @@
         private System.Windows.Forms.Label Txt_Hidrogeno;
         private System.Windows.Forms.Label Txt_SimQuim;
         private System.Windows.Forms.Label txt_NumAto;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label info;
     }
 }

@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Lr));
             this.Txt_nomb = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lrr = new System.Windows.Forms.Label();
             this.Txt_numAt = new System.Windows.Forms.Label();
             this.Txt_edoOx = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -46,16 +46,16 @@
             this.Txt_nomb.TabIndex = 0;
             this.Txt_nomb.Text = "Lawrencio";
             // 
-            // label2
+            // lrr
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, -2);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(151, 116);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Lr";
+            this.lrr.AutoSize = true;
+            this.lrr.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lrr.Location = new System.Drawing.Point(71, -2);
+            this.lrr.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lrr.Name = "lrr";
+            this.lrr.Size = new System.Drawing.Size(151, 116);
+            this.lrr.TabIndex = 1;
+            this.lrr.Text = "Lr";
             // 
             // Txt_numAt
             // 
@@ -87,7 +87,7 @@
             this.ClientSize = new System.Drawing.Size(330, 258);
             this.Controls.Add(this.Txt_edoOx);
             this.Controls.Add(this.Txt_numAt);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lrr);
             this.Controls.Add(this.Txt_nomb);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -103,7 +103,7 @@
         #endregion
 
         private System.Windows.Forms.Label Txt_nomb;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lrr;
         private System.Windows.Forms.Label Txt_numAt;
         private System.Windows.Forms.Label Txt_edoOx;
     }

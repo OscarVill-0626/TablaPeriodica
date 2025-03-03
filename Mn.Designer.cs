@@ -64,9 +64,9 @@
             this.Txt_sbmQui.Location = new System.Drawing.Point(72, 9);
             this.Txt_sbmQui.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Txt_sbmQui.Name = "Txt_sbmQui";
-            this.Txt_sbmQui.Size = new System.Drawing.Size(191, 116);
+            this.Txt_sbmQui.Size = new System.Drawing.Size(193, 116);
             this.Txt_sbmQui.TabIndex = 2;
-            this.Txt_sbmQui.Text = "Mg";
+            this.Txt_sbmQui.Text = "Mn";
             // 
             // Txt_numOx
             // 
@@ -90,6 +90,7 @@
             this.Controls.Add(this.Txt_nomb);
             this.Font = new System.Drawing.Font("Fredoka One", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Mn";
             this.Text = "Mn";

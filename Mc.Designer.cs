@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Mc));
             this.l115 = new System.Windows.Forms.Label();
             this.mos = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.moscovio = new System.Windows.Forms.Label();
             this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -55,15 +55,15 @@
             this.mos.TabIndex = 0;
             this.mos.Text = "Mc";
             // 
-            // label3
+            // moscovio
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(115, 148);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(103, 23);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Moscovio";
+            this.moscovio.AutoSize = true;
+            this.moscovio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moscovio.Location = new System.Drawing.Point(115, 148);
+            this.moscovio.Name = "moscovio";
+            this.moscovio.Size = new System.Drawing.Size(103, 23);
+            this.moscovio.TabIndex = 0;
+            this.moscovio.Text = "Moscovio";
             // 
             // info
             // 
@@ -81,13 +81,13 @@
             this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(352, 300);
             this.Controls.Add(this.info);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.moscovio);
             this.Controls.Add(this.mos);
             this.Controls.Add(this.l115);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Mc";
             this.Text = "Mc";
             this.ResumeLayout(false);
@@ -99,7 +99,7 @@
 
         private System.Windows.Forms.Label l115;
         private System.Windows.Forms.Label mos;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label moscovio;
         private System.Windows.Forms.Label info;
     }
 }

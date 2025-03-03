@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Re));
-            this.label1 = new System.Windows.Forms.Label();
+            this.l75 = new System.Windows.Forms.Label();
             this.Txt_sbmQui = new System.Windows.Forms.Label();
             this.Txt_nom = new System.Windows.Forms.Label();
             this.Txt_edoOxiEs = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // l75
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(248, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "75";
+            this.l75.AutoSize = true;
+            this.l75.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l75.Location = new System.Drawing.Point(248, 9);
+            this.l75.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.l75.Name = "l75";
+            this.l75.Size = new System.Drawing.Size(33, 23);
+            this.l75.TabIndex = 0;
+            this.l75.Text = "75";
             // 
             // Txt_sbmQui
             // 
@@ -88,7 +88,7 @@
             this.Controls.Add(this.Txt_edoOxiEs);
             this.Controls.Add(this.Txt_nom);
             this.Controls.Add(this.Txt_sbmQui);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.l75);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -102,7 +102,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label l75;
         private System.Windows.Forms.Label Txt_sbmQui;
         private System.Windows.Forms.Label Txt_nom;
         private System.Windows.Forms.Label Txt_edoOxiEs;

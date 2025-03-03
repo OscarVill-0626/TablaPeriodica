@@ -32,7 +32,7 @@
             this.l116 = new System.Windows.Forms.Label();
             this.live = new System.Windows.Forms.Label();
             this.liver = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.informacion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // l116
@@ -65,14 +65,14 @@
             this.liver.TabIndex = 0;
             this.liver.Text = "Livermorio";
             // 
-            // label4
+            // informacion
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(-1, 193);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(353, 112);
-            this.label4.TabIndex = 0;
-            this.label4.Text = resources.GetString("label4.Text");
+            this.informacion.AutoSize = true;
+            this.informacion.Location = new System.Drawing.Point(-1, 193);
+            this.informacion.Name = "informacion";
+            this.informacion.Size = new System.Drawing.Size(353, 112);
+            this.informacion.TabIndex = 0;
+            this.informacion.Text = resources.GetString("informacion.Text");
             // 
             // Lv
             // 
@@ -80,14 +80,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Purple;
             this.ClientSize = new System.Drawing.Size(350, 313);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.informacion);
             this.Controls.Add(this.liver);
             this.Controls.Add(this.live);
             this.Controls.Add(this.l116);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Lv";
             this.Text = "Lv";
             this.ResumeLayout(false);
@@ -100,6 +100,6 @@
         private System.Windows.Forms.Label l116;
         private System.Windows.Forms.Label live;
         private System.Windows.Forms.Label liver;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label informacion;
     }
 }

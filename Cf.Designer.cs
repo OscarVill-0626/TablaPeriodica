@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cf));
             this.l98 = new System.Windows.Forms.Label();
             this.cff = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.californio = new System.Windows.Forms.Label();
             this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -55,15 +55,15 @@
             this.cff.TabIndex = 0;
             this.cff.Text = "Cf";
             // 
-            // label3
+            // californio
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(133, 92);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 23);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Californio";
+            this.californio.AutoSize = true;
+            this.californio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.californio.Location = new System.Drawing.Point(133, 92);
+            this.californio.Name = "californio";
+            this.californio.Size = new System.Drawing.Size(112, 23);
+            this.californio.TabIndex = 0;
+            this.californio.Text = "Californio";
             // 
             // info
             // 
@@ -81,13 +81,13 @@
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(324, 234);
             this.Controls.Add(this.info);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.californio);
             this.Controls.Add(this.cff);
             this.Controls.Add(this.l98);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Cf";
             this.Text = "Cf";
             this.ResumeLayout(false);
@@ -99,7 +99,7 @@
 
         private System.Windows.Forms.Label l98;
         private System.Windows.Forms.Label cff;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label californio;
         private System.Windows.Forms.Label info;
     }
 }

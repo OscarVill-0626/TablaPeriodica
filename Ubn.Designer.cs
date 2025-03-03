@@ -29,43 +29,43 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ubn));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.unbinilium = new System.Windows.Forms.Label();
+            this.ubnn = new System.Windows.Forms.Label();
+            this.l120 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // unbinilium
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Fredoka One", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(77, 129);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Unbinilium";
+            this.unbinilium.AutoSize = true;
+            this.unbinilium.Font = new System.Drawing.Font("Fredoka One", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.unbinilium.Location = new System.Drawing.Point(77, 129);
+            this.unbinilium.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.unbinilium.Name = "unbinilium";
+            this.unbinilium.Size = new System.Drawing.Size(101, 20);
+            this.unbinilium.TabIndex = 0;
+            this.unbinilium.Text = "Unbinilium";
             // 
-            // label2
+            // ubnn
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(11, 9);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(237, 116);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Ubn";
+            this.ubnn.AutoSize = true;
+            this.ubnn.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ubnn.Location = new System.Drawing.Point(11, 9);
+            this.ubnn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ubnn.Name = "ubnn";
+            this.ubnn.Size = new System.Drawing.Size(237, 116);
+            this.ubnn.TabIndex = 1;
+            this.ubnn.Text = "Ubn";
             // 
-            // label3
+            // l120
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Fredoka One", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(226, 9);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "120*";
+            this.l120.AutoSize = true;
+            this.l120.Font = new System.Drawing.Font("Fredoka One", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l120.Location = new System.Drawing.Point(226, 9);
+            this.l120.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.l120.Name = "l120";
+            this.l120.Size = new System.Drawing.Size(48, 20);
+            this.l120.TabIndex = 2;
+            this.l120.Text = "120*";
             // 
             // Ubn
             // 
@@ -73,11 +73,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(278, 163);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.l120);
+            this.Controls.Add(this.ubnn);
+            this.Controls.Add(this.unbinilium);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Ubn";
             this.Text = "Ubn";
             this.ResumeLayout(false);
@@ -87,8 +87,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label unbinilium;
+        private System.Windows.Forms.Label ubnn;
+        private System.Windows.Forms.Label l120;
     }
 }

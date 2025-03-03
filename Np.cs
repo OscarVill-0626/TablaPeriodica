@@ -21,5 +21,10 @@ namespace TablaPeriodica
         {
 
         }
+
+        private void l93_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

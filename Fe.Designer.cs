@@ -83,10 +83,10 @@
             // Txt_oxi
             // 
             this.Txt_oxi.AutoSize = true;
-            this.Txt_oxi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_oxi.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Txt_oxi.Location = new System.Drawing.Point(0, 134);
             this.Txt_oxi.Name = "Txt_oxi";
-            this.Txt_oxi.Size = new System.Drawing.Size(346, 119);
+            this.Txt_oxi.Size = new System.Drawing.Size(340, 112);
             this.Txt_oxi.TabIndex = 6;
             this.Txt_oxi.Text = resources.GetString("Txt_oxi.Text");
             // 
@@ -95,7 +95,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(344, 268);
+            this.ClientSize = new System.Drawing.Size(344, 249);
             this.Controls.Add(this.Txt_oxi);
             this.Controls.Add(this.EsOxi);
             this.Controls.Add(this.Txt_nom);

@@ -32,7 +32,7 @@
             this.l7 = new System.Windows.Forms.Label();
             this.ni = new System.Windows.Forms.Label();
             this.nitro = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.informacion = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // l7
@@ -65,15 +65,15 @@
             this.nitro.TabIndex = 0;
             this.nitro.Text = "Nitrógeno";
             // 
-            // label4
+            // informacion
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(0, 182);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(321, 112);
-            this.label4.TabIndex = 0;
-            this.label4.Text = resources.GetString("label4.Text");
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.informacion.AutoSize = true;
+            this.informacion.Location = new System.Drawing.Point(0, 182);
+            this.informacion.Name = "informacion";
+            this.informacion.Size = new System.Drawing.Size(321, 112);
+            this.informacion.TabIndex = 0;
+            this.informacion.Text = resources.GetString("informacion.Text");
+            this.informacion.Click += new System.EventHandler(this.label4_Click);
             // 
             // N
             // 
@@ -81,14 +81,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OrangeRed;
             this.ClientSize = new System.Drawing.Size(331, 297);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.informacion);
             this.Controls.Add(this.nitro);
             this.Controls.Add(this.ni);
             this.Controls.Add(this.l7);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "N";
             this.Text = "N";
             this.ResumeLayout(false);
@@ -101,6 +101,6 @@
         private System.Windows.Forms.Label l7;
         private System.Windows.Forms.Label ni;
         private System.Windows.Forms.Label nitro;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label informacion;
     }
 }

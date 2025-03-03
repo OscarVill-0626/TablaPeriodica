@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Hf));
             this.Txt_smbQui = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.hafnio = new System.Windows.Forms.Label();
             this.Txt_numAt = new System.Windows.Forms.Label();
             this.Txt_numOx = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -46,16 +46,16 @@
             this.Txt_smbQui.TabIndex = 0;
             this.Txt_smbQui.Text = "Hf";
             // 
-            // label2
+            // hafnio
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(137, 113);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Hafnio";
+            this.hafnio.AutoSize = true;
+            this.hafnio.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hafnio.Location = new System.Drawing.Point(137, 113);
+            this.hafnio.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.hafnio.Name = "hafnio";
+            this.hafnio.Size = new System.Drawing.Size(77, 23);
+            this.hafnio.TabIndex = 1;
+            this.hafnio.Text = "Hafnio";
             // 
             // Txt_numAt
             // 
@@ -87,7 +87,7 @@
             this.ClientSize = new System.Drawing.Size(340, 254);
             this.Controls.Add(this.Txt_numOx);
             this.Controls.Add(this.Txt_numAt);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.hafnio);
             this.Controls.Add(this.Txt_smbQui);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -103,7 +103,7 @@
         #endregion
 
         private System.Windows.Forms.Label Txt_smbQui;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label hafnio;
         private System.Windows.Forms.Label Txt_numAt;
         private System.Windows.Forms.Label Txt_numOx;
     }

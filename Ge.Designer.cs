@@ -68,7 +68,7 @@
             // info
             // 
             this.info.AutoSize = true;
-            this.info.Location = new System.Drawing.Point(7, 216);
+            this.info.Location = new System.Drawing.Point(-2, 170);
             this.info.Name = "info";
             this.info.Size = new System.Drawing.Size(340, 112);
             this.info.TabIndex = 0;
@@ -79,7 +79,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepPink;
-            this.ClientSize = new System.Drawing.Size(350, 346);
+            this.ClientSize = new System.Drawing.Size(350, 289);
             this.Controls.Add(this.info);
             this.Controls.Add(this.geerma);
             this.Controls.Add(this.ger);
@@ -87,7 +87,7 @@
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Ge";
             this.Text = "Ge";
             this.ResumeLayout(false);
