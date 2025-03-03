@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPeriodica));
             this.btn_h = new System.Windows.Forms.Button();
             this.btn_li = new System.Windows.Forms.Button();
             this.btn_na = new System.Windows.Forms.Button();
@@ -174,7 +173,7 @@
             this.pazul = new System.Windows.Forms.PictureBox();
             this.ppurple = new System.Windows.Forms.PictureBox();
             this.ppink = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.Pverdelima = new System.Windows.Forms.PictureBox();
             this.pverde = new System.Windows.Forms.PictureBox();
             this.Btn_Lan = new System.Windows.Forms.Button();
             this.Ac = new System.Windows.Forms.Button();
@@ -194,8 +193,8 @@
             this.Cm = new System.Windows.Forms.Button();
             this.tabla = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.Uue = new System.Windows.Forms.Button();
+            this.Ubn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pazulop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popaco)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pazulm)).BeginInit();
@@ -204,7 +203,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pazul)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ppurple)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ppink)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pverdelima)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pverde)).BeginInit();
             this.SuspendLayout();
             // 
@@ -2164,15 +2163,15 @@
             this.ppink.TabIndex = 123;
             this.ppink.TabStop = false;
             // 
-            // pictureBox2
+            // Pverdelima
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.YellowGreen;
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(484, 145);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(20, 20);
-            this.pictureBox2.TabIndex = 122;
-            this.pictureBox2.TabStop = false;
+            this.Pverdelima.BackColor = System.Drawing.Color.YellowGreen;
+            this.Pverdelima.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Pverdelima.Location = new System.Drawing.Point(484, 145);
+            this.Pverdelima.Name = "Pverdelima";
+            this.Pverdelima.Size = new System.Drawing.Size(20, 20);
+            this.Pverdelima.TabIndex = 122;
+            this.Pverdelima.TabStop = false;
             // 
             // pverde
             // 
@@ -2436,35 +2435,35 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click_3);
             // 
-            // button2
+            // Uue
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(265, 445);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(57, 25);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "Uue";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.btn_fr_Click);
+            this.Uue.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Uue.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Uue.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Uue.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Uue.Location = new System.Drawing.Point(265, 445);
+            this.Uue.Margin = new System.Windows.Forms.Padding(2);
+            this.Uue.Name = "Uue";
+            this.Uue.Size = new System.Drawing.Size(57, 25);
+            this.Uue.TabIndex = 7;
+            this.Uue.Text = "Uue";
+            this.Uue.UseVisualStyleBackColor = false;
+            this.Uue.Click += new System.EventHandler(this.btn_fr_Click);
             // 
-            // button3
+            // Ubn
             // 
-            this.button3.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(329, 445);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(52, 25);
-            this.button3.TabIndex = 13;
-            this.button3.Text = "Ubn";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.btn_ra_Click);
+            this.Ubn.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Ubn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Ubn.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Ubn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Ubn.Location = new System.Drawing.Point(329, 445);
+            this.Ubn.Margin = new System.Windows.Forms.Padding(2);
+            this.Ubn.Name = "Ubn";
+            this.Ubn.Size = new System.Drawing.Size(52, 25);
+            this.Ubn.TabIndex = 13;
+            this.Ubn.Text = "Ubn";
+            this.Ubn.UseVisualStyleBackColor = false;
+            this.Ubn.Click += new System.EventHandler(this.btn_ra_Click);
             // 
             // TablaPeriodica
             // 
@@ -2517,7 +2516,7 @@
             this.Controls.Add(this.pazul);
             this.Controls.Add(this.ppurple);
             this.Controls.Add(this.ppink);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.Pverdelima);
             this.Controls.Add(this.pverde);
             this.Controls.Add(this.btn_no);
             this.Controls.Add(this.btn_md);
@@ -2625,14 +2624,14 @@
             this.Controls.Add(this.btn_lu);
             this.Controls.Add(this.btn_y);
             this.Controls.Add(this.btn_sc);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.Ubn);
             this.Controls.Add(this.btn_ra);
             this.Controls.Add(this.btn_ba);
             this.Controls.Add(this.btn_sr);
             this.Controls.Add(this.btn_ca);
             this.Controls.Add(this.btn_mg);
             this.Controls.Add(this.btn_be);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.Uue);
             this.Controls.Add(this.btn_fr);
             this.Controls.Add(this.btn_cs);
             this.Controls.Add(this.btn_rb);
@@ -2644,7 +2643,6 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TablaPeriodica";
             this.Text = "Tabla Periodica";
@@ -2658,7 +2656,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pazul)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ppurple)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ppink)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.Pverdelima)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pverde)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -2769,7 +2767,7 @@
         private System.Windows.Forms.Button btn_md;
         private System.Windows.Forms.Button btn_no;
         private System.Windows.Forms.PictureBox pverde;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox Pverdelima;
         private System.Windows.Forms.PictureBox ppink;
         private System.Windows.Forms.PictureBox ppurple;
         private System.Windows.Forms.PictureBox pazul;
@@ -2831,8 +2829,8 @@
         private System.Windows.Forms.Button Cm;
         private System.Windows.Forms.Label tabla;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button Uue;
+        private System.Windows.Forms.Button Ubn;
     }
 }
 
