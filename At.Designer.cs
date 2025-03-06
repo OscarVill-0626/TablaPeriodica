@@ -77,7 +77,7 @@
             // 
             this.peso.AutoSize = true;
             this.peso.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.peso.Location = new System.Drawing.Point(12, 244);
+            this.peso.Location = new System.Drawing.Point(12, 173);
             this.peso.Name = "peso";
             this.peso.Size = new System.Drawing.Size(146, 16);
             this.peso.TabIndex = 2;
@@ -87,7 +87,7 @@
             // 
             this.punto.AutoSize = true;
             this.punto.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.punto.Location = new System.Drawing.Point(12, 260);
+            this.punto.Location = new System.Drawing.Point(12, 189);
             this.punto.Name = "punto";
             this.punto.Size = new System.Drawing.Size(171, 16);
             this.punto.TabIndex = 2;
@@ -97,7 +97,7 @@
             // 
             this.punto2.AutoSize = true;
             this.punto2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.punto2.Location = new System.Drawing.Point(12, 276);
+            this.punto2.Location = new System.Drawing.Point(12, 205);
             this.punto2.Name = "punto2";
             this.punto2.Size = new System.Drawing.Size(194, 16);
             this.punto2.TabIndex = 2;
@@ -107,7 +107,7 @@
             // 
             this.fase.AutoSize = true;
             this.fase.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.fase.Location = new System.Drawing.Point(12, 292);
+            this.fase.Location = new System.Drawing.Point(12, 221);
             this.fase.Name = "fase";
             this.fase.Size = new System.Drawing.Size(340, 16);
             this.fase.TabIndex = 2;
@@ -117,7 +117,7 @@
             // 
             this.confi.AutoSize = true;
             this.confi.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.confi.Location = new System.Drawing.Point(12, 308);
+            this.confi.Location = new System.Drawing.Point(12, 237);
             this.confi.Name = "confi";
             this.confi.Size = new System.Drawing.Size(346, 16);
             this.confi.TabIndex = 2;
@@ -127,7 +127,7 @@
             // 
             this.numero.AutoSize = true;
             this.numero.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.numero.Location = new System.Drawing.Point(12, 324);
+            this.numero.Location = new System.Drawing.Point(12, 253);
             this.numero.Name = "numero";
             this.numero.Size = new System.Drawing.Size(265, 16);
             this.numero.TabIndex = 2;
@@ -138,7 +138,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.YellowGreen;
-            this.ClientSize = new System.Drawing.Size(393, 367);
+            this.ClientSize = new System.Drawing.Size(357, 272);
             this.Controls.Add(this.numero);
             this.Controls.Add(this.confi);
             this.Controls.Add(this.fase);
@@ -151,7 +151,7 @@
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "At";
             this.Text = "At";
             this.ResumeLayout(false);

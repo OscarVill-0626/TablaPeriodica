@@ -65,7 +65,7 @@
             // 
             this.oro.AutoSize = true;
             this.oro.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oro.Location = new System.Drawing.Point(144, 165);
+            this.oro.Location = new System.Drawing.Point(141, 152);
             this.oro.Name = "oro";
             this.oro.Size = new System.Drawing.Size(47, 23);
             this.oro.TabIndex = 2;
@@ -83,7 +83,7 @@
             // puntomodelo
             // 
             this.puntomodelo.AutoSize = true;
-            this.puntomodelo.Location = new System.Drawing.Point(12, 243);
+            this.puntomodelo.Location = new System.Drawing.Point(12, 183);
             this.puntomodelo.Name = "puntomodelo";
             this.puntomodelo.Size = new System.Drawing.Size(176, 16);
             this.puntomodelo.TabIndex = 2;
@@ -92,7 +92,7 @@
             // punto
             // 
             this.punto.AutoSize = true;
-            this.punto.Location = new System.Drawing.Point(12, 259);
+            this.punto.Location = new System.Drawing.Point(12, 199);
             this.punto.Name = "punto";
             this.punto.Size = new System.Drawing.Size(204, 16);
             this.punto.TabIndex = 2;
@@ -101,7 +101,7 @@
             // fase
             // 
             this.fase.AutoSize = true;
-            this.fase.Location = new System.Drawing.Point(12, 275);
+            this.fase.Location = new System.Drawing.Point(12, 215);
             this.fase.Name = "fase";
             this.fase.Size = new System.Drawing.Size(340, 16);
             this.fase.TabIndex = 2;
@@ -110,7 +110,7 @@
             // confi
             // 
             this.confi.AutoSize = true;
-            this.confi.Location = new System.Drawing.Point(12, 291);
+            this.confi.Location = new System.Drawing.Point(12, 231);
             this.confi.Name = "confi";
             this.confi.Size = new System.Drawing.Size(318, 16);
             this.confi.TabIndex = 2;
@@ -119,7 +119,7 @@
             // estado
             // 
             this.estado.AutoSize = true;
-            this.estado.Location = new System.Drawing.Point(12, 307);
+            this.estado.Location = new System.Drawing.Point(12, 247);
             this.estado.Name = "estado";
             this.estado.Size = new System.Drawing.Size(259, 16);
             this.estado.TabIndex = 2;
@@ -128,7 +128,7 @@
             // numero
             // 
             this.numero.AutoSize = true;
-            this.numero.Location = new System.Drawing.Point(12, 323);
+            this.numero.Location = new System.Drawing.Point(12, 263);
             this.numero.Name = "numero";
             this.numero.Size = new System.Drawing.Size(263, 16);
             this.numero.TabIndex = 2;
@@ -139,7 +139,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.ClientSize = new System.Drawing.Size(365, 361);
+            this.ClientSize = new System.Drawing.Size(353, 289);
             this.Controls.Add(this.numero);
             this.Controls.Add(this.estado);
             this.Controls.Add(this.confi);
@@ -153,7 +153,7 @@
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Au";
             this.Text = "Au";
             this.Load += new System.EventHandler(this.Au_Load);

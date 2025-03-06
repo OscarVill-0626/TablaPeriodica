@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TablaPeriodica));
             this.btn_h = new System.Windows.Forms.Button();
             this.btn_li = new System.Windows.Forms.Button();
             this.btn_na = new System.Windows.Forms.Button();
@@ -212,10 +213,10 @@
             this.btn_h.BackColor = System.Drawing.Color.OrangeRed;
             this.btn_h.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_h.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_h.Location = new System.Drawing.Point(265, 244);
+            this.btn_h.Location = new System.Drawing.Point(265, 236);
             this.btn_h.Margin = new System.Windows.Forms.Padding(2);
             this.btn_h.Name = "btn_h";
-            this.btn_h.Size = new System.Drawing.Size(57, 22);
+            this.btn_h.Size = new System.Drawing.Size(57, 30);
             this.btn_h.TabIndex = 1;
             this.btn_h.Text = "H";
             this.btn_h.UseVisualStyleBackColor = false;
@@ -2643,6 +2644,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TablaPeriodica";
             this.Text = "Tabla Periodica";

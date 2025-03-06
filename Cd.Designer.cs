@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cd));
             this.l48 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_cd = new System.Windows.Forms.Label();
             this.cadmio = new System.Windows.Forms.Label();
             this.peso = new System.Windows.Forms.Label();
             this.info = new System.Windows.Forms.Label();
@@ -46,15 +46,15 @@
             this.l48.TabIndex = 0;
             this.l48.Text = "48";
             // 
-            // label2
+            // lbl_cd
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(76, 32);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(171, 116);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Cd";
+            this.lbl_cd.AutoSize = true;
+            this.lbl_cd.Font = new System.Drawing.Font("Fredoka One", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cd.Location = new System.Drawing.Point(76, 32);
+            this.lbl_cd.Name = "lbl_cd";
+            this.lbl_cd.Size = new System.Drawing.Size(171, 116);
+            this.lbl_cd.TabIndex = 0;
+            this.lbl_cd.Text = "Cd";
             // 
             // cadmio
             // 
@@ -93,7 +93,7 @@
             this.Controls.Add(this.info);
             this.Controls.Add(this.peso);
             this.Controls.Add(this.cadmio);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lbl_cd);
             this.Controls.Add(this.l48);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -109,7 +109,7 @@
         #endregion
 
         private System.Windows.Forms.Label l48;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_cd;
         private System.Windows.Forms.Label cadmio;
         private System.Windows.Forms.Label peso;
         private System.Windows.Forms.Label info;

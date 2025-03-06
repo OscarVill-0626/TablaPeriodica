@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Es));
-            this.label1 = new System.Windows.Forms.Label();
+            this.l99 = new System.Windows.Forms.Label();
             this.ess = new System.Windows.Forms.Label();
             this.eintenio = new System.Windows.Forms.Label();
             this.info = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
+            // l99
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(245, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(34, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "99";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.l99.AutoSize = true;
+            this.l99.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.l99.Location = new System.Drawing.Point(245, 9);
+            this.l99.Name = "l99";
+            this.l99.Size = new System.Drawing.Size(34, 23);
+            this.l99.TabIndex = 0;
+            this.l99.Text = "99";
+            this.l99.Click += new System.EventHandler(this.label1_Click);
             // 
             // ess
             // 
@@ -84,11 +84,11 @@
             this.Controls.Add(this.info);
             this.Controls.Add(this.eintenio);
             this.Controls.Add(this.ess);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.l99);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Es";
             this.Text = "Es";
             this.ResumeLayout(false);
@@ -98,7 +98,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label l99;
         private System.Windows.Forms.Label ess;
         private System.Windows.Forms.Label eintenio;
         private System.Windows.Forms.Label info;

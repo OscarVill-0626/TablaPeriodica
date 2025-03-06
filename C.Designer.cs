@@ -31,7 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(C));
             this.l6 = new System.Windows.Forms.Label();
             this.ca = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.carbono = new System.Windows.Forms.Label();
             this.peso = new System.Windows.Forms.Label();
             this.punto = new System.Windows.Forms.Label();
             this.punto2 = new System.Windows.Forms.Label();
@@ -61,15 +61,15 @@
             this.ca.TabIndex = 0;
             this.ca.Text = "C";
             // 
-            // label3
+            // carbono
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(135, 142);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 23);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Carbono";
+            this.carbono.AutoSize = true;
+            this.carbono.Font = new System.Drawing.Font("Fredoka One", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.carbono.Location = new System.Drawing.Point(135, 142);
+            this.carbono.Name = "carbono";
+            this.carbono.Size = new System.Drawing.Size(95, 23);
+            this.carbono.TabIndex = 0;
+            this.carbono.Text = "Carbono";
             // 
             // peso
             // 
@@ -147,7 +147,7 @@
             this.Controls.Add(this.punto2);
             this.Controls.Add(this.punto);
             this.Controls.Add(this.peso);
-            this.Controls.Add(this.label3);
+            this.Controls.Add(this.carbono);
             this.Controls.Add(this.ca);
             this.Controls.Add(this.l6);
             this.Font = new System.Drawing.Font("Fredoka One", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -165,7 +165,7 @@
 
         private System.Windows.Forms.Label l6;
         private System.Windows.Forms.Label ca;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label carbono;
         private System.Windows.Forms.Label peso;
         private System.Windows.Forms.Label punto;
         private System.Windows.Forms.Label punto2;
